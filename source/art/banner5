@@ -25,7 +25,7 @@ print("""
 os.system("bash source/.core")
 print("""
 	\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Curso de programación python
-	\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Curso bash scripting
+	\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Curso bash
 	\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Curso de programación C
 	\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Curso html
 	\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Curso css

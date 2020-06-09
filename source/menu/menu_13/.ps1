@@ -43,7 +43,7 @@ PS1='\n \e[1;36m>>\e[1;32mTunombre\e[1;35m@\e[1;33mtermux\e[1;36m<<\e[1;32m [\e[
 \033[1;32m""")
 os.system("cat source/menu/menu_13/.func")
 print("""
-\033[1;39mCuando terminemos presionamos CTRL+c y posteriormente damos a y
+\033[1;39mCuando terminemos presionamos CTRL+x y posteriormente damos a y
 
 Abrimos nueva ventana y ya tendriamos modificado nuestra entrada de comandos.
 """)

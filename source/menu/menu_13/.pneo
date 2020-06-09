@@ -27,7 +27,7 @@ Aqui buscaremos una variable llamada PS1, una ves ubicada escribiremos abajo lo 
 \033[1;39m
 neofetch
 \033[1;39m
-Guardamos el archivo con CTRL+c posteriormente damos a y
+Guardamos el archivo con CTRL+x posteriormente damos a y
 
 Bien ahora abriremos otra ventana y listo ya tendremos personalizado nuestro termux con neofetch
 """)

@@ -53,7 +53,7 @@ python /data/data/com.termux/files/home/nombredelarchivodelbanner
 \033[1;32m
 Si guardaste el banner en otro lugar debes poner esa ruta
 \033[1;39m
-Una ves hecho esto guardaremos el archivo con CTRL+c luego y
+Una ves hecho esto guardaremos el archivo con CTRL+x luego y
 
 Hecho esto abriremos una nueva venta y listo ya tendriamos nuestro banner :3
 

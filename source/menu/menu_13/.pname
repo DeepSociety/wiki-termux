@@ -36,7 +36,7 @@ Aqui buscaremos una variable llamada PS1, una ves ubicada escribiremos abajo lo 
 \033[1;39m""")
 os.system("cat source/menu/menu_13/.ar")
 print("""
-\033[1;33mUna ves hecho esto guardaremos el archivo con CTRL+c luego y
+\033[1;33mUna ves hecho esto guardaremos el archivo con CTRL+x luego y
 
 Bien abrimos nueva ventana y listo ya tendremos personalizado nuestro termux
 \033[1;39m

@@ -36,6 +36,6 @@ git clone https://github.com/kepxy/wiki-termux
 
 cd wiki-termux
 
-bash home.sh
+bash wiki
 
 Listo ha aprender :D apoyame dandole ☆ al repositorio y/o compartiendo el script.

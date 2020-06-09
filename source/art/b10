@@ -34,7 +34,7 @@ print("""\033[1;39m
                             ` ```.........``                       `:`
 
 
-\033[1;39mSwift es un lenguaje de programación multiparadigma creado por Apple enfocado en el desarrollo de aplicaciones para iOS y macOS. Fue presentado en la WWDC 2014​ y está diseñado para integrarse con los Frameworks Cocoa y Cocoa Touch; puede usar cualquier biblioteca programada en Objective-C y llamar a funciones de C. Wikipedia
+\033[1;39mSwift es un lenguaje de programación multiparadigma creado por Apple enfocado en el desarrollo de aplicaciones para iOS y macOS. Fue presentado en la WWDC 2014​ y está diseñado para integrarse con los Frameworks Cocoa y Cocoa Touch; puede usar cualquier biblioteca programada en Objective-C y llamar a funciones de C.
 		       
 \033[1;36mDiseñado por: \033[1;39mChris Lattner, Doug Gregor, John McCall, Ted Kremenek, Joe Groff, and Apple Inc.​
 \033[1;36mÚltima versión estable:\033[1;39m 5.1.5​ (09 de marzo de 2020)

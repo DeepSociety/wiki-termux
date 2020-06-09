@@ -1,0 +1,13 @@
+if [[ -f curso-java-basico.pdf ]];then
+rm curso-java-basico.pdf
+fi
+read -p $'\e[1;32mInserta la ruta a guardar el curso(\e[1;39mEjemplo: /sdcard\e[1;32m)\e[1;39m > ' ruta
+echo -e "\e[1;32m[*]\e[1;39m Descargando curso java basico..."
+wget http://mmc.geofisica.unam.mx/cursos/mcst-2007-II/Java/Curso_de_Java_Basico.pdf -O curso-java-basico.pdf -o log
+if [[ -f log ]];then
+rm log
+fi
+mv curso-java-basico.pdf $ruta
+clear
+echo -e "\e[1;33m[*]\e[1;39m Curso guardado $ruta/curso-java-basico.pdf"
+

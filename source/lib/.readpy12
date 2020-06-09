@@ -1,0 +1,95 @@
+import os
+import time
+
+def f():
+ a = input("PRESIONA ENTER PARA CONTINUAR...")
+ if a != "₩":
+  os.system("bash source/info")
+ else:
+  os.system("bash source/info")
+
+try:
+ c = input("\033[1;31mWIKI-\033[1;39mSISTEMAS > ")
+ if c == "1" or c == "01":
+  print("\n\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Ubuntu")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Linux")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Debian")
+  print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Unix")
+  print("\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Kali-Linux")
+  print("\033[1;31m[\033[1;39m 6\033[1;31m ]\033[1;39m Solaris\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  b = input("\033[1;31mWIKI-\033[1;39mSISTEMAS-PC > ")
+  if b == "1" or b == "01":
+   os.system("python source/art/ubuntu")
+   os.system("bash source/menu/menu_12/ubuntu")
+   f()
+
+  elif b == "2" or b == "02":
+   os.system("cat source/art/linux")
+   os.system("bash source/menu/menu_12/linux")
+   f()
+
+  elif b == "3" or b == "03":
+   os.system("cat source/art/debian")
+   os.system("bash source/menu/menu_12/debian")
+   f()
+
+  elif b == "4" or b == "04":
+   os.system("bash source/menu/menu_12/unix")
+   f()
+
+  elif b == "5" or b == "05":
+   os.system("bash source/menu/menu_12/kali")
+   f()
+
+  elif b == "6" or b == "06":
+   os.system("bash source/menu/menu_12/solaris")
+   f()
+
+  elif b == "99":
+   os.system("bash source/info")
+
+  else:
+   print("\033[1;31m[!]\033[1;3m Opción invalida > ",b)
+   time.sleep(0.5)
+   os.system("bash source/info")
+ 
+ elif c == "2" or c == "02":
+  print("\n\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Ubuntu Touch")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Kali-Nethunter")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Andrax\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  b = input("\033[1;31mWIKI-\033[1;39mSISTEMAS-MOVIL > ")
+  if b == "1" or b == "01":
+   os.system("python source/art/ubuntu")
+   os.system("bash source/menu/menu_12/touch")
+   f()
+
+  elif b == "2" or b == "02":
+   os.system("cat source/art/linux")
+   os.system("bash source/menu/menu_12/net")
+   f()
+
+  elif b == "3" or b == "03":
+   os.system("cat source/art/debian")
+   os.system("bash source/menu/menu_12/andrax")
+   f()
+
+  elif b == "99":
+   os.system("bash source/info")
+
+  else:
+   print("\033[1;31m[!]\033[1;3m Opción invalida > ",b)
+   time.sleep(0.5)
+   os.system("bash source/info")
+
+ elif c == "99":
+  os.system("bash wiki")
+
+ else:
+  print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+  time.sleep(1)
+  os.system("bash source/info")
+
+except KeyboardInterrupt:
+ print("\033[1;39m\nCtrl c presionado")

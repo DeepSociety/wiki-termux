@@ -1,0 +1,45 @@
+print("""
+\033[1;31m¿Qué es cupp?
+
+\033[1;39mcupp es una herramienta que nos permite generar diccionarios con información de personas, generalmente esta herramienta se usa para los ataques de fuerza bruta.
+
+\033[1;33mINSTALACIÓN DE cupp EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+pkg install -y python
+
+pkg install -y python2
+
+git clone https://github.com/Mebus/cupp.git
+
+cd cupp
+
+./cupp.py
+
+./cupp.py -i
+
+Muy bien, aquí debes escribir la información de la víctima, entre mas información es mejor, ya que tu diccionario tendra mas posibilidades de crear una contraseña correcta, EJEMPLO:
+
+\033[1;36mNombres
+Apellidos
+Apodos
+Cumpleaños
+
+\033[1;33m¿Agregar palabras claves? [Y/N]: y
+ejemplo: rock, basket, computadora, rojo
+
+¿agregar caracteres? [Y/N]: y
+¿agregar números? [Y/N]: y
+¿agregar letras? [Y/N]: y
+
+\033[1;39mDiccionario creado como >> ejemplo.txt
+
+PARA LEER EL DICCIONARIO ESCRIBIMOS EL COMANDO:
+
+cat ejemplo.txt
+""")

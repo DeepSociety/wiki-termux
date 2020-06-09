@@ -1,0 +1,29 @@
+print ("""
+\033[1;31m¿Qué es AresBomb?
+
+\033[1;39mAresBomb es una herramienta que realiza spam de SMS a números telefónicos sin la necesidad de tener saldo o crédito.
+
+\033[1;33mINSTALACIÓN DE AresBomb EN TERMUX (ANDROIDD)
+\033[1;39m
+apt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+pkg install -y python
+
+pkg install -y python2
+
+pip install requests
+
+git clone https://github.com/MaksPV/AresBomb
+
+cd AresBomb
+
+chmod 777 boom.py
+
+python boom.py
+
+\033[1;33mAl ejecutar el script, aparecerán letras en otro idioma, pero no hay necesidad de entenderlas para usar la herramienta, simplemente escribes el número ( 1 ) después el número telefónico de la víctima sin el ( + ), después la cantidad de mensajes, recomendable ( 100 ) y por último, el tiempo cada cuanto quieres que se envien los mensajes, recomendable ( 0 ), con eso el spam empezará.
+""")

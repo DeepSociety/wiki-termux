@@ -1,0 +1,31 @@
+print("""
+\033[1;31m¿Qué es Shellphish?
+
+\033[1;39mShellphish es una herramienta que se utiliza para robar las credenciales de un usuario haciéndose pasar por un sitio web original, tiene 18 plantillas preconfiguradas y la opción de agregar aún más (a gusto del consumidor).
+
+\033[1;33mINSTALACIÓN DE shellphish EN
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y wget
+
+pkg install -y curl
+
+pkg install -y php
+
+pkg install -y git
+
+pkg install -y openssh
+
+git clone https://github.com/thelinuxchoice/shellphish.git
+
+cd shellphish
+
+chmod 711 shellphish.sh
+
+./shellphish.sh
+
+\033[1;32mNota: \033[1;39mSi no te genera el link sigue los pasos de nuestro menu "solución de problemas" opción ngrok
+""")

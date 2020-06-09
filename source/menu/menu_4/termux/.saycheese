@@ -1,0 +1,35 @@
+print("""
+\033[1;31m¿Qué es Saycheese?
+
+\033[1;39mSaycheese es una herramienta que se utiliza para acceder a la cámara frontal del dispositivo de la víctima a travéz de un enlace.
+
+\033[1;33mINSTALACIÓN DE saycheese EN TERMUX (ANDROID)
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+pkg install -y php
+
+pkg install -y openssh
+
+pkg install -y python
+
+pkg install -y python2
+
+pkg install -y wget
+
+pkg install -y curl
+
+git clone https://github.com/thelinuxchoice/saycheese
+
+cd saycheese
+
+chmod +x saycheese.sh
+
+./saycheese.sh
+
+\033[1;32mNota: \033[1;39mSi no te genera el link sigue los pasos de nuestro menu "solución de problemas" opción ngrok
+""")

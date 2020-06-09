@@ -1,0 +1,31 @@
+print("""\033[1;31mrestore -if /sdcard/home0.bak: \033[1;39mrestaurando una salva interactivamente.
+
+\033[1;31mrsync -rogpav –delete /home /tmp: \033[1;39msincronización entre directorios.
+
+\033[1;31mrsync -rogpav -e ssh –delete /home ip_address:/tmp: \033[1;39mrsync a través del túnel SSH.
+
+\033[1;31mrsync -az -e ssh –delete ip_addr:/home/public /home/local: \033[1;39msincronizar un directorio local con un directorio remoto a través de ssh y de compresión.
+
+\033[1;31mrsync -az -e ssh –delete /home/local ip_addr:/home/public: \033[1;39msincronizar un directorio remoto con un directorio local a través de ssh y de compresión.
+
+\033[1;31mdd bs=1M if=/dev/hda | gzip | ssh user@ip_addr ‘dd of=hda.gz’: \033[1;39mhacer una salva de un disco duro en un host remoto a través de ssh.
+
+\033[1;31mdd if=/dev/sda of=/tmp/file1: \033[1;39msalvar el contenido de un disco duro a un fichero. (En este caso el disco duro es “sda” y el fichero “file1”).
+
+\033[1;31mtar -Puf backup.tar /home/user: \033[1;39mhacer una salva incremental del directorio ‘/home/user’.
+
+\033[1;31m( cd /tmp/local/ && tar c . ) | ssh -C user@ip_addr ‘cd /home/share/ && tar x -p’: \033[1;39mcopiar el contenido de un directorio en un directorio remoto a través de ssh.
+
+\033[1;31m( tar c /home ) | ssh -C user@ip_addr ‘cd /home/backup-home && tar x -p’: \033[1;39mcopiar un directorio local en un directorio remoto a través de ssh.
+
+\033[1;31mtar cf – . | (cd /tmp/backup ; tar xf – ): \033[1;39mcopia local conservando las licencias y enlaces desde un directorio a otro.
+
+\033[1;31mfind /home/user1 -name ‘*.txt’ | xargs cp -av –target-directory=/home/backup/ –parents: \033[1;39mencontrar y copiar todos los ficheros con extensión ‘.txt’ de un directorio a otro.
+
+\033[1;31mfind /var/log -name ‘*.log’ | tar cv –files-from=- | bzip2 > log.tar.bz2: \033[1;39mencontrar todos los ficheros con extensión ‘.log’ y hacer un archivo bzip.
+
+\033[1;31mdd if=/dev/hda of=/dev/fd0 bs=512 count=1: \033[1;39mhacer una copia del MRB (Master Boot Record) a un disco floppy.
+
+\033[1;31mdd if=/dev/fd0 of=/dev/hda bs=512 count=1: \033[1;39mrestaurar la copia del MBR (Master Boot Record) salvada en un floppy.
+""")
+

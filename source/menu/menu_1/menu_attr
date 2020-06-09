@@ -1,0 +1,16 @@
+print("""\033[1;34mchattr +a file1: \033[1;39mpermite escribir abriendo un fichero solamente modo append.
+
+\033[1;34mchattr +c file1: \033[1;39mpermite que un fichero sea comprimido / descomprimido automaticamente.
+
+\033[1;34mchattr +d file1: \033[1;39masegura que el programa ignore borrar los ficheros durante la copia de seguridad.
+
+\033[1;34mchattr +i file1: \033[1;39mconvierte el fichero en invariable, por lo que no puede ser eliminado, alterado, renombrado, ni enlazado.
+
+\033[1;34mchattr +s file1: \033[1;39mpermite que un fichero sea borrado de forma segura.
+
+\033[1;34mchattr +S file1: \033[1;39masegura que un fichero sea modificado, los cambios son escritos en modo synchronous como con sync.
+
+\033[1;34mchattr +u file1: \033[1;39mte permite recuperar el contenido de un fichero aún si este está cancelado.
+
+\033[1;34mlsattr: \033[1;39mmostrar atributos especiales.
+""")

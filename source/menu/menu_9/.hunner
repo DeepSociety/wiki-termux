@@ -1,0 +1,32 @@
+import os
+os.system("figlet Hunner")
+os.system("figlet Framework")
+print("""
+\033[1;33m
+SOBRE HUNNER:
+\033[1;39m
+Este marco está diseñado para realizar pruebas de penetración.
+\033[1;32m
+FUNCIONES:
+\033[1;39m
+-Analizar vulnerabilidad sql 
+-Analizar vulnerabilidad xss 
+-DDos sitios 
+-Fuerza bruta ftp 
+-Fuerza bruta SSh 
+-Cuentas de correo electrónico de fuerza bruta
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install python -y
+$ git clone https://github.com/b3-v3r/Hunner 
+$ cd Hunner 
+$ chmod 777 hunner.py
+\033[1;33m
+MÉTODO DE USO:
+\033[1;39m
+$ python hunner.py
+
+""")

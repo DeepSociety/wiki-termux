@@ -1,0 +1,13 @@
+print("""
+\033[1;33m¿Tienes algun problema al clonar repositorios?
+
+\033[1;39mEl problema mas común al clonar un repositorio es que cuando lo hagas te aparezca lo siguiente:
+
+\033[;36mGithub@Username:
+Github@Password:
+
+\033[1;39mEsto sucede porque estas copiando mal el link verificalo y vuelvelo a intentar.
+
+\033[1;32mSi tienes otro problema verifica tu conexión a internet.
+""")
+

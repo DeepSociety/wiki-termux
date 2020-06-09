@@ -1,0 +1,13 @@
+echo -e "
+\e[1;39mLinux es una familia de sistemas operativos de código abierto tipo Unix basados ​​en el núcleo de Linux, un núcleo del sistema operativo lanzado por primera vez el 17 de septiembre de 1991 por Linus Torvalds. Linux normalmente está empaquetado en una distribución de Linux.
+		  
+\e[1;36mLicencias:\e[1;39m GNU General Public License and others (the name "GNU/Linux" is a trademark)
+\e[1;36mUserland:\e[1;39m GNU
+\e[1;36mFecha De Lanzamiento:\e[1;39m 17 de septiembre de 1991
+\e[1;36mFamilia de SO:\e[1;39m Unix-like
+\e[1;36mEscrito en:\e[1;39m C, Lenguaje ensamblador
+\e[1;36mInterfaces de usuario predeterminadas:\e[1;39m Shell de Unix, KDE Plasma 5, MATE.
+
+\e[1;33mInstalación:
+\e[1;39mhttps://www.google.com/amp/s/www.xataka.com/basics/como-instalar-linux-tu-viejo-ordenador-para-darle-segunda-vida/amp
+"

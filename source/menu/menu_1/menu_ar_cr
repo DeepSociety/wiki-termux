@@ -1,0 +1,67 @@
+print("""\033[1;33mcd $HOME: \033[1;39mentrar en el directorio “home”.
+
+\033[1;33mcd .. : \033[1;39mretroceder un nivel.
+
+\033[1;33mcd ../.. : \033[1;39mretroceder 2 niveles.
+
+\033[1;33mcd: \033[1;39mir al directorio raíz.
+
+\033[1;33mcd –: \033[1;39mir (regresar) al directorio anterior.
+
+\033[1;33mpwd: \033[1;39mmostrar el camino del directorio de trabajo.
+
+\033[1;33mls: \033[1;39mver los ficheros de un directorio.
+
+\033[1;33mls -F: \033[1;39mver los ficheros de un directorio.
+
+\033[1;33mls -l: \033[1;39mmostrar los detalles de ficheros y carpetas de un directorio.
+
+\033[1;33mls -a: \033[1;39mmostrar los ficheros ocultos.
+
+\033[1;33mls *[0-9]*: \033[1;39mmostrar los ficheros y carpetas que contienen números.
+
+\033[1;33mtree: \033[1;39mmostrar los ficheros y carpetas en forma de árbol comenzando por la raíz.
+
+\033[1;33mlstree: \033[1;39mmostrar los ficheros y carpetas en forma de árbol comenzando por la raíz.
+
+\033[1;33mmkdir carpeta: \033[1;39mcrear una carpeta o directorio con nombre ‘carpeta’.
+
+\033[1;33mmkdir carpeta1 carpeta2: \033[1;39mcrear dos carpetas o directorios simultáneamente (Crear dos directorios a la vez).
+
+\033[1;33mmkdir -p /tmp/dir1/dir2: \033[1;39mcrear un árbol de directorios.
+
+\033[1;33mrm -f file1: \033[1;39mborrar el fichero llamado ‘file1’.
+
+\033[1;33mrmdir dir1: \033[1;39mborrar la carpeta llamada ‘dir1’.
+
+\033[1;33mrm -rf dir1: \033[1;39meliminar una carpeta llamada ‘dir1’ con su contenido de forma recursiva. (Si lo borro recursivo estoy diciendo que es con su contenido).
+
+\033[1;33mrm -rf dir1 dir2: \033[1;39mborrar dos carpetas (directorios) con su contenido de forma recursiva.
+
+\033[1;33mmv dir1 new_dir: \033[1;39mrenombrar o mover un fichero o carpeta (directorio).
+
+\033[1;33mcp file1: \033[1;39mcopiar un fichero.
+
+\033[1;33mcp file1 file2: \033[1;39mcopiar dos ficheros al unísono.
+
+\033[1;33mcp dir /* . : \033[1;39mcopiar todos los ficheros de un directorio dentro del directorio de trabajo actual.
+
+\033[1;33mcp -a /tmp/dir1 . : \033[1;39mcopiar un directorio dentro del directorio actual de trabajo.
+
+\033[1;33mcp -a dir1: \033[1;39mcopiar un directorio.
+
+\033[1;33mcp -a dir1 dir2: \033[1;39mcopiar dos directorio al unísono.
+
+\033[1;33mln -s file1 lnk1: \033[1;39mcrear un enlace simbólico al fichero o directorio.
+
+\033[1;33mln file1 lnk1: \033[1;39mcrear un enlace físico al fichero o directorio.
+
+\033[1;33mtouch -t 0712250000 file1: \033[1;39mmodificar el tiempo real (tiempo de creación) de un fichero o directorio.
+
+\033[1;33mfile file1: \033[1;39msalida (volcado en pantalla) del tipo mime de un fichero texto.
+
+\033[1;33miconv -l: \033[1;39mlistas de cifrados conocidos.
+
+\033[1;33miconv -f fromEncoding -t toEncoding inputFile > outputFile: \033[1;39mcrea una nueva forma del fichero de entrada asumiendo que está codificado en fromEncoding y convirtiéndolo a ToEncoding.
+""")
+

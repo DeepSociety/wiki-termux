@@ -1,0 +1,33 @@
+print("""
+
+yyyyyyyyyyyyyyyyyyysssoossssyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyyyyoosyysshddhysssyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyyyyyysosydmmdmmNMNddhyysssyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyysssoshhhhhmMMMMMMMMMMMMNmhyssyyyyyyyyyyyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyysohmNNMMMMMMMMMMMMMMMMMMNdhmNNdhoyyyyyyyyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyoshdNMMMMMMNdhhhyhhhdmNMMMMNNNMMMMdhyssssyyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyoohMMMMMmysssyyyyyyyyyssyhhdmmNNMMMMMMMMNoyyyyyyyyyyyyyy
+yyyyyyyyyyyyyoyNMMMMMyoyyyyyyyyyyyyyyyyyyyyssssssyhNMMMssyyyyyyyyyyyyy
+yyyyyyyyyyyyys+hMMMMN+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyosMyoyyyyyyyyyyyyyy
+dyyyyyyyyyyyyosmmMMMMssyyyyyyyyyyyyyyyyyyyyyyyyyyyyysssyyyyyyyyyyyyyyy
+NyyyyyyyyyyyyysoyMMMMMhosyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+MmyyyysssssssyyssdhNMMMMmhsssssyyyyyyyyyyyyyyyyyyyyysssssssyyysoooooos
+MMhyyyohMMMd+yyyssssNNNMMMMMNmmddhhhhhhhhhhhhyyysssoshMMMNosyy+dMMMdso
+MMNhyyoNMMMMssyyyyyssoosdNhhdmmmmmmmmmmmdddddddmmNmdyosNMMmosohMMNyoyy
+MMMNhodMMyMMNosoyyssyyoys+oyyyyysoosoyyyyyysosysosyhyhdydMMMhmMMdosyyy
+MMMMsyMMh+hMMm++dMNssy+Nd+oMNdddNMyo+MNddddMmoyy+mMNossssyNMMMNyoyyyyy
+MMMysMMm+o+mMMd+dMmMyo+Nd+oMdoyyodMs+Mm+oo+mM+yoyMhMdoyyooNMMMNsoyyyyy
+MMdoNMMNNNNNMMMydN+hMmoNd+oMdoyyoyMy+MMNNNMNyosoNd+hMyoohMMNhMMMdoyyyy
+MNomMMyyyyyyyMMMNM+osNNMm+oMdoysomMo+Mm+ohMyoyomMmmmNMsmMMmoosmMMNssyy
+modMMysMMMMdoyMMMM+ysomMm+oMNdddNNyo+Mm+yohMy+yMsososMMMMhoyyyodMMMhos
+oshhhsoNMMMMoshhhhosysoyyooyyyyysosyoyyoysoyyoyyosyosyyyysoyyyosyyyyyo
+
+
+\033[1;39mAndrax es una completa plataforma de hacking ético. Ha sido desarrollada exclusivamente para el sistema operativo Android. Como sabemos, se trata del sistema más utilizado en dispositivos móviles.
+
+Podemos ejecutarlo en Android de forma nativa. Se comporta como si fuera una distribución de Linux. Eso sí, aprovecha las particularidades del sistema operativo móvil. Lo podemos utilizar con mucha agilidad gracias a la pantalla táctil y cuenta con ventajas gráficas.
+
+\033[1;33mInstalación:
+
+\033[1;39mhttps://www.hacking.land/2018/10/conoce-andrax-una-completa-plataforma.html?m=1
+""")

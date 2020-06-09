@@ -1,0 +1,12 @@
+if [[ -f curso-cpp-basico1.pdf ]];then
+rm curso-cpp-basico1.pdf
+fi
+read -p $'\e[1;32mInserta la ruta a guardar el curso(\e[1;39mEjemplo: /sdcard\e[1;32m)\e[1;39m > ' ruta
+echo -e "\e[1;32m[*]\e[1;39m Descargando curso c++ basico 1..."
+wget https://www.uv.es/sto/cursos/c%2B%2B/curso95.pdf -O curso-cpp-basico1.pdf -o log
+if [[ -f log ]];then
+rm log
+fi
+mv curso-cpp-basico1.pdf $ruta
+clear
+echo -e "\e[1;33m[*]\e[1;39m Curso guardado $ruta/curso-cpp-basico1.pdf"

@@ -1,0 +1,68 @@
+import os
+os.system("figlet CMSmap")
+print("""
+\033[1;33m
+SOBRE CMSMAP:
+\033[1;39m
+CMSmap es un escáner CMS de código abierto de Python que automatiza el proceso de detección de fallas de seguridad de los CMS más populares. 
+El objetivo principal de CMSmap es integrar vulnerabilidades comunes para diferentes tipos de CMS en una sola herramienta.
+Por el momento, los CMS compatibles con CMSmap son WordPress, Joomla, Drupal y Moodle.
+\033[1;32m
+INSTALACIÓN: 
+\033[1;39m
+$ apt update 
+$ apt upgrade 
+$ apt install git -y
+$ apt install python2 -y
+$ git clone https://github.com/Dionach/CMSmap.git 
+$ cd CMSmap 
+$ chmod +x * 
+\033[1;33m
+MÉTODO DE USO:
+\033[1;39m
+$ python2 cmsmap.py -h 
+
+cmsmap [-f W / J / D] [-F] [-t] [-a] [-H] [-i] [-o] [-E] [-d] [-u] [-p] [-x] [-k] [-w] [-v] [-h] [-D] [-UW / J / D] [objetivo]
+\033[1;33m
+ESCANEAR: 
+\033[1;39m
+URL objetivo de destino (por ejemplo, 'https://example.com:8080/') 
+-f W / J / D, --force W / J / D force scan (W) ordpress, (J) oomla o (D) rupal -F
+--fullscan escaneo completo utilizando grandes listas de complementos. ¡Falsos positivos y lentos! 
+-t, número de subprocesos (predeterminado 5) 
+-a,  --agent establece agente de usuario personalizado 
+-H, --header agregar encabezado personalizado (por ejemplo, 'Autorización: Basic ABCD ...')
+-i, --input escanea múltiples objetivos listados en un archivo dado 
+-o, --salida de salida de salida en un archivo 
+-E, --noedb enumera complementos sin buscar exploits 
+-c, --nocleanurls deshabilita las URL limpias solo para Drupal 
+-s, --nosslcheck no valida el certificado del servidor 
+-d, --dictattack ejecuta un ataque de diccionario poco intenso durante el escaneo (5 intentos por usuario)
+\033[1;33m
+FUERZA BRUTA: 
+\033[1;39m
+-u, --usr nombre de usuario o archivo de nombre de usuario 
+-p, --psw contraseña o archivo de contraseña 
+-x, --noxmlrpc fuerza bruta WordPress sin XML-RPC POST 
+\033[1;33m
+EXPLOTACIÓN: 
+\033[1;39m
+-k, --crack hash password file (Requiere hashcat instalado. Solo para WordPress y Joomla) 
+-w, --wordlist archivo de lista de palabras
+\033[1;33m
+OTROS: 
+\033[1;39m
+-v, - modo verboso verboso (predeterminado falso) 
+-h, - ayuda a mostrar este mensaje de ayuda y salir 
+-D, - Mapa de CMS de ron predeterminado con opciones predeterminadas 
+-U, --update use (C) MSmap, (P) lugins o (PC) para ambos
+\033[1;33m
+EJEMPLOS 
+\033[1;39m
+• cmsmap.py https://example.com 
+• cmsmap.py https://example.com -f W -F --noedb -d 
+• cmsmap.py https://example.com -i objetivos.txt -o salida.txt 
+• cmsmap.py https://example.com -u admin -p passwords.txt 
+• cmsmap.py -k hashes.txt -w contraseñas.txt
+
+""")

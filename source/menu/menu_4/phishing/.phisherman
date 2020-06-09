@@ -1,0 +1,29 @@
+print("""
+\033[1;31m¿Qué es Phisher-Man?
+
+\033[1;39mHerramienta de phishing hecha en python2 para kali linux-termux funciona con ngrok, tiene más de 17 páginas (página falsa)
+
+\033[1;33mINSTALACIÓN PHISHER-MAN
+
+\033[1;39mapt update && upgrade
+
+pkg install python -y
+
+pkg install python -y
+
+pkg install php -y
+
+pkg install openssh -y
+
+pkg install git -y
+
+git clone https://github.com/FDX100/Phisher-man.git
+
+cd Phisher-man
+
+python2 phisherman.py
+
+\033[1;33mA continuación apretar y
+
+Despues elegir el phishing
+""")

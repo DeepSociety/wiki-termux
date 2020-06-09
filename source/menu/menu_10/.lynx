@@ -1,0 +1,14 @@
+figlet lynx
+echo -e "\e[1;39m
+Lynx es un navegador web y cliente de gopher en modo texto.
+
+\e[1;32mInstalación:
+\e[1;39m$ pkg install lynx
+
+\e[1;33mUso:
+\e[1;39m$ lynx --help
+
+\e[1;36mPeso: \e[1;39m1327KB
+\e[1;36mEscrito en: \e[1;39mANSI C
+\e[1;36mDesarrollador: \e[1;39mThomas Dickey
+"

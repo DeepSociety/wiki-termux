@@ -1,0 +1,39 @@
+import os
+os.system("figlet A2sv")
+
+print("""
+\033[1;33m
+SOBRE A2SV:
+\033[1;39m
+A2SV significa Vulnerabilidad de escaneo automático a SSL. A2SV realiza un análisis de vulnerabilidades para la inyección CCS, Heartbleed, Logjam, Freak Attack, Anonymous Cipher, SSL v3 POODLE, SSL v2 Drown y Crime (SPDY).
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ pkg install git -y
+$ git clone https://github.com/hahwul/a2sv.git
+$ cd a2sv
+$ pkg install python -y
+$ pip install argparse
+$ pip install netaddr
+$ apt-get install openssl-tool
+\033[1;33m
+• Correr A2SV
+\033[1;39m
+$ python a2sv.py -h
+\033[1;32m
+MÉTODO DE USO:
+\033[1;39m
+a2sv [-h] [-t TARGET] [-tf TARGETFILE] [-p PORT] [-m MODULE] [-d DISPLAY] [-u] [-v]
+\033[1;32m
+ESCANEAR SSL:
+\033[1;39m
+$ python a2sv.py -t 127.0.0.1
+$ python a2sv.py -t 127.0.0.1 -m heartbleed
+$ python a2sv.py -t 127.0.0.1 -d n
+$ python a2sv.py -t 127.0.0.1 -p 8111
+$ python a2sv.py -tf target_list.txt
+
+\033[1;36mNota:\033[1;39m No uses el $ solo es un ejemplo.
+
+""")
+

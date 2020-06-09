@@ -1,0 +1,6 @@
+echo -e "\033[1;32m" //Esto es para darle color en este caso verde
+	 
+figlet TUNOMBRE
+         
+echo -e "\033[0m" //Esto es para que la entrada de comandos vuelva al color normal
+

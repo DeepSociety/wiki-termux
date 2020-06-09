@@ -1,0 +1,48 @@
+import os
+try:
+	a = input("\033[1;39mW\033[1;31m I\033[1;39m K\033[1;31m I\033[1;33m -\033[1;39m T\033[1;31m E\033[1;39m R\033[1;31m M\033[1;39m U\033[1;31m X\033[1;39m ## > \033[1;39m")
+
+	if a == "1" or a == "01" or a == "comandos":
+		os.system("bash source/comandos")
+	elif a == "2" or a == "02" or a == "paquetes":
+ 		os.system("bash source/librerias")
+	elif a == "3" or a == "03" or a == "herramientas":
+  		os.system("bash source/herramientas")
+	elif a == "4" or a == "04" or a == "tutoriales":
+		os.system("bash source/tutoriales")
+	elif a == "99" or a == "quit" or a == "exit":
+		os.system("echo Hasta luego")	  
+		exit()
+		         
+	elif a == "5" or a == "05" or a == "cursos":
+                os.system("bash source/cursos")
+	elif a == "6" or a == "06" or a == "problemas":
+                os.system("bash source/solucion")
+	elif a == "7" or a == "07" or a == "externos":
+                os.system("bash source/externos")
+	elif a == "8" or a == "08" or a == "otros":
+		os.system("bash source/ing")
+	elif a == "9" or a == "09" or a == "best-tool":
+		os.system("bash source/best-tool")
+	elif a == "10" or a == "best-package":
+		os.system("bash source/best-package")
+
+	elif a == "11":
+                os.system("bash source/scripts")
+		     
+	elif a == "13":
+                os.system("bash source/ptmux")
+
+
+	elif a == "12":
+		os.system("bash source/info")
+
+	else:
+        	print ("\033[1;31m[\033[1;39m !\033[1;31m ]\033[1;39m Opción invalida > ",a)
+        	os.system("sleep 0.5")
+        	os.system("bash wiki")
+except KeyboardInterrupt:
+	os.system("sleep 0.5")
+	print("\n Ctrl C Presionado")
+	 
+		        

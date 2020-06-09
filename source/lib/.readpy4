@@ -1,0 +1,252 @@
+import os
+
+def f():
+	    
+		c = input("\033[1;33mPRESIONA ENTER PARA CONTINUAR...")
+		if c != "₩":
+			os.system("bash source/tutoriales")
+		else:
+			os.system("bash source/tutoriales")
+			
+try:
+	a = input("\033[1;31mWIKI\033[1;39m-TUTORIALES > ")
+	if a == "1" or a == "01":
+		os.system("figlet Phishing")
+		print("\n")
+		print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Phishing con ShellPhish")
+		print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Phishing con Weeman(\033[1;33m☆\033[1;39m)")
+		print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Phishing con HiddenEye")
+		print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Phishing con SocialSploit")
+		print("\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Phishing con PhisherMan")
+		print("\033[1;31m[\033[1;39m 6\033[1;31m ]\033[1;39m Phishing con Zphisher")
+		print("\033[1;31m[\033[1;39m 7\033[1;31m ]\033[1;39m Phishing con FormPhish")
+		print("\033[1;31m[\033[1;39m 8\033[1;31m ]\033[1;39m Phishing con AIOPhish\n")
+		print("\033[1;31m[\033[1;39m 99 \033[1;31m]\033[1;39m Volver al menú\n")
+
+		b = input("\033[1;31mTUTORIALES\033[1;39m-PHISHING > ")
+		if b == "1" or b == "01":
+			print("")
+			os.system("python source/menu/menu_4/phishing/.shellphish")
+			print("")
+			f()			
+		elif b == "2" or b == "02":
+       	                print("")
+               	        os.system("python source/menu/menu_4/phishing/.weeman")
+                       	print("")
+                        f()
+		elif b == "3" or b == "03":
+                        print("")
+                        os.system("python source/menu/menu_4/phishing/.hiddeneye")
+                        print("")
+                        f()
+		elif b == "4" or b == "04":
+                        print("")
+                        os.system("python source/menu/menu_4/phishing/.socialsploit")
+                        print("")
+                        f()
+		elif b == "5" or b == "05":
+                        print("")
+                        os.system("python source/menu/menu_4/phishing/.phisherman")
+                        print("")
+                        f()
+		elif b == "6" or b == "06":
+                        print("")
+                        os.system("python source/menu/menu_4/phishing/.zphisher")
+                        print("")
+                        f()
+		elif b == "7" or b == "07":
+                        print("")
+                        os.system("python source/menu/menu_4/phishing/.formphish")
+                        print("")
+                        f()
+
+		elif b == "8" or b == "08":
+			print("")
+			os.system("python source/menu/menu_4/phishing/.aio")
+			f()
+
+		elif b == "99":
+			os.system("bash source/tutoriales")
+		else:
+			print("\033[1;31m[!]\033[1;39m Opción invalida >  ",b)
+			os.system("sleep 0.5")
+			os.system("bash source/tutoriales")
+	
+	if a == "2" or a == "02":
+		os.system("figlet Fuerza Bruta")
+		print("\n\n")
+		print ("\n\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Fuerza Bruta\033[1;31m NO ROOT") 
+		print ("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m CrearDiccionarios\n")
+		print ("\033[1;31m[ \033[1;39m99\033[1;31m ]\033[1;39m Volver al menú\n")
+
+		c = input("\033[1;31mTUTORIALES\033[1;39m-FUERZA\033[1;31mBRUTA\033[1;39m > ")
+
+		print("")
+		if c == "1" or c == "02":
+			print ("")
+			print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Fuerza Bruta Facebook")
+			print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Fuerza Bruta Intagram")
+			print("")
+
+			d = input("\033[1;31mTUTORIALES\033[1;39m-FUERZA\033[1;31mBRUTA \033[1;39m> ")
+			if d == "1" or d =="01":	
+				os.system("python source/menu/menu_4/brute/.fbbrute")
+				f()
+
+			elif d == "2" or d == "02":
+				os.system("python source/menu/menu_4/brute/.instabrute")
+				f()
+			else:
+				print("\033[1;31m[!]\033[1;39m Opción invalida > ", d)
+				os.system("sleep 0.5")
+				os.system("bash source/tutoriales")
+       
+		elif c == "2" or c == "02":
+			os.system("python source/menu/menu_4/brute/.cupp")
+			f()
+			
+		elif c == "99":
+                                os.system("bash source/tutoriales")
+
+		else:
+			print("\033[1;31m[!]\033[1;39m Opción invalida > \033[1;39m", c)
+			os.system("sleep 0.5")
+			os.system("bash source/tutoriales")
+	elif a == "3" or a == "03":
+		os.system("figlet Instalacion")
+		os.system("figlet Ngrok")
+		print("\n")
+		print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Conseguir authtoken")
+		print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Ngrok(No necesita authtoken\033[1;33m ☆\033[1;31m)\n")
+		print("\033[1;31m[\033[1;39m 99 \033[1;31m]\033[1;39m Volver al menú\n")
+		l = input("\033[1;31mTUTORIAL-\033[1;39mNGROK > ")
+
+		if l == "1" or l == "01":
+			os.system("python source/menu/menu_4/ngrok/.ngrok")
+			f()		
+		elif l == "2" or l == "02":
+			os.system("python source/menu/menu_4/ngrok/.ngrokau")
+			f()
+		
+		elif l == "99":
+			os.system("bash source/tutoriales")
+
+	elif a == "4" or a == "04":
+		os.system("figlet Instalacion")
+		os.system("figlet Metasploit")
+		os.system("python source/menu/menu_4/metas/.metas")
+		f()
+	elif a == "5" or a == "05":
+		os.system("figlet Instalacion")
+		os.system("figlet RouterSploit")
+		os.system("python source/menu/menu_4/router/.router")
+		f()
+	elif a == "6" or a == "06":
+		os.system("figlet Mensajes")
+		os.system("figlet Spam")
+		print("\n\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Spam con Tbomb")
+		print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Spam con AresBomb")
+		print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Spam con Quack\n")
+		print("\033[1;31m[\033[1;39m 99 \033[1;31m]\033[1;39m Volver al menú\n")
+		g = input("\033[1;31mTUTORIALES\033[1;39m-SPAM > ")
+
+		      
+		if g == "1" or g == "01":
+			os.system("python source/menu/menu_4/spam/.tbomb")
+			f()
+				  
+		elif g == "2" or g == "02":
+			os.system("python source/menu/menu_4/spam/.aresbomb")
+			f()
+				  
+		elif g == "3" or g == "03":
+			os.system("python source/menu/menu_4/spam/.quak")
+			f()
+		elif g == "99":
+			os.system("bash source/tutoriales")
+
+
+		else:
+			print("\033[1;31m[!]\033[1;39m Opción invalida > ",d)
+			os.system("sleep 0.5")
+			os.system("bash source/tutoriales")
+       
+	elif a == "7" or a == "07":			         
+		os.system("figlet Otros")
+		os.system("figlet Tutoriales")
+		print("\n\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Tutorial DoxWeb")
+		print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Tutorial FBI  ")
+		print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Tutorial FunLett")
+		print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Tutorial Haken")
+		print("\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Tutorial PhoneInfoga")
+		print("\033[1;31m[\033[1;39m 6\033[1;31m ]\033[1;39m Tutorial PortMap")
+		print("\033[1;31m[\033[1;39m 7\033[1;31m ]\033[1;39m Tutorial SayCheese")
+		print("\033[1;31m[\033[1;39m 8\033[1;31m ]\033[1;39m Tutorial tmuxview")
+		print("\033[1;31m[\033[1;39m 9\033[1;31m ]\033[1;39m Tutorial Vigo")
+		print("\033[1;31m[\033[1;39m 10\033[1;31m ]\033[1;39m Tutorial WebAploit\n")
+		print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+
+		e = input("\033[1;31mTUTORIALES\033[1;39m-SPAM > ")
+		 
+		if e == "1" or e == "01":
+			os.system("python source/menu/menu_4/termux/.doxweb")
+			f()
+
+		elif e == "2" or e == "02":
+			os.system("python source/menu/menu_4/termux/.fbi")
+			f()
+						 
+		elif e == "3" or e == "03":
+			os.system("python source/menu/menu_4/termux/.funlett")
+			f()
+			
+		elif e == "4" or e == "04":
+			os.system("python source/menu/menu_4/termux/.haken")
+			f()
+			    
+		elif e == "5" or e == "05":
+                        os.system("python source/menu/menu_4/termux/.phoneinfoga")
+                        f()
+
+		elif e == "6" or e == "06":
+			os.system("python source/menu/menu_4/termux/.portmap")
+			f()
+
+		elif e == "7" or e == "07":
+			os.system("python source/menu/menu_4/termux/.saycheese")
+			f() 
+		
+		elif e == "8" or e == "08":
+			os.system("python source/menu/menu_4/termux/.tmuxview")
+
+			f()
+
+		elif e == "9" or e == "09":
+			os.system("python source/menu/menu_4/termux/.vigo")
+			f()
+		       
+		elif e == "10":
+			os.system("python source/menu/menu_4/termux/.portmap")
+			f()
+
+		elif e == "99":
+			os.system("bash source/tutoriales")
+
+		else:
+                        print("\033[1;31m[!]\033[1;39m Opción invalida > \033[1;39m",e)
+                        os.system("sleep 0.5")
+                        os.system("bash source/tutoriales")
+              
+	elif a == "99" or a == "exit" or a == "quit":
+                        os.system("bash wiki")
+	   
+	else:
+		print("\033[1;31m[!]\033[1;39m Opción invalida > ",a)
+		
+		os.system("sleep 0.5")
+		os.system("bash source/tutoriales")
+		       
+except KeyboardInterrupt:
+	os.system("sleep 0.5")
+	print("\n\n\033[1;39mCtrl C Presionado")
+

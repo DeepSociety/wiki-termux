@@ -1,0 +1,31 @@
+import os
+import time
+
+def f():
+ a = input("PRESEIONA ENTER PARA CONTINUAR...")
+ if a != "₩":
+  os.system("bash source/solucion")
+ else:
+  os.system("bash source/solucion")
+
+try:
+ b = input("\033[1;31mWIKI-\033[1;39mSOLUCIÓN > ")
+ if b == "1" or b == "01":
+  os.system("python source/menu/menu_6/.nl")
+  f()
+ elif b == "2" or b == "02":
+  os.system("python source/menu/menu_6/.nc")
+  f()
+ elif b == "3" or b == "03":
+  os.system("python source/menu/menu_6/.on")
+  f()
+ elif b == "99":
+  os.system("bash wiki")
+ else:
+  print("\033[1;31m[!]\033[1;39m Opción invalida > ",b)
+  time.sleep(0.5)
+  os.system("bash source/solucion")
+
+except KeyboardInterrupt:
+ print("\033[1;39m\nCtrl c presionado")
+

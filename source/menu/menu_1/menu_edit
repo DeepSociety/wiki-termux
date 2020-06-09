@@ -1,0 +1,26 @@
+print("""\033[1;36mcat file1 file2 .. | command <> file1_in.txt_or_file1_out.txt: \033[1;39msintaxis general para la manipulación de texto utilizando PIPE, STDIN y STDOUT.
+							       
+\033[1;36mcat file1 | command( sed, grep, awk, grep, etc…) > result.txt: \033[1;39msintaxis general para manipular un texto de un fichero y escribir el resultado en un fichero nuevo.
+
+\033[1;36mcat file1 | command( sed, grep, awk, grep, etc…) » result.txt: \033[1;39msintaxis general para manipular un texto de un fichero y añadir resultado en un fichero existente.
+				
+\033[1;36mgrep Palabra archivo: \033[1;39mbuscar palabras “Palabra” en el fichero ‘archivo’.
+					  
+\033[1;36mgrep ^Aug /var/log/archivo.txt: \033[1;39mbuscar palabras que comienzan con “Aug” en fichero ‘/var/log/messages’
+
+\033[1;36mgrep [0-9] /var/log/messages: \033[1;39mseleccionar todas las líneas del fichero ‘/var/log/messages’ que contienen números.
+					
+\033[1;36mgrep Aug -R /var/log/*: \033[1;39mbuscar la cadena “Aug” en el directorio ‘/var/log’ y debajo.
+				  
+\033[1;36msed ‘s/stringa1/stringa2/g’ example.txt: \033[1;39mreubicar “string1” con “string2” en ejemplo.txt
+						   
+\033[1;36msed ‘/^$/d’ example.txt: \033[1;39meliminar todas las líneas en blanco desde el ejemplo.txt
+				   
+\033[1;36msed ‘/ *#/d; /^$/d’ example.txt: \033[1;39meliminar comentarios y líneas en blanco de ejemplo.txt
+					   
+\033[1;36mecho ‘esempio’ | tr ‘[:lower:]’ ‘[:upper:]’: \033[1;39mconvertir minúsculas en mayúsculas.
+						       
+\033[1;36msed -e ‘1d’ result.txt: \033[1;39melimina la primera línea del fichero ejemplo.txt
+				  
+\033[1;36msed -n ‘/stringa1/p’: \033[1;39mvisualizar solamente las líneas que contienen la palabra “string1”.
+""")

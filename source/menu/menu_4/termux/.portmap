@@ -1,0 +1,21 @@
+print("""
+\033[1;31m¿Qué es PortmapSploit?
+
+\033[1;39mPortmapSploit es una herramienta que instala Metasploit-Framework automáticamente en cualquier versión android, además, tiene la opción de crear un payload para android automáticamente.
+
+\033[1;33mINSTALACIÓN DE PortmapSploit EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+git clone https://github.com/TermuxHacking000/PortmapSploit
+
+cd PortmapSploit
+
+chmod 711 PortmapSploit.sh
+
+./PortmapSploit.sh
+""")

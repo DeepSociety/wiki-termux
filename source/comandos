@@ -1,0 +1,27 @@
+clear
+python source/art/banner1
+bash source/.core
+echo -e "
+	\033[1;31m[\033[1;39m 1\033[1;31m ] \033[1;39mComandos basicos
+        \033[1;31m[\033[1;39m 2\033[1;31m ] \033[1;39mInformación del sistema
+        \033[1;31m[\033[1;39m 3\033[1;31m ] \033[1;39mArchivos y Directorios
+        \033[1;31m[\033[1;39m 4\033[1;31m ] \033[1;39mEncontrar/Buscar Archivos
+        \033[1;31m[\033[1;39m 5\033[1;31m ] \033[1;39mInformación sobre el espacio(ficheros)
+        \033[1;31m[\033[1;39m 6\033[1;31m ] \033[1;39mAdministrar contraseñas
+        \033[1;31m[\033[1;39m 7\033[1;31m ] \033[1;39mPermisos en ficheros
+        \033[1;31m[\033[1;39m 8\033[1;31m ] \033[1;39mAtributos Especiales
+        \033[1;31m[\033[1;39m 9\033[1;31m ] \033[1;39mArchivos y Ficheros comprimidos
+        \033[1;31m[\033[1;39m 10\033[1;31m ] \033[1;39mPaquetes DEB
+        \033[1;31m[\033[1;39m 11\033[1;31m ] \033[1;39mAPT
+        \033[1;31m[\033[1;39m 12\033[1;31m ] \033[1;39mVer el contenido de un fichero
+        \033[1;31m[\033[1;39m 13\033[1;31m ] \033[1;39mMalipunación de texto
+        \033[1;31m[\033[1;39m 14\033[1;31m ] \033[1;39mAnálisis del sistema de ficheros
+        \033[1;31m[\033[1;39m 15\033[1;31m ] \033[1;39mFormatear un sistema de ficheros
+        \033[1;31m[\033[1;39m 16\033[1;31m ] \033[1;39mGuardado(Backup)
+        \033[1;31m[\033[1;39m 17\033[1;31m ] \033[1;39mTrabajo con la RED(lan y wi-fi
+        \033[1;31m[\033[1;39m 18\033[1;31m ] \033[1;39mMoniteorado y depurado
+        \033[1;31m[\033[1;39m 19\033[1;31m ] \033[1;39mOtros comandos
+
+        \033[1;31m[\033[1;39m 99\033[1;31m ] \033[1;39mVolver al menú
+"
+python source/lib/.readpy0

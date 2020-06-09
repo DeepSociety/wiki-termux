@@ -1,0 +1,81 @@
+print("""
+\033[1;32mPasos:
+  
+\033[1;39mPara hackear intagram con fuerza bruta usaremos instagram, una herramienta muy rapida y muy sencilla.
+ 
+\033[1;33mRequisitos:
+  
+python
+
+git
+
+Y un diccionario con las contraseñas.
+
+\033[1;39mInstalación:
+
+pkg install python -y
+
+pkg install python -y
+
+git clone https://github.com/GhosTmaNHarsh/instagram
+  
+cd instagram
+
+ls
+
+bash run.sh
+
+\033[1;33mBien una ves instalado ejecutaremos el programa:
+
+\033[1;39mpython hackinsta.py
+
+\033[1;33mUso:
+
+\033[1;39mPrimero debemos eliminar el archivo 'pass.txt' y colocar nuestras contraseñas, si deseas solo editas el archivo colocando algunas contraseñas que crees que sea la posible contraseña.
+
+\033[1;33mEjemplo:
+
+\033[1;33mSi deseo poner mis propias contraseñas:
+
+\033[1;39mrm pass.txt
+
+mv (tuscontras) /data/data/com.termux/files/home/instagram
+
+\033[1;33mSi solo quieres editar el archivo:
+
+\033[1;39mpkg install nano
+
+nano pass.txt
+
+E aqui escribes las contraseñas.\033[1;33mPulsa CTRl C para guardar y despues y
+
+\033[1;33mAl abrir el programa(python hackinsta.py) nos saldra un menú como lo siguiente:
+
+
+\033[1;36m"Please enter a username: "\033[1;39mAqui escribiremos el username de la victima, Pero algo muy \033[1;31mIMPORTANTE\033[1;39mno debemos poner el correo de la victima solo username, ya que un correo contiene '@' y ese formato no esta permitido."
+
+
+\033[1;36m"Do you want to use proxy (y/n) "\033[1;39mAqui algo muy interesante si la cuenta a hackear es de otro pais al tuyo necesitamos proxy pero si la cuenta a hackear es del mismo pais simplemente escribimos n.
+         
+\033[1;33m¿Necesitas proxys? 
+				  												 
+\033[1;39mDescarga nuestra repo 'proxy-shell' generador de proxys
+
+\033[1;32mhttps://github.com/R4yiTo/proxy-shell
+  
+\033[1;39mY las guardas en un archivo en este caso se tiene que llamar 'proxy.txt' \033[1;31mOBLIGATORIO
+
+\033[1;39mO simplemente puedes teclear en google 'free proxy list' e buscas algunas.
+
+\033[1;33mTenemos que moverlas:
+
+
+\033[1;39mmv (tuproxy) /data/data/com.termux/files/home/instagram
+Antes debes eliminar el archivo proxy.txt se la carpeta /data/data/com.termux/files/home/instagram
+
+\033[1;33mFinalmente nos vendra una ultima opción:
+
+\033[1;36mPlease add delay between the bruteforce action (in seconds) \033[1;39mAqui colocaremos el tiempo en el que el script prueba las contraseñas recomendable 3 :) 
+
+Bien hasta aqui se estaran probando las contraseñas, avisara cuando una funcione :).
+""")

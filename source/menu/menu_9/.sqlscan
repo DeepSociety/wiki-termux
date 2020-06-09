@@ -1,0 +1,22 @@
+figlet SQLScan
+echo -e "
+\033[1;36m
+Sqliscan por dork
+	   
+\033[1;32mInstalación:
+ 
+\033[1;37m
+$ apt update && apt upgrade
+$ apt install git
+$ apt install curl
+$ git clone https://github.com/thelinuxchoice/sqliscan
+$ cd sqliscan $ chmod +x *
+
+\033[33m
+Uso:
+\033[1;37m
+$ ./sqliscan.sh
+
+\033[33mAhora ingrese sus  \033[1;31m dorks, \033[1;37m comenzará a recopilar todos los sitios vulnerables relacionados con su dork y también estos sitios guardados en el archivo save.txt.
+"
+

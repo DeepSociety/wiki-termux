@@ -1,0 +1,15 @@
+print("""\033[1;32mapt-get install package_name: \033[1;39minstalar / actualizar un paquete deb.
+
+\033[1;32mapt-get update: \033[1;39mactualizar la lista de paquetes.
+
+\033[1;32mapt-get upgrade: \033[1;39mactualizar todos los paquetes instalados.
+
+\033[1;32mapt-get remove package_name: \033[1;39meliminar un paquete deb del sistema.
+
+\033[1;32mapt-get check: \033[1;39mverificar la correcta resolución de las dependencias.
+
+\033[1;32mapt-get clean: \033[1;39mlimpiar cache desde los paquetes descargados.
+
+\033[1;32mapt-cache search searched-package: \033[1;39mretorna lista de paquetes que corresponde a la serie «paquetes buscados».
+""")
+

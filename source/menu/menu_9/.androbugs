@@ -1,0 +1,51 @@
+import os
+
+os.system("figlet AndroBugs")
+os.system("figlet	Framework")
+
+print("""
+\033[1;33m
+SOBRE ANDROBUG FRAMEWORK:
+\033[1;39m
+AndroBugs Framework es un sistema de análisis de vulnerabilidad de Android que ayuda a los desarrolladores o hackers a encontrar posibles vulnerabilidades de seguridad en las aplicaciones de Android. Sin una interfaz GUI espléndida, pero la más eficiente (menos de 2 minutos por escaneo en promedio) y más precisa.
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update
+$ apt upgrade
+$ apt install git -y
+$ apt install python2 -y
+$ git clone https://github.com/AndroBugs/AndroBugs_Framework.git
+$ cd AndroBugs_Framework
+$ chmod +x *
+\033[1;33m
+METODO DE USO:      
+
+\033[1;32mNos dirigimos a la carpeta donde esta nuestra app:
+\033[1;33mEJEMPLO:
+\033[1;39m
+cd /sdcard/Download
+
+ls
+\033[1;32m
+Buscamos el nombre de nuestra app y la movemos:
+\033[1;39m
+mv app.apk /$HOME/AndroBugs_Framework
+\033[1;32m
+Entramos a la carpeta AndroBugs:
+\033[1;39m
+cd
+
+cd AndroBugs_Framework
+
+ls	  
+\033[1;32m
+Ahora ejecuta este comando:
+\033[1;39m
+python2 androbugs.py -f app.apk -o result.txt
+		    
+\033[1;32m[*]\033[1;39m app.apk es el nombre del apk, result.txt almacenará toda la información. Esto mostrará todos los errores y vulnerabilidades de su aplicación.
+
+\033[1;36mNota:\033[1;39m No uses el $ solo es un ejemplo.
+""")
+

@@ -1,0 +1,47 @@
+print("""
+\033[1;39m
+                           `.--::////::--.`                           
+                     `-:+syhhddddddddddddhhys+:-`                     
+                  -/shddddddddddddddddddddddddddhs+-`                 
+               -+yhddddddddddddddddyhddddddddddddddhy+-               
+            `:yhdddddddddddddddho:`  .+yddddddddddddddhy/`            
+          `/ydddddddddddddddy+.         `:ohdddddddddddddy/`          
+         :ydddddddddddddho:`                -+yddddddddddddy:         
+       `ohdddddddddddy+-                       `:ohdddddddddho`       
+      .sdddddddddds:`                              -+ydddddddds-      
+     -ydddddddy+-             ./+syhhhhys+:.          `:ohdddddy-     
+    .yddddddd.             -ohddddddddddddddho.           +dddddy-    
+   `sdddddddd`           -ydddddddddddddddddddds-         /dddddds`   
+   /hdddddddd`          oddddddddddhhhhdddddddddd+        /ddddddh+   
+  `yddddddddd`         sddddddddo-`    `-oddddy+-         /dddddddy.  
+  :hddddddddd`        +dddddddo`          `+/.            /dddddddh:  
+  +hddddddddd`       `hdddddds                            /dddddddh+  
+  odddddddddd`       .ddddddd/                            /ddddddddo  
+  odddddddddd`       `hddddddo                            /ddddddddo  
+  +hddddddddd`        oddddddd/            -`             /dddddddh+  
+  :yddddddddd`        `hddddddds-`      `:yddy+.          /dddddddh/  
+  .sddddddddd`         .ydddddddddyo++oyddddddddh/        /ddddddds.  
+   /hdddddddd`          `+dddddddddddddddddddddh+         /ddddddh+   
+   `odddddddd`            `+hddddddddddddddddh/`          /dddddds`   
+    .sddddddd/`              ./syddddddddyo/.            -sdddddy-    
+     -sddddddddy+-                `....`             `/sdddddddy-     
+      -shdddddddddhs/`                            -+yddddddddds-      
+       .+hddddddddddddy+-                     `:shddddddddddho.       
+        `:shdddddddddddddhs:`              .+yddddddddddddhs:`        
+          `/shdddddddddddddddy+-       `:ohdddddddddddddhy/`          
+            `/shddddddddddddddddhs:`./ydddddddddddddddhs/.            
+              `-+yhddddddddddddddddddddddddddddddddhy+-`              
+                 `-/oyhddddddddddddddddddddddddhys/-`                 
+                    `.-/+oyyhhhddddddddhhhyys+/-.`                    
+                         ``..-:://////::-..``                         
+                                                               
+
+C es un lenguaje de programación de propósito general​ originalmente desarrollado por Dennis Ritchie entre 1969 y 1972 en los Laboratorios Bell, ​ como evolución del anterior lenguaje B, a su vez basado en BCPL.​​​Al igual que B, es un lenguaje orientado a la implementación de sistemas operativos, concretamente Unix.
+Disciplinas de escritura: Variable estática, weak, Manifest typing, Nominal type system
+
+\033[1;36mVersiones estables:\033[1;39m C18 / junio de 2018; 1 year ago
+\033[1;36mDiseñador:\033[1;39m Dennis Ritchie
+\033[1;36mDesarrollador:\033[1;39m Dennis Ritchie & Bell Labs (creators); ANSI X3J11 (ANSI C); ISO/IEC JTC1/SC22/WG14 (ANSI C)
+\033[1;36mExtensión del nombre del archivo:\033[1;39m c,.h
+""")
+

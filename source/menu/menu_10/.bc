@@ -1,0 +1,15 @@
+figlet bc
+echo -e "\e[1;39m
+bc ( Calculadora básica ) es una utilidad de línea de comandos que ofrece todo lo que espera de una simple calculadora científica o financiera.
+
+\e[1;32mInstalación:
+\e[1;39m$ pkg install bc
+
+\e[1;33mUso:
+\e[1;39m$ bc
+
+\e[1;36mPeso:\e[1;39m 238KB
+\e[1;36mEscrito en:\e[1;39m C
+
+"
+

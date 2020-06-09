@@ -1,0 +1,42 @@
+print("""\033[1;39m
+                            `.:::-.`
+                         .-/osssssso/-`
+                     `.:+ssssssssssssso/-``
+                   `-/ossssssssssssssssssss+:.` 
+               `.:+osssssssssssssssssssssssssso/-`
+            `.:ossssssssssssssssssssssssssssssssso+:.`
+         `-/ossssssssssssssso++////++ossssssssssssssso/-`
+        .+ossssssssssssso/:.``        ``.:+ossssssssssssso/`
+       -ssssssssssssss+-`                  .:ossssssssssssyo`
+       :ysssssssssss+.                       `-osssssssyyyyy-
+       :yssssssssso:                           `/ssyyyyyyyyy-
+       :ysssssssss.          .:/+o++/:`       `:oyyyyyyyyyyy-
+       :yssssssss-         :ossssssssss+. `-/oyyyooyyooyyyyy-
+       :ysssssss+`       `+ssssssssssssssosyyyyso..o+`-syyyy-
+       :ysssssss:        :ssssssssssssyyyyyyyyy+- -/- :+yyyy-
+       :ysssssss.        +sssssssyyyyyyyyyyyyyyo:`os-`oyyyyy-
+       :ysssssss-        /ssssyyhhhhhyyyyyyyyys/ ./: -/syyyy-
+       :ysssssss/        `oyhhhhhhhhhhhhyssyyyys-oyo-oyyyyyy-
+       :yssssssss-        `+hhhhhhhhhhhy: `-+syyyyyyyyyyyyyy-
+       :ysssssssso`         `:osyyyys+-`     `./oyyyyyyyyyyy-
+       :ysssssssyyy-            ````           `+hyyyyyyyyyy-
+       :yssssyyhhhhh+.                        -shhhhhhyyyyyy-
+       -syyhhhhhhhhhhy+-`                  `-ohhhhhhhhhhhyys.
+        :yhhhhhhhhhhhhhhs/-.`          `.:+yhhhhhhhhhhhhhhs.
+         `-+syhhhhhhhhhhhhhyyo++////++syhhhhhhhhhhhhhhyo/.`
+            `./oyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhy+:`
+               `-+shhhhhhhhhhhhhhhhhhhhhhhhhhhys/-`
+                 `./syhhhhhhhhhhhhhhhhhhhhyo:.`
+                     .:oyhhhhhhhhhhhhhhs+-`
+                         `-+syhhhhhhyo/.`
+                             `.:+oo+:.
+		    
+
+\033[1;39mC# es un lenguaje de programación multiparadigma desarrollado y estandarizado por Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA e ISO. C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común.
+
+\033[1;36mVersiones estables:\033[1;39m 8.0
+\033[1;36mDiseñador:\033[1;39m Microsoft
+\033[1;36mPlataforma:\033[1;39m Infraestructura de lenguaje común
+\033[1;36mDisciplinas de escritura:\033[1;39m Static, lenguaje de programación dinámica, Tipado fuerte, Type safety, Nominal type system, partially inferred
+""")
+

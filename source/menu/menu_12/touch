@@ -1,0 +1,15 @@
+print("""
+\033[1;39mUbuntu Touch es un sistema operativo móvil basado en Linux desarrollado por Canonical. Presentado el 2 de enero de 2013 al público mediante un anuncio en la web de Ubuntu, culmina el proceso de Canonical.
+
+\033[1;36mFecha De Lanzamiento: \033[1;39m2 de enero de 2013
+\033[1;36mModelo de desarrollo: \033[1;39mFOSS
+\033[1;36mInterfaz gráfica predeterminada: \033[1;39mUnity 8
+\033[1;36mTipo de núcleo:\033[1;39m Monolítico
+\033[1;36mLanzamiento inicial:\033[1;39m 02 de enero de 2013
+\033[1;36mEscrito en:\033[1;39m C, C++, QML, Python
+       
+\033[1;33mInstalación:
+
+\033[1;39mhttps://blog.desdelinux.net/como-instalar-ubuntu-touch/amp/
+""")
+

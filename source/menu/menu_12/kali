@@ -1,0 +1,14 @@
+print("""
+\033[1;39mKali Linux es una distribución basada en Debian GNU/Linux diseñada principalmente para la auditoría y seguridad informática en general. Fue fundada y es mantenida por Offensive Security Ltd.
+			       
+\033[1;36mFecha del lanzamiento inicial:\033[1;39m 13 de marzo de 2013
+\033[1;36mInterfaz de usuario predeterminada:\033[1;39m Xfce
+\033[1;36mÚltima versión estable:\033[1;39m 2020.2 (Rolling) (info); 12 de mayo de 2020
+\033[1;36mSistema de gestión de paquetes:\033[1;39m dpkg
+\033[1;36mTipo de núcleo:\033[1;39m Monolítico, Micro
+\033[1;36mModelo de desarrollo:\033[1;39m Código abierto
+
+\033[1;33mInstalación:
+\033[1;39m
+https://www.kali.org/
+""")

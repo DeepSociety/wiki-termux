@@ -1,0 +1,36 @@
+print("""\033[1;35mbunzip2 file1.bz2: \033[1;39mdescomprime in fichero llamado ‘file1.bz2’.
+
+\033[1;35mbzip2 file1: \033[1;39mcomprime un fichero llamado ‘file1’.
+
+\033[1;35mgunzip file1.gz: \033[1;39mdescomprime un fichero llamado ‘file1.gz’.
+
+\033[1;35mgzip file1: \033[1;39mcomprime un fichero llamado ‘file1’.
+
+\033[1;35mgzip -9 file1: \033[1;39mcomprime con compresión máxima.
+
+\033[1;35munrar x file1.rar: \033[1;39mdescomprimir archivo rar.
+
+\033[1;35mtar -cvf archive.tar file1: \033[1;39mcrear un tarball descomprimido.
+
+\033[1;35mtar -cvf archive.tar file1 file2 dir1: \033[1;39mcrear un archivo conteniendo ‘file1’, ‘file2′ y’dir1’.
+
+\033[1;35mtar -tf archive.tar: \033[1;39mmostrar los contenidos de un archivo.
+
+\033[1;35mtar -xvf archive.tar: \033[1;39mextraer un tarball.
+
+\033[1;35mtar -xvf archive.tar -C $HOME: \033[1;39mextraer un tarball en home.
+
+\033[1;35mtar -cvfj archive.tar.bz2 dir1: \033[1;39mcrear un tarball comprimido dentro de bzip2.
+
+\033[1,35mtar -xvfj archive.tar.bz2: \033[1;39mdescomprimir un archivo tar comprimido en bzip2
+
+\033[1;35mtar -cvfz archive.tar.gz dir1: \033[1;39mcrear un tarball comprimido en gzip.
+
+\033[1;35mtar -xvfz archive.tar.gz: \033[1;39mdescomprimir un archive tar comprimido en gzip.
+
+\033[1;35mzip file1.zip file1: \033[1;39mcrear un archivo comprimido en zip.
+
+\033[1;35mzip -r file1.zip file1 file2 dir1:\033[1;39m comprimir, en zip, varios archivos y directorios de forma simultánea.
+
+\033[1;35munzip file1.zip: \033[1;39mdescomprimir un archivo zip.
+""")

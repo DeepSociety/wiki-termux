@@ -1,0 +1,12 @@
+figlet tsu
+echo -e "\e[1;39m
+tsu (tsunami) es una envoltura su para el emulador de terminal y paquetes para Android, Termux. tsu se centrará solo en caer en el shell raíz desde termux. Para ejecutar comandos únicos como root, tsu actúa como sudo.
+
+\e[1;32mInstalación:
+\e[1;39m$ pkg install tsu
+
+\e[1;33mUso:
+\e[1;39m$ tsu
+
+\e[1;36mPeso:\e[1;39m 49.2KB
+"

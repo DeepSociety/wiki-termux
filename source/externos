@@ -1,0 +1,16 @@
+rnd=`shuf -i 1-13 -n 1`
+clear
+python source/art/b$rnd
+bash source/.core
+echo -e "
+\e[1;31m[\e[1;39m 1\e[1;31m ]\e[1;39m Termux:Styling
+\e[1;31m[\e[1;39m 2\e[1;31m ]\e[1;39m Termux:Tasker
+\e[1;31m[\e[1;39m 3\e[1;31m ]\e[1;39m Termux:Widget
+\e[1;31m[\e[1;39m 4\e[1;31m ]\e[1;39m Termux:Float
+\e[1;31m[\e[1;39m 5\e[1;31m ]\e[1;39m Termux:Boot
+
+\e[1;31m[\e[1;39m 99\e[1;31m ]\e[1;39m Volver al menú
+"
+bash source/lib/.readpy7
+
+

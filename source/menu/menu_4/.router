@@ -1,0 +1,39 @@
+print("""
+\033[1;31m¿Qué es RouterSploit?
+
+\033[1;39mRouterSploit es un framework que nos permitirá comprobar la seguridad de nuestros routers, puntos de acceso, NAS y otros dispositivos embebidos.
+
+\033[1;33mINSTALACIÓN DE routersploit EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install python git clang -y
+
+pkg install -y make
+
+git clone https://github.com/threat9/routersploit
+
+cd routersploit
+
+python3 -m pip install -r requirements.txt
+
+python3 -m pip install -r requirements-dev.txt
+
+chmod +x *
+
+python3 setup.py install
+
+python3 rsf.py
+
+show all
+
+use scanners/autopwn
+
+show options
+
+set target 192.168.1.1
+
+run
+""")

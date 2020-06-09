@@ -1,0 +1,44 @@
+print("""
+
+\033[1;39mPara hackear facebook con fuerza bruta usaremos 'fbbrute' una herramienta con una inferzas muy sencilla y rapida
+
+
+\033[1;33mInstalación:
+
+\033[1;39mpkg install git -y
+
+pkg install python -y
+
+pkg install python2 -y
+
+git clone https://github.com/Gameye98/FBBrute
+
+cd FBBrute
+
+
+\033[1;32mUso:
+
+\033[1;39mPrimero que nada necesitaremos un diccionario de contraseñas ¿Donde lo enconrramos? Pues en la opción 2 del anterior menú 'Crear Diccionarios' es \033[1;31mOBLIGATORIO \033[1;39mtener uno.
+
+\033[1;33mGenial! Ahora ejecutaremos el programa:
+
+
+\033[1;39mpython2 fbbrute.py
+
+
+Nos saldra una inferaz sencilla con el siguiente formulario:
+
+\033[1;36mEnter [Email|Phone|Username|ID]: \033[1;39mAqui podemos poner cualquiera de estos 3 parametros bien correo, id, o telefono.
+
+\033[1;36mSet PATH to passlist: \033[1;39mAqui pondremos la ruta de nuestro diccionario.
+
+\033[1;33mEjemplo:
+
+\033[1;36mEnter [Email|Phone|Username|ID]: \033[1;39mvictima@correo.com
+
+\033[1;36mSet PATH to passlist:\033[1;39m/data/data/com.termux/files/home/passlist.txt
+
+\033[1;32mPulsamos enter y listo enpezara a probar contraseñas :)
+
+""")
+

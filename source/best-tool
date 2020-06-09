@@ -1,0 +1,16 @@
+clear
+cat source/art/banner09
+bash source/.core
+echo -e "
+\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Generador De Información
+\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m Explotación
+\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Vulnerabilidades
+\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Web Explotación
+\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Password Atacks
+\033[1;31m[\033[1;39m 6\033[1;31m ]\033[1;39m Best-Phishing
+\033[1;31m[\033[1;39m 7\033[1;31m ]\033[1;39m Otros
+
+\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú
+"
+python source/lib/.readpy9
+

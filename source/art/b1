@@ -1,0 +1,41 @@
+print("""
+                                   ...`                                 
+                             .+ss+//oss:`                             
+                         `:oy+-       `:ss+.                          
+                      `/ss/`              -oyo-                       
+                   -+yo:                     `/ys/`                   
+               `:sy+.                           `:sy+.                
+            `/ss/`                                  -+yo-             
+           -h/                                         .ys`           
+          `m-                                        -+ssdo           
+          -d                                      :sdNNNNNd           
+          :d                                  `/ymNNNNNNNNd           
+          :d                               .+hNNNNNNNNNNNNd           
+          :d                            -odNNNNNNNNNNNNNNNd           
+          :d                         :sdNNNNNNNNNNNNNNNNNNd           
+          :d                       +mNNNNNNNNNNNNNNNNNNNNNd           
+          :d                      sNNNNNNNNNNNNNNNNNNNNNNNd           
+          :d                      hNNNNNy`yyNNNNNNNNNNNNNNd           
+          :d                      hNNNNh-.:sNNNNNNNNNNNNNNd           
+          :d                      hNNNh`+NNNNNNNNNNNNNNNNNd           
+          -d                      hNNNy  `./mNNNNNNNNNNNNNd           
+          `m.                     hNNNNdyy- dNNNNNhmNNNNNNs           
+           :d:                    hNNNNNmh./NNmy/-+mNNNNNy`           
+            `+ys:`                hNNNh`` yNNNoodNNNNNmy:             
+               `/yy/.             hNNNNmh/mNNNNNNNNdo-                
+                  `:syo-          hNNNNNNNNNNNNNh+.                   
+                      .+ys:`      hNNNNNNNNNms/`                      
+                         `/sy+.   yNNNNNNdo-                          
+                             -oyo/+mNmy/.                             
+                                `-::.                                 
+                                                              
+
+GNU Bash o simplemente Bash es un lenguaje de comandos y shell de Unix escrito por Brian Fox para el Proyecto GNU como un reemplazo de software libre para el shell Bourne.​
+
+\033[1;36mLicencia:\033[1;39m GPLv3+
+\033[1;36mEscrito en:\033[1;39m C
+\033[1;36mFecha de lanzamiento:\033[1;39m 8 de junio de 1989; hace 30 años
+\033[1;36mVersión estable:\033[1;39m 5.0 (7 de enero de 2019; hace 16 meses)
+\033[1;36mAutor original:\033[1;39m Brian Fox
+\033[1;36mPlataforma:\033[1;39m GNU
+""")		   

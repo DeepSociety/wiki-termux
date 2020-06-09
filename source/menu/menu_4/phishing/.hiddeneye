@@ -1,0 +1,46 @@
+print("""
+
+\033[1;31m¿Qué es HiddenEye?
+
+\033[1;39mHiddenEye es una herramienta de hacking todo en uno que incluye Keylogger, Ingeniería social y Phishing para más de 30 redes sociales, entre las que destaca Facebook, Twitter, Instagram.
+
+\033[1;33mINSTALACIÓN DE HiddenEye EN TERMUX (ANDROID ROOT)
+
+\033[1;39m
+apt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y python
+
+pkg install -y python2
+
+pkg install -y grep
+
+pkg install -y git
+
+pkg install -y openssh
+
+pkg install -y php
+
+pkg install -y curl
+
+pkg install -y wget
+
+git clone https://github.com/DarkSecDevelopers/HiddenEye
+
+cd HiddenEye
+
+pip install -r requirements.txt
+
+python HiddenEye.py
+
+\033[1;36mNota: \033[1;39mSi no eres root usa el siguiente comando:
+
+pkg install proot
+
+proot -w -0 $PREFIX/bin/bash
+
+E ejecutas HiddenEye
+
+""")

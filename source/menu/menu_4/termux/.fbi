@@ -1,0 +1,37 @@
+print("""
+\033[1;31m¿Qué es fbi?
+
+\033[1;39mfbi (facebook information) es un herramienta de información gathering precisa de una cuenta de Facebook. Toda la información confidencial se puede recopilar fácilmente a pesar de que el objetivo/víctima convierta toda su privacidad a (solo para mí), información confidencial sobre residencia, fecha de nacimiento, ocupación, número de teléfono y dirección de correo electrónico.
+
+\033[1;33mINSTALACIÓN DE fbi EN TERMUX 
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+pkg install -y python
+
+pkg install -y python2
+
+git clone https://github.com/xHak9x/fbi
+
+cd fbi
+
+pip2 install -r requirements.txt
+
+python2 fbi.py
+
+token
+
+\033[1;36mESCRIBIR TU CUENTA DE FACEBOOK
+
+\033[1;39mpython2 fbi.py
+
+get_data
+
+help
+
+Y YA PUEDES USAR TODAS SUS OPCIONES.
+""")

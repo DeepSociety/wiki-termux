@@ -1,0 +1,22 @@
+figlet Sublist3r
+echo -e "
+\033[1;39m
+Herramienta \033[37m rapida de\033[31m enumeración de subdominios\033[37m para probadores de penetración Ayuda a los probadores de penetración y cazadores de insectos recopilar y reunir subdominios para el dominio Están apuntando.
+\033[32m
+Instalación:
+\033[37m
+$ apt update
+$ apt upgrade
+$ apt install git
+$ apt install python2
+$ git clone https://github.com/aboul3la/Sublist3r
+$ cd Sublist3r
+$ pip2 install requirements.txt
+$ pip2 install requests
+\033[1;36m
+Uso:
+\033[37m
+$ python2 sublist3r.py
+$ python2 sublist3r.py -h muestra todas las opciones de cómo puedes usar esta herramienta
+$ python2 sublist3r.py -d site.com -d = nombre de dominio
+"

@@ -1,0 +1,9 @@
+echo Escribe la ruta del archivo:
+read file
+
+if [ -f $file ];then # -f Sirve para verificar archivos SOLO ARCHIVOS
+echo Existe
+else
+echo No existe
+fi
+

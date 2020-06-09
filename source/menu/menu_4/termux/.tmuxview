@@ -1,0 +1,33 @@
+print("""
+\033[1;31m¿Qué es tmux-viewer?
+
+\033[1;39mtmux-viewer es una herramienta que sirve para compartir terminales remotamente, es decir, realiza una conexion remota Termux a Termux al estilo team viewer.
+Es muy fácil de usar, aunque destruirá la conexión una vez que el cliente se desconecte, a su vez se mantiene el anonimato de ambos dispositivos bajo el tunel SERVEO.
+
+\033[1;33mINSTALACIÓN DE Termux Viewer EN TERMUX
+
+\033[1;36mDescargar el siguiente script: \033[1;39m[ http://www.mediafire.com/file/zerbclq22c9lhws/tmux-viewer/file ]
+
+\033[1;33mAbrir Termux y escribir los siguientes comandos:
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+cd /sdcard/download
+
+mv tmux-viewer $HOME
+
+cd
+
+chmod 777 tmux-viewer
+
+unset LD_PRELOAD
+
+./tmux-viewer
+
+\033[1;36mVER EL SIGUIENTE VIDEO: \033[1;39m[ https://youtu.be/j88gokzC1S4 ]
+
+\033[1;33mBy: Ivam3ByCendirella
+\033[1;34mhttps://www.youtube.com/channel/UCVc5r22k1Tpow8LgBu-z4tg
+""")

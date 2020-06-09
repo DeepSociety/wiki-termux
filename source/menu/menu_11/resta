@@ -1,0 +1,7 @@
+#!/bin/bash
+echo Primer numero
+read a
+echo Segundo numero
+read b
+x=$(($a - $b))
+echo $a - $b = $x

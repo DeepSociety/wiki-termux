@@ -1,0 +1,44 @@
+print("""
+
+\033[1;33m¿Qué es ngrok?
+
+\033[1;39mNgrok es una herramienta que permite acceder nuestro servidor local a cualquier persona en internet con la que compartamos una url generada dinamicamente.
+
+\033[1;33mInstalación:
+
+\033[1;39mpkg install git -y
+
+git clone https://github.com/PSecurity/ps.ngrok
+
+cd ps.ngrok
+
+\033[1;32mBien!
+
+\033[1;39mAhora tendremos que registrarnos o iniciar sesión en la pagina de ngrok\033[1;31m ¿Para Que?\033[1;39m Pues necesitamos un authtoken que nos proporciona la pagina.
+
+Accedemos a nuestro navegador favorito y vamos a la siguiente url:
+
+https://ngrok.com
+
+Una ves ahi pulsaremos 'login' o 'sign up'
+
+\033[1;33mBien ya ingresado a la pagina:
+
+\033[1;39mCopiaremos el authtoken 'Connect your account'
+
+Una ves copiado volvemos a nuestra terminal entramos a la carpeta 'ps.ngrok' y ejecutamos el ngrok:
+
+\033[1;36mcd \033[1;39m ps.ngrok
+
+chmod +x *
+
+./ngrok authtoken tutoken
+
+\033[1;32mListo ngrok instalado para ejecutarlo:
+	 
+\033[1;39m./ngork http 3333
+./ngrok http 4444
+./ngrok tcp 3333
+""")
+
+

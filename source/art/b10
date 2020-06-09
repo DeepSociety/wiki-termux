@@ -1,0 +1,46 @@
+print("""\033[1;39m
+
+                                          `..`                        
+                                            -/:.                      
+                                             .///-`                   
+               `.`                            ./+//-`                 
+                `--`                           .//+//-`               
+       .-`        -/-`                          -+++++/.              
+       `.::.       `:/-`                         /++++++:`            
+          .//-`      -+/:`                       .+++++++/.           
+           `:+/:.     ./++:.                     `/++++++++.          
+             ./++/-`   `-/++/-`                   -+++++++++-         
+              `-++++:.   `:+++/-`                 .++++++++++-`       
+                `:++++/-```./++++/-`              .+++++++++++.       
+                 `./+++++/-``:+++++/-.            .+++++++++++/`      
+                   `-+++++++:..:o+++++/-`         -o+++++++++++-      
+                     `:+o+o+o++::/++++o++:.`      /oo+++++++ooo+`     
+                       ./+oooooo+++ooooooo++:.`  .+ooooooooooooo-     
+                         ./oooooooooooooooooo++:./oooooooooooooo:`    
+                          `./ooooooooooooooooooooooooooooooooooo/     
+                            `./ooooooooooooooooooooooooooooooooo/     
+                               ./ooooooooooooooooooooooooooooooo:     
+..`                              .:ooooooooooooooooooooooooooooo.`    
+`-/:.``                            `-+ooooooooooooooooooooooooo+``    
+  `/oo+:.``                          `-oooooooooooooooooooooooo+.     
+    .+osoo+/:..```             ```.-:+ooooooooooooooooooooooooooo:`   
+     `-+ooosssoo++/::-------:://+oosssooooooooooooooooooooooooosso:   
+       `-+ossssssssssssssooosssssssssssssssssssssssssssssssssssssss:` 
+          ./osssssssssssssssssssssssssssssssssssssssssssssssssssssss- 
+            `-/ossssssssssssssssssssssssssssssssssssssssssssssssssss+`
+               `-:+sssssssssssssssssssssssssssssssssssoo+/:::/+osssss.
+                   `-/+osssssssssssssssssssssssssso/-.`        `./osy-
+                        `-:/+osssssssssssssso++:-`                `+y-
+                            ` ```.........``                       `:`
+
+
+\033[1;39mSwift es un lenguaje de programación multiparadigma creado por Apple enfocado en el desarrollo de aplicaciones para iOS y macOS. Fue presentado en la WWDC 2014​ y está diseñado para integrarse con los Frameworks Cocoa y Cocoa Touch; puede usar cualquier biblioteca programada en Objective-C y llamar a funciones de C. Wikipedia
+		       
+\033[1;36mDiseñado por: \033[1;39mChris Lattner, Doug Gregor, John McCall, Ted Kremenek, Joe Groff, and Apple Inc.​
+\033[1;36mÚltima versión estable:\033[1;39m 5.1.5​ (09 de marzo de 2020)
+\033[1;36mSistema operativo:\033[1;39m macOS, iOS,iPadOS, watchOS, tvOS, GNU/Linux, FreeBSD
+\033[1;36mLicencia:\033[1;39m Apache 2.0
+\033[1;36mParadigma:\033[1;39m Multiparadigma (Orientado a protocolos, objetos, funcional, programación imperativa)
+\033[1;36mInfluido por:\033[1;39m C#,​ CLU,​ D,​ Haskell, Objective-C, Python, Rust, Ruby
+""")
+

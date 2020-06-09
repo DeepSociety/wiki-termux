@@ -1,0 +1,34 @@
+print("""\033[1;39m                                                     
+                                                                      
+                             `.--::::--.`                             
+                          `/o++oooooooooo+-                           
+                          :o/  -ooooooooooo-                          
+                          :oo/:oooooooooooo:                          
+                          .::::::::oooooooo:                          
+                   .:+ooooooooooooooooooooo:`----.`                   
+                  :oooooooooooooooooooooooo:`------.                  
+                 .ooooooooooooooooooooooooo-.-------`                 
+                 :ooooooooooooooooooooooo+-`--------.                 
+                 /ooooooooo/-.............----------.                 
+                 :oooooooo..------------------------.                 
+                 .ooooooo-.-------------------------`                 
+                  :oooooo..------------------------`                  
+                   .:++++..----------------------.`                   
+                          .--------........`                          
+                          .------------..--.                          
+                          `-----------`  --`                          
+                           `.------------.`                           
+                              ```....```                              
+                                                                      
+
+Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​ Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional.
+
+\033[1;36mSistema de tipos:\033[1;39m Fuertemente tipado, dinámico
+\033[1;36mÚltima versión estable: \033[1;39m3.8.2​
+\033[1;36mParadigma: Multiparadigma:\033[1;39m orientado a objetos, imperativo, funcional, reflexivo
+\033[1;36mDiseñador:\033[1;39m Guido van Rossum
+\033[1;36mInfluido por:\033[1;39m ABC, ALGOL 68, C, Haskell, Icon, Lisp, Modula-3, Perl, Smalltalk, Java
+\033[1;36mLicencia:\033[1;39m Python Software Foundation License.
+			   
+""")
+

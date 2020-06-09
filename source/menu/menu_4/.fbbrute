@@ -1,0 +1,40 @@
+print("""
+\033[1;31m¿Qué es Facebook_brute?
+
+\033[1;39mFacebook_brute es una herramienta que realiza ataques de fuerza bruta a cuentas de Facebook con solo escribir el ID de tu víctima.
+
+\033[1;33mINSTALACIÓN DE Facebook_brute EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y python
+
+pkg install -y python2
+
+pkg install -y python2-dev
+
+pkg install pip2
+
+pip2 install mechanize
+
+pkg install -y git
+
+git clone https://github.com/perjayro/Facebook_brute.git
+
+cd Facebook_brute
+
+chmod +x brute.py
+
+python2 brute.py
+
+Pegar la ID de la victima: 100068592351860
+
+\033[1;32mSeleccionar tu diccionario y pulsar enter.
+
+\033[1;39mpass.txt
+pass1.txt
+pass2.txt
+pass3.txt
+""")

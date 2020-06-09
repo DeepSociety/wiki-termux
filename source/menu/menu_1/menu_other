@@ -1,0 +1,22 @@
+print("""\033[1;33mapropos …keyword: \033[1;39mmostrar una lista de comandos que pertenecen a las palabras claves de un programa; son útiles cuando tú sabes qué hace tu programa, pero de sconoces el nombre del comando.
+
+\033[1;32mman ping: \033[1;39mmostrar las páginas del manual on-line; por ejemplo, en un comando ping, usar la opción ‘-k’ para encontrar cualquier comando relacionado.
+
+\033[1;31mwhatis …keyword: \033[1;39mmuestra la descripción de lo que hace el programa.
+
+\033[1;34mgpg -c file1: \033[1;39mcodificar un fichero con guardia de seguridad GNU.
+
+\033[1;35mgpg file1.gpg: \033[1;39mdecodificar un fichero con Guardia de seguridad GNU.
+
+\033[1;36mwget -r www.example.com: \033[1;39mdescargar un sitio web completo.
+
+\033[1;32mwget -c www.example.com/file.iso: \033[1;39mdescargar un fichero con la posibilidad de parar la descargar y reanudar más tarde.
+	 
+\033[1;34mecho ‘wget -c www.example.com/files.iso‘ | at 09:00: \033[1;39mComenzar una descarga a cualquier hora. En este caso empezaría a las 9 horas.
+
+\033[1;33mldd /usr/bin/ssh: \033[1;39mmostrar las bibliotecas compartidas requeridas por el programa ssh.
+
+\033[1;32mchsh: \033[1;39mcambiar el comando Shell.
+
+\033[1;31mchsh –list-shells: \033[1;39mes un comando adecuado para saber si tienes que hacer remoto en otra terminal.
+""")

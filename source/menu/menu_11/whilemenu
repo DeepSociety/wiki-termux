@@ -1,0 +1,40 @@
+#!/bin/bash
+DELAY=1
+while true; do
+    clear
+	cat << EOF
+        Selecciona una opción:
+        1. Mostrar información del sistem
+        2. Mostrar espacio utilizado
+        3. Mostrar espacio utilizado home
+        0. Salir
+EOF
+    read -p "Selecciona una opción [0-3] > "
+    case "$REPLY" in
+        0)
+            break
+            ;;
+        1)
+            echo "Hostname: $HOSTNAME"
+            uptime
+            ;;
+        2)
+            df -h
+            ;;
+        3)
+            if [[ $(id -u) -eq 0 ]]; then
+                echo "Home espacio utilizado"
+                du -sh /home/*
+            else
+                echo "Home Espacio Utilizado $USER"
+                du -sh $HOME
+            fi
+            ;;
+        *)
+            echo "Opción invalida"
+            ;;
+    esac
+    sleep "$DELAY"
+done
+echo "Adios"
+

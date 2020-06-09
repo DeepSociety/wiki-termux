@@ -1,0 +1,43 @@
+print("""\033[1;39m                  
+                                        .                             
+                                        --                            
+                                        :-                            
+                                       :/.                            
+                                     .:/-                             
+                                   .://.                              
+                                 .://-`    ``                         
+                              `-///-`  `--.`                          
+                            `:///-   .::.                             
+                           -///.   `:/-                               
+                          -//:`   `///                                
+                          ///`    .///`                               
+                          ://`    `///:`                              
+                          `:/-     `////`                             
+                            -/-     `://:                             
+                             `--`    `//-                             
+                      `.-..`    ``   `/.         `-:+/-               
+                  `+sys-             `       `      `sho              
+                  `:+syyyso++///::::///++ossso/.     +hh`             
+                        `..--:::::::::--..`         -yh/              
+                     ./os.                        .+y+.               
+                     -oyyhyso++////+++oosyys:  `://-                  
+                         `.-::://///:::-.`     `                      
+                        `-/`                                          
+                `.--.` `shhyso+++++++osso/`                           
+             .+sy+`      `-:/++ooooo++/:-`         -                  
+             ohhhy/-.`                        `.:+yo`                 
+              `:/+syyhysoo+///:::::::///++ossss+/-``-/-               
+                      `..--::::////::::--..```.-/+++-`                
+                    `..---:::::::////////+++//:-`                     
+                                                                      
+                                                        
+Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán, probablemente, a menos que tengan Java instalado y cada día se crean más. Java es rápido, seguro y fiable.
+			    
+\033[1;36mSistema de tipos:\033[1;39m Fuerte, estático
+\033[1;36mDiseñador: \033[1;39mJames Gosling
+\033[1;36mInfluido por:\033[1;39m Pascal, C++, Objective-C
+\033[1;36mÚltima versión estable:\033[1;39m Java Standard Edition 14.0.1​ (14 de abril de 2020 (21 días))
+\033[1;36mLicencia:\033[1;39m GNU GPL / Java Community Process
+\033[1;36mParadigma:\033[1;39m Orientado a objetos, imperativo
+""")
+

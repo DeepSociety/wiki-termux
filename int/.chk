@@ -1,0 +1,7 @@
+import os
+
+if __name__=="__main__":
+	print("\033[1;39mPorfavor ejecuta\033[1;33m home.sh")
+	os.system("exit")
+else:
+	os.system("bash /data/data/com.termux/files/home/wiki-termux/int/.chk")

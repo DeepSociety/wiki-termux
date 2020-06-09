@@ -1,0 +1,29 @@
+echo "
+Selecciona una opción:
+	1. Listar
+	2. Ver la ruta
+	3. Crear archivo
+
+	99. Salir
+"
+
+read -p "Opción > " a
+
+if [ $a == "1" ];then
+ls
+
+elif [ $a == "2" ];then
+pwd
+
+elif [ $a == "3" ];then
+echo Nombre del archivo: 
+read name
+>> $name
+
+elif [ $a == "99" ];then
+exit
+
+else
+echo Opción invalida
+
+fi

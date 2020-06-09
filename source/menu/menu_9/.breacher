@@ -1,0 +1,42 @@
+import os
+os.system("figlet Breacher")
+print("""
+\033[1;33m
+SOBRE BREACHER:
+\033[1;39m
+Un script para encontrar páginas de inicio de sesión de administrador y vulnerabilidades EAR.
+\033[1;32m 
+CARACTERISTICAS: 
+\033[1;39m
+• Multihilos bajo demanda 
+• Gran lista de rutas (482 rutas) 
+• Admite extensiones php, asp y html 
+• Comprueba posibles vulnerabilidades EAR 
+• Verificaciones para robots.txt 
+• Soporte para parches personalizados
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install python2 -y
+$ apt install python -y
+$ git clone https://github.com/s0md3v/Breacher.git 
+$ cd Breacher
+\033[1;33m
+MÉTODO DE USO:
+\033[1;39m
+$ python2 breacher.py 
+\033[1;33m
+Uso: 
+\033[1;39m
+• Verifique todas las rutas con extensión php: python breacher -u example.com - tipo php 
+• Verifique todas las rutas con extensión php con hilos: python breacher -u example.com - tipo php - rápido 
+• Verifique todas las rutas sin hilos: python breacher -u example.com 
+• Agregar una ruta personalizada.
+ 
+Por ejemplo, si desea que todas las rutas comiencen con /data (example.com/data / ...) puede hacer esto: python breacher -u example.com --path /data 
+
+\033[1;36mNota: \033[1;39mCuando especifica una extensión usando la opción --type, Breacher incluye rutas de esa extensión, así como rutas sin extensiones como /admin/login
+""")
+

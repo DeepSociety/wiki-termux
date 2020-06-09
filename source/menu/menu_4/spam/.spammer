@@ -1,0 +1,17 @@
+print("""
+ 
+\033[1;33m¿Que es spammer-grab?
+
+\033[1;39mEs una secuencia de comandos que se utiliza para enviar código de activación de spam o GAC a un número de teléfono.
+ 
+\033[1;33mInstalación:
+
+\033[1;39mapt update && upgrade
+
+pkg install python
+
+git clone https://github.com/p4kl0nc4t/Spammer-Grab
+
+cd Spammer-Grab
+
+

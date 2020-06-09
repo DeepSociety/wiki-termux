@@ -1,0 +1,35 @@
+clear
+cat source/art/banner11
+echo
+bash source/.core
+echo -e "
+\e[1;31m[\e[1;39m 1\e[1;31m ]\e[1;39m Simple Calculadora
+\e[1;31m[\e[1;39m 2\e[1;31m ]\e[1;39m Colores
+\e[1;31m[\e[1;39m 3\e[1;31m ]\e[1;39m Contar lineas
+\e[1;31m[\e[1;39m 4\e[1;31m ]\e[1;39m Copiar contenido
+\e[1;31m[\e[1;39m 5\e[1;31m ]\e[1;39m Ctrl c presionado
+\e[1;31m[\e[1;39m 6\e[1;31m ]\e[1;39m Division
+\e[1;31m[\e[1;39m 7\e[1;31m ]\e[1;39m Hello world!
+\e[1;31m[\e[1;39m 8\e[1;31m ]\e[1;39m Menú con if
+\e[1;31m[\e[1;39m 9\e[1;31m ]\e[1;39m Menú con case
+\e[1;31m[\e[1;39m 10\e[1;31m ]\e[1;39m Menú con funciones
+\e[1;31m[\e[1;39m 11\e[1;31m ]\e[1;39m Menú con while
+\e[1;31m[\e[1;39m 12\e[1;31m ]\e[1;39m Menú Interactivo
+\e[1;31m[\e[1;39m 13\e[1;31m ]\e[1;39m Multiplicación
+\e[1;31m[\e[1;39m 14\e[1;31m ]\e[1;39m Obtener temperatura
+\e[1;31m[\e[1;39m 15\e[1;31m ]\e[1;39m Par Impar
+\e[1;31m[\e[1;39m 16\e[1;31m ]\e[1;39m Peso de un directorio
+\e[1;31m[\e[1;39m 17\e[1;31m ]\e[1;39m Resta	 
+\e[1;31m[\e[1;39m 18\e[1;31m ]\e[1;39m Random emoji
+\e[1;31m[\e[1;39m 19\e[1;31m ]\e[1;39m Spinner animación 
+\e[1;31m[\e[1;39m 20\e[1;31m ]\e[1;39m Suma		 
+\e[1;31m[\e[1;39m 21\e[1;31m ]\e[1;39m Tabla		 
+\e[1;31m[\e[1;39m 22\e[1;31m ]\e[1;39m Combertir texto en minusculas
+\e[1;31m[\e[1;39m 23\e[1;31m ]\e[1;39m Verificar si una carpeta existe
+\e[1;31m[\e[1;39m 24\e[1;31m ]\e[1;39m Verificar si un archivo existe
+\e[1;31m[\e[1;39m 25\e[1;31m ]\e[1;39m While-Loop (contar)
+
+\e[1;31m[\e[1;39m 99\e[1;31m ]\e[1;39m Volver al menú
+"
+python source/lib/.readpy11
+

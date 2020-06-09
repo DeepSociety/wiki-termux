@@ -1,0 +1,90 @@
+import os
+import time
+
+def f():
+ a = input("PRESIONA ENTER PARA CONTINUAR...")
+ if a != "₩":
+  os.system("bash source/best-package")
+ else:
+  os.system("bash source/best-package")
+
+try:
+ b = input("\033[1;31mBEST-\033[1;39mPACKAGE > ")
+ if b == "1" or b == "01":
+  os.system("bash source/menu/menu_10/.axel")
+  f()
+
+ elif b == "2" or b == "02":
+  os.system("bash source/menu/menu_10/.bc")
+  f()
+
+ elif b == "3" or b == "03":
+  os.system("bash source/menu/menu_10/.busy")
+  f()
+
+ elif b == "4" or b == "04":
+  os.system("bash source/menu/menu_10/.curl")
+  f()
+
+ elif b == "5" or b == "05":
+  os.system("bash source/menu/menu_10/.figlet")
+  f()
+
+ elif b == "6" or b == "06":
+  os.system("bash source/menu/menu_10/.httrack")
+  f()
+
+ elif b == "7" or b == "07":
+  os.system("bash source/menu/menu_10/.lynx")
+  f()
+
+ elif b == "8" or b == "08":
+  os.system("bash source/menu/menu_10/.nano")
+  f()
+
+ elif b == "9" or b == "09":
+  os.system("bash source/menu/menu_10/.neo")
+  f()
+
+ elif b == "10":
+  os.system("bash source/menu/menu_10/.proot")
+  f()
+
+ elif b == "11":
+  os.system("bash source/menu/menu_10/.tmux")
+  f()
+
+ elif b == "12":
+  os.system("bash source/menu/menu_10/.tor")
+  f()
+
+ elif b == "13":
+  os.system("bash source/menu/menu_10/.tree")
+  f()
+
+ elif b == "14":
+  os.system("bash source/menu/menu_10/.tsu")
+  f()
+
+ elif b == "15":
+  os.system("bash source/menu/menu_10/.w3m")
+  f()
+
+ elif b == "16":
+  os.system("bash source/menu/menu_10/.wget")
+  f()
+
+ elif b == "17":
+  os.system("bash source/menu/menu_10/.nmap")
+  f()
+
+ elif b == "99":
+  os.system("bash wiki")
+ else:
+  print("\033[1;31m[!]\033[1;39m Opción invalida > ",b)
+  time.sleep(0.5)
+  os.system("bash source/best-package")
+
+except KeyboardInterrupt:
+ print("\n\033[1;39mCtrl c presionado")
+

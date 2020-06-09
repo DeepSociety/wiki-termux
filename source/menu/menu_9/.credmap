@@ -1,0 +1,50 @@
+import os
+os.system("figlet Credmap")
+print("""
+\033[1;33m
+SOBRE CREDMAP:
+\033[1;39m
+Credmap es una herramienta de código abierto que se creó para dar a conocer los peligros de la reutilización de credenciales. 
+Es capaz de probar las credenciales de usuario proporcionadas en varios sitios web conocidos para probar si la contraseña se ha reutilizado en alguno de estos.
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install python2 -y
+$ apt install python -y
+$ git clone https://github.com/lightos/credmap.git 
+$ cd credmap 
+$ chmod +x * 
+\033[1;32m
+MÉTODO DE USO:
+\033[1;39m
+credmap.py --email EMAIL | --usuario USUARIO | --load LIST [opciones] 
+\033[1;36m
+Opciones: 
+\033[1;39m
+-h / - Mensaje de ayuda
+-v / - muestra información detallada de salida adicional 
+-u / - username = USER .. configura el nombre de usuario para probar con 
+-p / - contraseña = PASS ... establece la contraseña para probar
+-e / - email = EMAIL establece un correo electrónico para probar 
+-l / - load = LOAD_FILE carga la lista de credenciales en formato EMAIL:CONTRASEÑA 
+-f / - format = CRED_F .. formato para usar cuando se lee desde un archivo (por ejemplo, u | e: p) 
+-x / - exclude = EXCLUIR excluir sitios de pruebas 
+-o / - only = SOLO prueba solo sitios listados 
+-s / - safe-urls solo prueba sitios que usan HTTPS. 
+-i / - ignore-proxy ignora el proxy HTTP predeterminado del sistema 
+--proxy = PROXY set proxy (por ejemplo, "socks5: //192.168.1.2: 9050") 
+\033[1;36m
+EJEMPLOS: 
+\033[1;39m
+python2 credmap.py --username janedoe --email janedoe@email.com 
+python2 credmap.py -u johndoe -e johndoe@email.com --excluye "github.com, live.com" 
+python2 credmap.py -u johndoe -p abc123 -vvv --solo "linkedin.com, facebook.com" 
+python2 credmap.py -e janedoe@example.com --verbose --proxy "https://127.0.0.1:8080" 
+python2 credmap.py --load creds.txt --format "e.u.p" 
+python2 credmap.py -l creds.txt -f "u | e: p" 
+python2 credmap.py -l creds.txt 
+python2 credmap.py --list
+""")
+

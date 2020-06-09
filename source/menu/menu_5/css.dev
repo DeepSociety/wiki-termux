@@ -1,0 +1,13 @@
+if [[ -f curso-css-avanzado.pdf ]];then
+rm curso-css-avanzado.pdf
+fi                                                                         
+read -p $'\e[1;32mInserta la ruta a guardar el curso(\e[1;39mEjemplo: /sdcard\e[1;32m)\e[1;39m > ' ruta
+echo -e "\e[1;32m[*]\e[1;39m Descargando curso css avanzado..."
+wget http://www.uco.es/~lr1maalm/css_avanzado.pdf -O curso-css-avanzado.pdf -o log
+if [[ -f log ]];then
+rm log
+fi
+mv curso-css-avanzado.pdf $ruta
+clear
+echo -e "\e[1;33m[*]\e[1;39m Curso guardado $ruta/curso-css-avanzado.pdf"
+

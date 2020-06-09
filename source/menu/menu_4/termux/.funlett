@@ -1,0 +1,23 @@
+print ("""
+\033[1;31m¿Qué es Funlett?
+
+\033[1;39mFunlett es una herramienta que nos permite crear banners de texto automáticamente, tiene 38 tipos de letra, y 8 colores los cuales puedes seleccionar a tu gusto, además, también puedes crear un script con el banner de texto que hayas seleccionado.
+
+\033[1;33mINSTALACIÓN DE Funlett EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+git clone https://github.com/TermuxHacking000/Funlett
+
+cd Funlett
+
+chmod 711 install.sh
+
+./install.sh
+
+./Funlett.sh
+""")

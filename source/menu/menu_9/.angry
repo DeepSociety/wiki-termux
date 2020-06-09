@@ -1,0 +1,59 @@
+import os
+os.system("figlet AngryFuzzer")
+print("""
+\033[1;33m
+SOBRE ANGRYFUZZER:
+\033[1;39m
+AngryFuzz3r es una colección de herramientas para pentesting para recopilar información y descubrir vulnerabilidades de los objetivos basadas en Fuzzedb. 
+\033[1;32m
+
+CARACTERISTICAS:
+\033[1;39m
+ • URL de fuzz establecida desde un archivo de entrada
+ • Búsqueda de ruta relativa concurrente
+ • Número configurable de trabajadores difusos
+ • Fuzz CMS ==> Wordpress, Durpal, Joomla
+ • Generar informes de las rutas válidas.
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade
+$ apt install git -y
+$ apt install python -y
+$ git clone https://github.com/ihebski/angryFuzzer.git
+$ cd angryFuzzer
+$ pip install -r requirements.txt
+$ pip install requests
+$ chmod +x *
+$ python angryFuzzer.py
+\033[1;33m
+MÉTODO DE USO:
+\033[1;39m
+$ python angryFuzzer.py -h 
+uso: angryFuzzer.py [opciones] 
+
+opciones:
+ -h, - Muestra mensaje de ayuda.
+
+-q, - Modo silencioso silencioso, solo informa.
+
+-u URL, --url = URL URL del destino.
+ 
+-c CMS, --cms = CMS scan CMS ==> wp, dp
+
+ -w WORDLIST, --wordlist = WORDLIST Lista de palabras personalizada 
+\033[1;32m
+Ejemplos:
+\033[1;39m
+• Fuzzing una url con diccionario predeterminado:
+$ python angryFuzzer.py -u http://127.0.0.1 
+				      
+• CMS difuso (wp: ¡en este ejemplo!):
+python angryFuzzer.py -u http://127.0.0.1 --cms wp 
+
+• Difuminar una lista de palabras personalizada:
+python angryFuzzer.py -u http://127.0.0.1 -w fuzzdb / discovery / predictable-filepaths / php / PHP.txt
+
+\033[1;36mNota:\033[1;39mNo uses $ solo es un ejemplo.  
+""")
+

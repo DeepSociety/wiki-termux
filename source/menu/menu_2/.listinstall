@@ -1,0 +1,11 @@
+apt list --installed
+echo
+
+read -p "PRESIONA ENTER PARA CONTINUAR..." ps
+
+if [[ $ps != ₩ ]];then
+bash source/librerias
+else
+bash source/librerias
+fi
+

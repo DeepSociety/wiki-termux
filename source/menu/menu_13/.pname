@@ -1,0 +1,43 @@
+import os
+os.system("figlet Wiki-Termux")
+print("""
+\033[1;32mEjemplo:\033[1;39m De como quedara.\033[1;36m ^^^^ \n
+\033[1;33m¿Qué usaremos?
+\033[1;39m
+Figlet es una aplicación informática que genera banners de texto, en varias tipografías, formadas por letras compuestas por conglomerados de caracteres ASCII más pequeños.
+\033[1;32m
+PAQUETES NECESARIOS:
+\033[1;39m
+pkg install figlet -y
+
+pkg install nano -y
+\033[1;36m
+LISTA DE COLORES:
+\033[1;39m
+""")
+os.system("cat source/menu/menu_13/.colores") 
+print("""
+\033[1;32m
+PROCEDIMIENTO:
+\033[1;36m
+Entramos a la carpeta etc, para editar el archivo bash.bashrc:
+\033[1;39m
+cd /data/data/com.termux/files/usr/etc
+\033[1;36m
+Aqui eliminaremos el archivo motd:
+\033[1;39m
+rm motd
+\033[1;36m
+Abrimos el archivo bash.bashrc:
+\033[1;39m
+nano bash.bashrc
+\033[1;32m
+Aqui buscaremos una variable llamada PS1, una ves ubicada escribiremos abajo lo siguiente:
+\033[1;39m""")
+os.system("cat source/menu/menu_13/.ar")
+print("""
+\033[1;33mUna ves hecho esto guardaremos el archivo con CTRL+c luego y
+
+Bien abrimos nueva ventana y listo ya tendremos personalizado nuestro termux
+\033[1;39m
+""")

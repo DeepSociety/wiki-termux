@@ -1,0 +1,14 @@
+if [[ -f curso-python-avanzado.pdf ]];then
+rm curso-python-avanzado.pdf
+fi
+read -p $'\e[1;32mInserta la ruta a guardar el curso(\e[1;39mEjemplo: /sdcard\e[1;32m)\e[1;39m > ' ruta
+echo -e "\e[1;32m[*]\e[1;39m Descargando curso python avanzado..."
+wget http://do1.dr-chuck.net/py4inf/ES-es/book.pdf -O curso-python-avanzado.pdf -o log
+
+if [[ -f log ]];then
+rm log
+fi
+mv curso-python-avanzado.pdf $ruta
+clear
+echo -e "\e[1;33m[*]\e[1;39m Curso guardado $ruta/curso-python-avanzado.pdf"
+

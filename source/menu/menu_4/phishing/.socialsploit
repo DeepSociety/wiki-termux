@@ -1,0 +1,29 @@
+print("""
+\033[1;31m¿Qué es SocialSploit?
+
+\033[1;39mSocialSploit es una herramienta que se utiliza para robar las credenciales de un usuario haciéndose pasar por un sitio web original y tiene 21 plantillas preconfiguradas.
+
+\033[1;33mINSTALACIÓN DE SocialSploit EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+git clone https://github.com/Cesar-Hack-Gray/SocialSploit
+
+cd SocialSploit
+
+bash install.sh
+
+./Sploit
+
+\033[1;32m[SELECCIONA UNA OPCIÓN Y PULSA ENTER]
+
+EJEMPLO...
+
+02
+
+\033[1;39mCopia el enlace y envialo a la víctima.
+""")

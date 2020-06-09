@@ -1,0 +1,34 @@
+print("""\033[1;36mls -lh: \033[1;39mMostrar permisos.
+
+\033[1;36mchmod +x fichero: \033[1;39mDar permisos a un fichero
+
+\033[1;36mchmod +x *: \033[1;39mDar permisos a todos los ficheros.
+
+\033[1;36mls $HOME | pr -T5 -W$COLUMNS: \033[1;39mdividir la terminal en 5 columnas.
+
+\033[1;36mchmod ugo+rwx directory1: \033[1;39mcolocar permisos de lectura, escritura (w) y ejecución(x) al propietario (u), al grupo (g) y a otros (o) sobre el directorio ‘directory1’.
+
+\033[1;36mchmod go-rwx directory1: \033[1;39mquitar permiso de lectura, escritura (w) y (x) ejecución al grupo (g) y otros (o) sobre el directorio ‘directory1’.
+
+\033[1;36mchown user1 file1: \033[1;39mcambiar el dueño de un fichero.
+
+\033[1;36mchown -R user1 directory1: \033[1;39mcambiar el propietario de un directorio y de todos los ficheros y directorios contenidos dentro.
+
+\033[1;36mchgrp group1 file1: \033[1;39mcambiar grupo de ficheros.
+
+\033[1;36mchown user1:group1 file1: \033[1;39mcambiar usuario y el grupo propietario de un fichero.
+
+\033[1;36mfind / -perm -u+s: \033[1;39mvisualizar todos los ficheros del sistema con SUID configurado.
+
+\033[1;36mchmod u+s /bin/file1: \033[1;39mcolocar el bit SUID en un fichero binario. El usuario que corriendo ese fichero adquiere los mismos privilegios como dueño.
+
+\033[1;36mchmod u-s /bin/file1: \033[1;39mdeshabilitar el bit SUID en un fichero binario.
+
+\033[1;36mchmod g+s /home/public: \033[1;39mcolocar un bit SGID en un directorio –similar al SUID pero por directorio.
+
+\033[1;36mchmod g-s /home/public: \033[1;39mdesabilitar un bit SGID en un directorio.
+
+\033[1;36mchmod o+t /home/public: \033[1;39mcolocar un bit STIKY en un directorio. Permite el borrado de ficheros solamente a los dueños legítimos.
+
+\033[1;36mchmod o-t /home/public: \033[1;39mdesabilitar un bit STIKY en un directorio.
+""")

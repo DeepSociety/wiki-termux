@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+read -p "Nombre del archivo : " archivo
+for F in $archivo
+do
+	if [[ -f $F ]]
+	then
+		echo $F: $(cat $F | wc -l)
+	fi
+done

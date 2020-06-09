@@ -1,0 +1,11 @@
+clear
+python source/art/banner12
+bash source/.core
+echo -e "
+\e[1;31m [\e[1;39m 1\e[1;31m ]\e[1;39m PC
+\e[1;31m [\e[1;39m 2\e[1;31m ]\e[1;39m Movil 
+
+\e[1;31m [\e[1;39m 99\e[1;31m ]\e[1;39m Volver al menú
+"
+python source/lib/.readpy12
+

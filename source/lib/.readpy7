@@ -1,0 +1,106 @@
+read -p $'\e[1;31mWIKI\e[1;39m-ENLACES-EXTERNOS > ' p
+
+if [[ $p == "1" || $p == "01" ]];then
+python source/menu/menu_7/.ts
+echo -e "\e[1;32mS:\e[1;39mPara dirigirte ala app en playstore"
+echo -e "\e[1;33mA:\e[1;39mPara dirigirte ala app en Aptoide"
+echo -e "\e[1;31mE:\e[1;39mPara salir"
+echo ""
+
+read -p $'Escribe tu opción:\033[1;32m(s)\e[1;33m(a)\e[1;31m(e)\e[1;39m > ' o
+
+if [[ $o == "S" || $o == "s" ]];then
+        termux-open-url https://play.google.com/store/apps/details?id=com.termux.styling
+	bash wiki
+elif [[ $o == "A" || $o == "a" ]];then
+        termux-open-url https://termux-styling.es.aptoide.com/app
+	bash wiki
+else
+bash source/externos
+fi
+
+elif [[ $p == "2" || $p == "02" ]];then
+python source/menu/menu_7/.tt
+echo -e "\e[1;32mS:\e[1;39mPara dirigirte ala app en playstore"
+echo -e "\e[1;33mA:\e[1;39mPara dirigirte ala app en Aptoide"
+echo -e "\e[1;31mE:\e[1;39mPara salir"
+echo ""
+
+read -p $'Escribe tu opción:\033[1;32m(s)\e[1;33m(a)\e[1;31m(e)\e[1;39m > ' o
+if [[ $o == "S" || $o == "s" ]];then
+        termux-open-url https://play.google.com/store/apps/details?id=com.termux.tasker
+	bash wiki
+elif [[ $o == "A" || $o == "a" ]];then
+        termux-open-url https://termux-task.es.aptoide.com/app
+	bash wiki
+else
+bash source/externos
+fi
+
+
+elif [[ $p == "3" || $p == "03" ]];then
+python source/menu/menu_7/.pw
+echo -e "\e[1;32mS:\e[1;39mPara dirigirte ala app en playstore"
+echo -e "\e[1;33mA:\e[1;39mPara dirigirte ala app en Aptoide"
+echo -e "\e[1;31mE:\e[1;39mPara salir"
+echo ""
+
+read -p $'Escribe tu opción:\033[1;32m(s)\e[1;33m(a)\e[1;31m(e)\e[1;39m > ' o
+if [[ $o == "S" || $o == "s" ]];then
+        termux-open-url https://play.google.com/store/apps/details?id=com.termux.widget
+	bash wiki
+elif [[ $o == "A" || $o == "a" ]];then
+        termux-open-url https://termux-widget.es.aptoide.com/app
+	bash wiki
+else
+bash source/externos
+fi
+
+			      
+elif [[ $p == "4" || $p == "04" ]];then
+python source/menu/menu_7/.tf
+echo -e "\e[1;32mS:\e[1;39mPara dirigirte ala app en playstore"
+echo -e "\e[1;33mA:\e[1;39mPara dirigirte ala app en Aptoide"
+echo -e "\e[1;31mE:\e[1;39mPara salir"
+echo ""
+
+read -p $'Escribe tu opción:\033[1;32m(s)\e[1;33m(a)\e[1;31m(e)\e[1;39m > ' o
+if [[ $o == "S" || $o == "s" ]];then
+        termux-open-url https://play.google.com/store/apps/details?id=com.termux.float
+	bash wiki
+elif [[ $o == "A" || $o == "a" ]];then
+        termux-open-url https://termux-float.es.aptoide.com/app
+	bash wiki
+else
+bash source/externos
+fi
+	        
+elif [[ $p == "5" || $p == "05" ]];then
+python source/menu/menu_7/.tb
+echo -e "\e[1;32mS:\e[1;39mPara dirigirte ala app en playstore"
+echo -e "\e[1;33mA:\e[1;39mPara dirigirte ala app en Aptoide"
+echo -e "\e[1;31mE:\e[1;39mPara salir"
+echo ""
+
+read -p $'Escribe tu opción:\033[1;32m(s)\e[1;33m(a)\e[1;31m(e)\e[1;39m > ' o
+if [[ $o == "S" || $o == "s" ]];then
+        termux-open-url https://play.google.com/store/apps/details?id=com.termux.boot
+	bash wiki
+
+elif [[ $o == "A" || $o == "a" ]];then
+        termux-open-url https://termux-boot.es.aptoide.com/app
+	bash wiki
+
+else
+bash source/externos
+fi
+
+elif [[ $p == "99" || $p == "exit" || $p == "quit" ]];then
+	bash wiki
+else
+echo -e "\e[1;31m[!]\e[1;39m Opción invalida > $p"
+sleep 0.5
+bash source/externos
+						  
+
+fi

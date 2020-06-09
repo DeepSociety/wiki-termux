@@ -1,0 +1,28 @@
+figlet Gloom
+figlet Framework
+echo -e "
+\033[1;36m
+SOBRE GLOOM:
+\033[1;37mEste es un marco de\033[1;31m prueba de penetración de Linux.
+  
+\033[1;32m
+INSTALACIÓN:
+
+\033[1;37m
+$ apt update && apt upgrade
+$ apt install git
+$ apt install python
+$ apt install nmap
+$ apt install tsu
+$ git clone https://github.com/StreetSec/Gloom-Framework.git
+$ cd Gloom-Framework
+$ chmod +x *
+$ sudo python install.py
+ 
+\033[38;5;214m
+MÉTODO DE USO:
+\033[1;37m 
+$ sudo pip install bs4
+$ sudo python gloom.py
+    
+"

@@ -1,0 +1,22 @@
+figlet BeEF
+echo -e "
+\033[1;33m¿Qué es BeEF?
+
+\033[1;39mBeEF = The Broswer Exploitation Framework, a diferencia de otras herramientas de pentesting web, se centra en el contexto de los clientes y utilizando un hook en Javascript, permite crear una red de bots que pueden ser controlados desde un panel de control central.
+
+\033[1;32mINSTALACIÓN:
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+git clone https://github.com/TermuxHacking000/BeEF
+
+cd BeEF
+
+chmod 711 BeEF.sh
+
+./BeEF.sh
+"

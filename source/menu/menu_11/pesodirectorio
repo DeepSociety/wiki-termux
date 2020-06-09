@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Nombre del directorio: "
+read a
+du -sh "$a"

@@ -1,0 +1,39 @@
+print ("""
+\033[1;31m¿Qué es TBomb??
+
+\033[1;39mTBomb es una herramienta que realiza spam de SMS a un número telefónico anónimamente sin necesidad de poseer saldo o crédito.
+
+\033[1;33mINSTALACIÓN DE TBomb EN TERMUX (ANDROID))
+ \033[1;39m
+apt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y python
+
+pkg install -y python2
+
+pkg install -y git
+
+git clone https://github.com/TheSpeedX/TBomb.git
+
+cd TBomb
+
+chmod +x TBomb.sh
+
+./TBomb.sh
+
+PULSA ENTER PARA CONTINUAR...
+
+\033[1;36m
+Escribe el código de tu País sin el ( + ) : 51
+
+Escribe el número de la víctima : 977887918
+
+Escribe el número de mensajes que quieres enviar : 20
+
+Escribe el número que indique cada cuantos segundos quieres que se envien los mensajes: 10
+
+""")
+
+

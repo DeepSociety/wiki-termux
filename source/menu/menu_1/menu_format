@@ -1,0 +1,10 @@
+print("""\033[1;34mmkfs /dev/hda1: \033[1;39mcrear un fichero de sistema tipo Linux en la partición hda1.
+	 			    
+\033[1;34mmke2fs /dev/hda1: \033[1;39mcrear un fichero de sistema tipo Linux ext 2 en hda1.
+			       
+\033[1;34mmke2fs -j /dev/hda1: \033[1;39mcrear un fichero de sistema tipo Linux ext3 (periódico) en la partición hda1.
+					
+\033[1;34mmkfs -t vfat 32 -F /dev/hda1: \033[1;39mcrear un fichero de sistema FAT32 en hda1.
+			    
+\033[1;34mmkswap /dev/hda3: \033[1;39mcrear un fichero de sistema swap.
+""")

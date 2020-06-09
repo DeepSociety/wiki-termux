@@ -1,0 +1,19 @@
+import os
+import time
+
+try:
+ b = input("\033[1;31m			WIKI-\033[1;39mPAQUETES > ")
+ if b == "1" or b == "01":
+  os.system("bash source/menu/menu_2/.listpaq")
+ elif b == "2" or b == "02":
+  os.system("bash source/menu/menu_2/.listinstall")
+ elif b == "3" or b == "03":
+  os.system("bash source/menu/menu_2/.listshow")
+ elif b == "99":
+  os.system("bash wiki")
+ else:
+  print("\033[1;31m			[!]\033[1;39m Opción invalida > ",b)
+  time.sleep(0.5)
+  os.system("bash source/librerias")
+except KeyboardInterrupt:
+ print("\n\033[1;39mCtrl c presionado")

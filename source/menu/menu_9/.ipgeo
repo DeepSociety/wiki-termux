@@ -1,0 +1,51 @@
+figlet IPGeolocation
+echo -e "
+\033[1;33mSOBRE IPGEOLOCATION:
+
+\033[1;39mUna herramienta para recuperar información de geolocalización IP.
+
+\033[1;33mCARACTERISTICAS:
+\033[1;39m
+• Recuperar IP o Geolocalización de Dominio. 
+• Recupere su propia geolocalización IP. 
+• Recuperar la geolocalización para IP o dominios cargados desde el archivo. Cada objetivo en nueva línea. 
+• Defina su propia cadena de agente de usuario personalizada. 
+• Seleccione cadenas aleatorias de User-Agent del archivo. Cada cadena de agente de usuario en una nueva línea. 
+• Soporte de proxy. 
+• Seleccione proxy aleatorio del archivo. Cada URL proxy en una nueva línea. 
+• Abra la geolocalización de IP en Google Maps utilizando el navegador predeterminado. 
+• Exportar resultados a formato csv, xml y txt.
+
+\033[1;32mINSTALACIÓN:
+
+\033[1;39m$ apt update && apt upgrade 
+$ apt install git 
+$ apt install python 
+$ git clone https://github.com/maldevel/IPGeoLocation 
+$ cd IPGeoLocation 
+$ chmod +x * 
+$ pip install -r requirements.txt 
+
+\033[1;33mUso:
+\033[1;39m
+$ cd IPGeoLocation 
+$ python ipgeolocation.py -t [target ip] 
+
+\033[1;32mEJEMPLOS:
+\033[1;39m
+• Recupere su geolocalización IP python ipgeolocation.py -m 
+• Recuperar la geolocalización de IP python ipgeolocation.py -t x.x.x.x 
+• Recuperar la geolocalización del dominio python ipgeolocation.py -t example.com 
+• No guarde archivos .log python ipgeolocation.py -t example.com --nolog 
+• Cadena de agente de usuario personalizado python ipgeolocation.py -t x.x.x.x -u 
+• Usando Proxy python ipgeolocation.py -t x.x.x.x -x http://127.0.0.1:8080 
+• Usando Proxy aleatorio python ipgeolocation.py -t x.x.x.x -X /path/to/proxies/filename.txt 
+• Elija una cadena de agente de usuario al azar python ipgeolocation.py -t x.x.x.x -U /path/to/user/agent/strings/filename.txt 
+• Recupere la geolocalización de IP y la ubicación abierta en los mapas de Google con el navegador predeterminado python ipgeolocation.py -t x.x.x.x -g 
+• Exportar resultados a un archivo CSV python ipgeolocation.py -t x.x.x.x --csv /path/to/results.csv 
+• Exportar resultados a un archivo XML python ipgeolocation.py -t x.x.x.x --xml /path/to/results.xml 
+• Exportar resultados al archivo TXT python ipgeolocation.py -t x.x.x.x -e /path/to/results.txt 
+• Recuperar la geolocalización de IP para muchos objetivos python ipgeolocation.py -T /path/to/targets/targets.txt 
+• Recupere la geolocalización de IP para muchos objetivos y exporte resultados a xml python ipgeolocation.py -T /path/to/targets/targets.txt --xml /path/to/results.xml 
+• No imprimir resultados en el terminal python ipgeolocation.py -m -e /path/to/results.txt --noprint
+"

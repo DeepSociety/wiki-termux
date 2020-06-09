@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo 'Escribe un mumero:'
+read a
+echo 'Escribe un segundo numero:'
+read b
+x=$(expr "$a" + "$b")
+echo $a + $b = $x

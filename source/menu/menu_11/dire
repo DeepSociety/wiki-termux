@@ -1,0 +1,9 @@
+echo Escribe la ruta del directorio:  
+read dir
+
+if [ -d $dir ];then # -d Sirve para verificar directorios SOLO DIRECTORIOS
+echo Existe
+else
+echo No existe
+fi
+

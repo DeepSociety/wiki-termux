@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Escribe un numero"
+read n
+num=$(expr $n % 2)
+if [ $num -eq 0 ]; then
+	echo "Numero par"
+else
+	echo "Numero inpar"
+fi

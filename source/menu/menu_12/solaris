@@ -1,0 +1,32 @@
+print("""
+                                           .-     `                   
+                                    `:-    .y-    /:                  
+                                     -h+  .yy/  -oy:    .             
+                              `-+/`  /yyo.-sso`:yyo` `-/s`            
+                                `yy+-./:.`      `-:.syyo.             
+                                 :ys:`              .o+``` `--        
+                          `./ss+/:.`                  `syyys/         
+                              /yy+                     .s:`           
+                                .                                     
+     .ohhyy+   :shhhhy/  `hh-   `syyyhhs.  `hh:sds -hh` `ohhyyo--     
+     sdy`     /dy.  .hd+ `dd:    ``   +dy  `ddy/.` -dd. odh`          
+     -ydhs/.  hd+    +dy `dd:    ./ossydh` `dd:    -dd. .sdhs+-       
+       `-+hd/ ydo    ods `dd:   +dy-``/dh` `dd:    -dd.   `-/hdo      
+     --..:hd+ :dh/../hh- `dd/.` sds..:sdh` `dd:    -dd. .-..-ydo      
+     -+oso+-   ./osso/`   /oso/ `/oso+-++   oo-    .oo` -+oss+:`      
+                                                                      
+                                                                      
+
+\033[1;39mSolaris es un sistema operativo de tipo Unix desarrollado desde 1992 inicialmente por Sun Microsystems y actualmente propiedad de Oracle Corporation tras la adquisición de Sun por parte de esta. Sucesor de SunOS, es un sistema certificado oficialmente como versión de UNIX.
+
+\033[1;36mFecha De Lanzamiento: \033[1;39m1992
+\033[1;36mFamilia de SO:\033[1;39m Unix
+\033[1;36mTipo de núcleo:\033[1;39m Monolítico
+\033[1;36mLicencia:\033[1;39m Varias (gran parte bajo CDDL)
+\033[1;36mInterfaz de usuario predeterminada:\033[1;39m GNOME
+\033[1;36mEscrito en:\033[1;39m C, C++
+
+\033[1;33mInstalaciòn:
+
+\033[1;39m https://www.google.com/amp/s/franhormigo.wordpress.com/2017/05/11/instalacion-de-solaris-10/amp/
+""")

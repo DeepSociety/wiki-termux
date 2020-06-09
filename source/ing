@@ -1,0 +1,11 @@
+clear
+cat source/art/banner8   
+bash source/.core
+echo -e "
+\033[1;31m [\033[1;39m 1\033[1;31m ]\033[1;39m Cambiar icono de un payload
+\033[1;31m [\033[1;39m 2\033[1;31m ]\033[1;39m Cambiar nombre de un payload
+\033[1;31m [\033[1;39m 3\033[1;31m ]\033[1;39m Combinación de teclas termux
+
+\033[1;31m [\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú
+"
+python source/lib/.readpy8

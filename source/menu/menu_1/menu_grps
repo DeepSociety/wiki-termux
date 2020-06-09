@@ -1,0 +1,4 @@
+print("""\033[1;35mpasswd: \033[1;39mcambiar contraseña.
+
+\033[1;35mpasswd user1: \033[1;39mcambiar la contraseña de un usuario (solamente por root).
+""")

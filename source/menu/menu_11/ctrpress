@@ -1,0 +1,14 @@
+#!/bin/bash
+
+function finish() {
+	echo "CTL+C Presionado"
+	echo "Borrando..."
+	sleep 2
+	clear
+}
+trap finish EXIT
+
+echo 'Iniciando...'
+until false; do
+	sleep 1
+done

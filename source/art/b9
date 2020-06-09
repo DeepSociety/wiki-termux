@@ -1,0 +1,31 @@
+print("""
+                                                       
+                            ```                             
+                        ``` `:- ```                         
+                     ``` -+hmmmds:` ``                      
+                 ``` `/sdmmmmmmmmmmy+. ```                  
+              ``` -+hmmmmmmmmmmmmmmmmmds:` ``               
+          ``` `:sdmmmmmmmmmmmmmmmmmmmmmmmmy+. ```           
+        `` .+hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdo:` `         
+        ``dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm/ `        
+        ``mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmmm  mmmmmmmmmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmmm       mmmmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmmmmmm      mmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmmm         mmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmm     mmmmmmmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm+ `        
+        ``mmmmmmmmmmmmmmmmm             mmmmmmmmm+ `        
+        ``mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm+ `        
+        ``hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm: `        
+        `` ./ymmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmho- ``         
+           ````:odmmmmmmmmmmmmmmmmmmmmmmmmy/` ```           
+              ``` ./ymmmmmmmmmmmmmmmmmho-````               
+                  `` `:odmmmmmmmmmmy/. ```                  
+                     ``` .+ymmmdo:````                      
+                         ````:. ```                         
+                            ```     
+
+En informática, el shell o intérprete de órdenes o intérprete de comandos es el programa informático que provee una interfaz de usuario para acceder a los servicios del sistema operativo. Dependiendo del tipo de interfaz que empleen, los shells pueden ser: De líneas texto, Gráficos, De lenguaje natural.
+""")

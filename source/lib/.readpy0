@@ -1,0 +1,78 @@
+import os
+import time
+
+def f():
+ a = input("\033[1;33mPRESIONA ENTER PARA CONTINUAR...")
+ if a != "₩":
+  os.system("bash source/comandos")
+ else:
+  os.system("bash source/comandos")
+
+try:
+ b = input("\033[1;31m	WIKI-\033[1;39mCOMANDOS > ")
+ if b == "1" or b == "01":
+  os.system("python source/menu/menu_1/menu_basic")
+  f()
+ elif b == "2" or b == "02":
+  os.system("python source/menu/menu_1/menu_sys")
+  f()
+ elif b == "3" or b == "03":
+  os.system("python source/menu/menu_1/menu_ar_cr")
+  f()
+ elif b == "4" or b == "04":
+  os.system("python source/menu/menu_1/menu_fnd")
+  f()
+ elif b == "5" or b == "05":
+  os.system("python source/menu/menu_1/menu_space")
+  f()
+ elif b == "6" or b == "06":
+  os.system("python source/menu/menu_1/menu_grps")
+  f()
+ elif b == "7" or b == "07":
+  os.system("python source/menu/menu_1/menu_chm")
+  f()
+ elif b == "8" or b == "08":
+  os.system("python source/menu/menu_1/menu_attr")
+  f()
+ elif b == "9" or b == "09":
+  os.system("python source/menu/menu_1/menu_arc_com")
+  f()
+ elif b == "10":
+  os.system("python source/menu/menu_1/menu_deb")
+  f()
+ elif b == "11":
+  os.system("python source/menu/menu_1/menu_apt")
+  f()
+ elif b == "12":
+  os.system("python source/menu/menu_1/menu_ver")
+  f()
+ elif b == "13":
+  os.system("python source/menu/menu_1/menu_edit")
+  f()
+ elif b == "14":
+  os.system("python source/menu/menu_1/menu_ali_fic")
+  f()
+ elif b == "15":
+  os.system("python source/menu/menu_1/menu_format")
+  f()
+ elif b == "16":
+  os.system("python source/menu/menu_1/menu_backup")
+  f()
+ elif b == "17":
+  os.system("python source/menu/menu_1/menu_lan")
+  f()
+ elif b == "18":
+  os.system("python source/menu/menu_1/menu_dep")
+  f()
+ elif b == "19":
+  os.system("python source/menu/menu_1/menu_other")
+  f()
+
+ elif b == "99":
+  os.system("bash wiki")
+ else:
+  print("\033[1;31m	[!]\033[1;39m Opción invalida > ",b)
+  time.sleep(0.5)
+  os.system("bash source/comandos")
+except KeyboardInterrupt:
+ print("\033[1;39m\nCtrl c presionado")

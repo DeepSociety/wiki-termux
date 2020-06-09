@@ -1,0 +1,16 @@
+print("""\033[1;34mdpkg -i package.deb: \033[1;39minstalar / actualizar un paquete deb.
+
+\033[1;34mdpkg -r package_name: \033[1;39meliminar un paquete deb del sistema.
+
+\033[1;34mdpkg -l: \033[1;39mmostrar todos los paquetes deb instalados en el sistema.
+				
+\033[1;34mdpkg -l | grep httpd: \033[1;39mmostrar todos los paquetes deb con el nombre “httpd”
+
+\033[1;34mdpkg -s package_name: \033[1;39mobtener información en un paquete específico instalado en el sistema.
+				
+\033[1;34mdpkg -L package_name: \033[1;39mmostar lista de ficheros dados por un paquete instalado en el sistema.
+				      
+\033[1;34mdpkg –contents package.deb: \033[1;39mmostrar lista de ficheros dados por un paquete no instalado todavía.
+			     
+\033[1;34mdpkg -S /bin/ping: \033[1;39mverificar cuál paquete pertenece a un fichero dado.
+""")

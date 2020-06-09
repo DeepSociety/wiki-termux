@@ -1,0 +1,25 @@
+figlet TVenom
+echo -e "
+ \033[38;5;39mTmvenom \033[1;37m es una herramienta basada en Python especialmente diseñada para usuarios de Termux. Esta carga útil genera algunas cargas básicas usando metasploit-framework. por lo tanto, debe instalar el marco metasploit en su Termux. Esta herramienta funciona tanto en dispositivos rooteados como no rooteados. Esto es muy útil para principiantes. Esta herramienta también lo guía para generar cargas útiles fácilmente
+\033[36m
+Requerimientos: -metasploit-framework
+\033[1;32m
+Instalación:
+\033[1;37m
+$ apt update
+$ apt upgrade
+$ apt install git
+$ apt install python2
+$ git clone https://github.com/TechnicalMujeeb/tmvenom
+$ cd tmvenom
+$ chmod +x *
+$ sh install.sh
+\033[33m
+Uso:
+\033[39m
+$ python2 tmvenom.py
+   
+\033[1;39m
+Ahora seleccione las opciones de carga útil y puede generar fácilmente cargas útiles.
+"
+

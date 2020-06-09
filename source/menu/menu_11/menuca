@@ -1,0 +1,39 @@
+menu(){
+clear
+echo "
+[ 1 ] Listar
+[ 2 ] Ver la ruta
+[ 3 ] Ver la hora
+
+[ 00 ] Salir
+"
+read -p "Selecciona una opción > " opc
+
+case $opc in
+	1)ls
+	sleep 1
+	menu
+	;; # < Importante terminar con ;; cada opción
+			          
+	2)pwd
+	sleep 1
+	menu
+	;; # < Importante terminar con ;; cada opción
+
+	3)date
+	sleep 1
+	menu
+	;; # < Importante terminar con ;; cada opción
+
+	00)exit
+	;; # < Importante terminar con ;; cada opción
+
+	*)echo "Opción invalida"
+	sleep 1
+	menu
+	;;
+esac
+}
+
+menu
+

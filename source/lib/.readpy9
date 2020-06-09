@@ -1,0 +1,260 @@
+import os
+import time
+
+def f():
+ a = input("\033[1;33mPRESIONA ENTER PARA CONTINUAR...")
+ if a != "₩":
+  os.system("bash source/best-tool")
+ else:
+  os.system("bash source/best-tool")
+	 
+try:
+ b = input("\033[1;31mWIKI-\033[1;39mBEST-TOOL > ")
+ if b == "1" or b == "01":
+  os.system("figlet Generador de")
+  os.system("figlet Informacion\n")
+  print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m A2sv")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m AndroBugs")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m AngryFuzzer")
+  print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Crips IP Tool")
+  print("\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Infoga")
+  print("\033[1;31m[\033[1;39m 6\033[1;31m ]\033[1;39m PureBlood")
+  print("\033[1;31m[\033[1;39m 7\033[1;31m ]\033[1;39m RED_HAWK\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  c = input("\033[1;31mBEST-\033[1;39mINFOGEN > ")
+  if c == "1" or c == "01":
+   os.system("python source/menu/menu_9/.a2sv")
+   f()
+  elif c == "2" or c == "02":
+   os.system("python source/menu/menu_9/.androbugs")
+   f()
+  elif c == "3" or c == "03":
+   os.system("python source/menu/menu_9/.angry")
+   f()
+  elif c == "4" or c == "04":
+   os.system("python source/menu/menu_9/.crips")
+   f()
+  elif c == "5" or c == "05":
+   os.system("python source/menu/menu_9/.infoga")
+   f()
+  elif c == "6" or c == "06":
+   os.system("python source/menu/menu_9/.pure")
+   f()
+  elif c == "7" or c == "07":
+   os.system("python source/menu/menu_9/.redhawk")
+   f()
+  elif c == "99":
+   os.system("bash source/best-tool")
+  else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+ elif b == "2" or b == "02":
+  os.system("figlet Explotacion\n\n")
+  print("\n\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m CyberScan")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m D-TECT")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Hakku Framework")
+  print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m TheHarverster")
+  print("\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Zarp\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  c = input("\033[1;31mBEST-\033[1;39mEXPLOTACIÓN > ")
+  
+  if c == "1" or c == "01":
+   os.system("python source/menu/menu_9/.cyberscan")
+   f()
+  elif c == "2" or c == "02":
+   os.system("python source/menu/menu_9/.dtect")
+   f()
+  elif c == "3" or c == "03":
+   os.system("python source/menu/menu_9/.hakku")
+   f()
+  elif c == "4" or c == "04":
+   os.system("python source/menu/menu_9/.theharver")
+   f()
+  elif c == "5" or c == "05":
+   os.system("python source/menu/menu_9/.zarp")
+   f()
+  elif c == "99":
+   os.system("bash source/best-tool")
+  else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+ 
+ elif b == "3" or b == "03":
+  os.system("figlet Vulnerabilidades\n")
+  print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Breacher ")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m ClickJacking")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m GoldenEye")
+  print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m HunnerFramework")          
+  print("\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m Optiva Framework")
+  print("\033[1;31m[\033[1;39m 6\033[1;31m ]\033[1;39m Sqlmap")  
+  print("\033[1;31m[\033[1;39m 7\033[1;31m ]\033[1;39m Striker  ")
+  print("\033[1;31m[\033[1;39m 8\033[1;31m ]\033[1;39m TM-Scan\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  c = input("\033[1;31mBEST-\033[1;39mVULNERABILIDADES > ")
+
+  if c == "1" or c == "01":
+   os.system("python source/menu/menu_9/.breacher")
+   f()
+  elif c == "2" or c == "02":
+   os.system("python source/menu/menu_9/.jacking")
+   f()
+  elif c == "3" or c == "03":
+   os.system("python source/menu/menu_9/.golden")
+   f()
+  elif c == "4" or c == "04":
+   os.system("python source/menu/menu_9/.hunner")
+   f()
+  elif c == "5" or c == "05":
+   os.system("python source/menu/menu_9/.optiva")
+   f()
+  elif c == "6" or c == "06":
+   os.system("python source/menu/menu_9/.sqlmap")
+   f()
+  elif c == "7" or c == "07":
+   os.system("python source/menu/menu_9/.striker")
+   f()
+  elif c == "8" or c == "08":
+   os.system("python source/menu/menu_9/.tmcan")
+   f()
+  elif c == "99":
+   os.system("bash source/best-tool")
+  else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+ 
+ elif b == "4" or b == "04":
+  os.system("figlet InfoWeb\n")
+  print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Commix")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m HeartBleed")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Nikto Web Server")
+  print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m WPScan\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  c = input("\033[1;31mBEST-\033[1;39mWEB > ")
+	      
+  if c == "1" or c == "01":
+   os.system("python source/menu/menu_9/.commix")
+   f()
+  elif c == "2" or c == "02":
+   os.system("python source/menu/menu_9/.heart")
+   f()
+  elif c == "3" or c == "03":
+   os.system("python source/menu/menu_9/.nikto")
+   f()
+  elif c == "4" or c == "04":
+   os.system("python source/menu/menu_9/.wps")
+   f()
+  elif c == "99":
+   os.system("bash source/best-tool")
+  else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+ 
+ elif b == "5" or b == "05":
+  os.system("figlet Passwords")
+  os.system("figlet Atacks\n")
+  print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m BruteSpray")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m CMSMap")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m Credmap\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  c = input("\033[1;31mBEST-\033[1;39mATACKS > ")
+         
+  if c == "1" or c == "01":
+   os.system("python source/menu/menu_9/.brute")
+   f()
+  elif c == "2" or c == "02":
+   os.system("python source/menu/menu_9/.cms")
+   f()
+  elif c == "3" or c == "03":
+   os.system("python source/menu/menu_9/.credmap")
+   f()
+  elif c == "99":
+   os.system("bash source/best-tool")
+  else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+ 
+ elif b == "6" or b == "06":
+  os.system("figlet Best")
+  os.system("figlet Phishing\n")
+  print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m BlackEye")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m AIOPhish")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m ShellPhish")
+  print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Weeman\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  c = input("\033[1;31mBEST-\033[1;39mPHISHING > ")
+
+  if c == "1" or c == "01":
+   os.system("python source/menu/menu_9/.blackeye")
+   f()
+  elif c == "2" or c == "02":
+   os.system("python source/menu/menu_9/.aiophish")
+   f()
+  elif c == "3" or c == "03":
+   os.system("python source/menu/menu_9/.shellphish")
+   f()
+  elif c == "4" or c == "04":
+   os.system("python source/menu/menu_9/.weeman")
+   f()
+  elif c == "99":
+   os.system("bash source/best-tool")
+  else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+	  
+ elif b == "7" or b == "07":
+  os.system("figlet Otras")
+  os.system("figlet Herramientas\n")
+   
+  print("\033[1;31m[\033[1;39m 1\033[1;31m ]\033[1;39m Gloom Framework")
+  print("\033[1;31m[\033[1;39m 2\033[1;31m ]\033[1;39m IPGeolocation")
+  print("\033[1;31m[\033[1;39m 3\033[1;31m ]\033[1;39m SQLScan")
+  print("\033[1;31m[\033[1;39m 4\033[1;31m ]\033[1;39m Sublist3r")
+  print("\033[1;31m[\033[1;39m 5\033[1;31m ]\033[1;39m TVenom")
+  print("\033[1;31m[\033[1;39m 6\033[1;31m ]\033[1;39m BeEF\n")
+  print("\033[1;31m[\033[1;39m 99\033[1;31m ]\033[1;39m Volver al menú\n")
+  c = input("\033[1;31mOTRAS-\033[1;39mHERRAMIENTAS > ")
+
+  if c == "1" or c == "01":
+   os.system("bash source/menu/menu_9/.gloom")
+   f()
+  elif c == "2" or c == "02":
+   os.system("bash source/menu/menu_9/.ipgeo")
+   f()
+  elif c == "3" or c == "03":
+   os.system("bash source/menu/menu_9/.sqlscan")
+   f()
+  elif c == "4" or c == "04":
+   os.system("bash source/menu/menu_9/.sublister")
+   f()
+  elif c == "5" or c == "05":
+   os.system("bash source/menu/menu_9/.tvenom")
+   f()
+
+  elif c == "6" or c == "06":
+   os.system("bash source/menu/menu_9/.beef")
+   f()
+
+  elif c == "99":
+   os.system("bash source/best-tool")
+
+  else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",c)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+	  
+ elif b == "99":
+   os.system("bash wiki")
+
+ else:
+   print("\033[1;31m[!]\033[1;39m Opción invalida > ",b)
+   time.sleep(0.5)
+   os.system("bash source/best-tool")
+
+except KeyboardInterrupt:
+ print("\033[1;39m\nCtrl c presionado")

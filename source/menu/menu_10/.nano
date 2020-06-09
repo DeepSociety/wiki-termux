@@ -1,0 +1,16 @@
+
+figlet nano
+echo -e "\e[1;39m
+En informática, nano es un editor de texto para sistemas Unix basado en curses. Es un clon de Pico, el editor del cliente de correo electrónico Pine. nano trata de emular la funcionalidad y la interfaz de fácil manejo de Pico, pero sin la integración con Pine.
+
+\e[1;32mInstalación:
+\e[1;39m$ pkg install nano
+
+\e[1;33mUso:
+\e[1;39m$ nano archivo
+
+\e[1;39mnano puede abrir cualquier tipo de texto, cualquier extención.
+
+\e[1;36mPeso:\e[1;39m 754KB
+\e[1;36mEscrito en:\e[1;39m C
+"

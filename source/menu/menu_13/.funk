@@ -1,0 +1,5 @@
+\d Muestra la fecha
+\t Muestra la hora
+\w Muestra la ruta
+\s Muestra texto bash
+\h Muestra texto localhost

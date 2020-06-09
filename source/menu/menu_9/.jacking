@@ -1,0 +1,24 @@
+import os
+os.system("figlet ClickJacking")
+print("""
+\033[1;33m
+SOBRE CLICKJACKING:
+\033[1;39m
+Un script de Python diseñado para verificar si el sitio web es vulnerable al clickjacking y crea un poc.
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install python2 -y
+$ apt install python -y
+$ git clone https://github.com/D4Vinci/Clickjacking-Tester.git 
+$ cd Clickjacking-Tester 
+$ chmod +x * 
+\033[1;33m
+MÉTODO DE USO:
+\033[1;39m
+Cree un archivo ejem:"sites.txt" aquí pegue los sitios web de las víctimas.
+
+python clickjacking_tester.py sites.txt
+""")

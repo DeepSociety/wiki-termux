@@ -1,0 +1,58 @@
+import os
+os.system("figlet Hakku")
+os.system("figlet Framework")
+print("""
+\033[1;33m
+SOBRE HAKKU:
+\033[1;39m
+Hakku es un marco simple creado para herramientas de prueba de penetración. El marco Hakku ofrece una estructura simple, CLI básica y características útiles para el desarrollo de herramientas de prueba de penetración.
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install python -y
+$ git clone https://github.com/4shadoww/hakkuframework
+\033[1;32m
+MÉTODO DE USO:
+\033[1;39m
+$ cd hakkuframework 
+$ chmod +x * 
+$ python hakku.py
+\033[1;36m
+• Para ver todos los módulos, use este comando: 
+\033[1;39m
+$ show modules 
+\033[1;36m
+• Para mostrar todas las opciones de un módulo en particular: 
+\033[1;39m
+$ use module name
+$ show options
+\033[1;33m
+MODÚLOS(24):
+\033[1;39m
+• apache_users 
+• arp_dos 
+• arp_monitor 
+• arp_spoof 
+• bluetooth_pod 
+• cloudflare_resolver 
+• dhcp_dos 
+• dir_scanner 
+• dns_spoof 
+• email_bomber 
+• hostname_resolver 
+• mac_spoof 
+• mitm 
+• network_kill 
+• pma_scanner 
+• port_scanner 
+• proxy_scout 
+• whois 
+• web_killer 
+• web_scout 
+• wifi_jammer 
+• zip_cracker 
+• rar_cracker 
+• wordlist_gen
+""")

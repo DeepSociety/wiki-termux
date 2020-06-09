@@ -1,0 +1,42 @@
+import os
+import time
+
+def f():
+ c = input("\033[1;32mPRESIONA ENTER PARA CONTINUAR...")
+	    
+ if c != "₩":
+  os.system("bash source/ptmux")
+ else:
+  os.system("bash source/ptmux")
+
+try:
+ print("")
+ a = input("\033[1;31mWIKI-\033[1;39mPERSONALIZAR-TERMUX > ")
+     
+ if a == "1" or a == "01":
+  os.system("python source/menu/menu_13/.ps1")
+  f()
+				       
+ elif a == "2" or a == "02":
+  os.system("python source/menu/menu_13/.pname")
+  f()
+
+ elif a == "3" or a == "03":
+   os.system("python source/menu/menu_13/.pneo")
+   f()
+
+ elif a == "4" or a == "04":
+  os.system("python source/menu/menu_13/.ptmux")
+  f()
+
+ elif a == "99":
+  os.system("bash wiki")
+ else:
+  print("\033[1;31m[!]\033[1;39m Opción invalida > ",a)
+  time.sleep(0.5)
+  os.system("bash source/ptmux")
+ 
+except KeyboardInterrupt:
+ print("\033[1;39m\nCtrl c presionado")
+
+

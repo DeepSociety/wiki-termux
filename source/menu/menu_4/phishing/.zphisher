@@ -1,0 +1,29 @@
+print("""
+	
+\033[1;31m¿Qué es zphisher?
+
+\033[1;39mZphisher esta basada en Shellphish. El código fuente principal es de Shellphish.
+Zphisher tiene 37 plantillas de página de phishing; incluyendo Facebook, Twitter y Paypal. También tiene 4 herramientas de reenvío de puertos.
+
+\033[1;33mINSTALACIÓN ZPHISHER
+
+\033[1;39mapt update
+
+pkg install git -y
+
+pkg install php -y
+
+pkg install openssh
+
+pkg install curl
+
+git clone https://github.com/htr-tech/zphisher
+
+cd zphisher
+
+chmod +x zphisher.sh
+
+bash zphisher.sh
+
+\033[1;33mAcontinución eliges tu opción
+""")

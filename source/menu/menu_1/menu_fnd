@@ -1,0 +1,20 @@
+print("""\033[1;32mfind / -name file1: \033[1;39mbuscar fichero y directorio a partir de la raíz del sistema.
+
+\033[1;32mfind / -user user1: \033[1;39mbuscar ficheros y directorios pertenecientes al usuario ‘user1’.
+
+\033[1;32mfind /sdcard/ -name \*.py: \033[1;39mbuscar ficheros con extensión ‘. sh’ dentro del directorio ‘/sdcard/’.
+
+\033[1;32mfind /usr/bin -type f -atime +100: \033[1;39mbuscar ficheros binarios no usados en los últimos 100 días.
+
+\033[1;32mfind /usr/bin -type f -mtime -10: \033[1;39mbuscar ficheros creados o cambiados dentro de los últimos 10 días.
+
+\033[1;32mfind / -name \*.rpm -exec chmod 755 ‘{}’ \; : \033[1;39mbuscar ficheros con extensión ‘.rpm’ y modificar permisos.
+
+\033[1;32mfind / -xdev -name \*.rpm: \033[1;39mBuscar ficheros con extensión ‘.rpm’ ignorando los dispositivos removibles como cdrom, pen-drive, etc.…
+
+\033[1;32mlocate \*.sh: \033[1;39mencuentra ficheros con extensión ‘.sh’ ejecutados primeramente con el command ‘updatedb’.
+
+\033[1;32mwhereis halt: \033[1;39mmostrar la ubicación de un fichero binario, de ayuda o fuente. En este caso pregunta dónde está el comando ‘halt’.
+
+\033[1;32mwhich halt: \033[1;39mmostrar la senda completa (el camino completo) a un binario / ejecutable.
+""")

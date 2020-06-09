@@ -1,0 +1,44 @@
+print("""\033[1;39m
+             `.--:://++++++++++///:--.`                               
+         .:/+ooooooooooooooooooooooooo++/:.`                          
+      ./+ooooooo+/:-..``````````..-::/+oooo+/.                        
+     -+oooos+-`                        `-+ooo+/.                      
+     +oooooo-                          `-+oooooo`                     
+     +oooooo++/:-..``          ```.--:/+ooooooos.                     
+     +ooooooooooo+++++++////+++++++oooooooooooos.                     
+     +ooooooooooooooooooooooooooooooooooooooooos.                     
+     +ooooooooooooooooooooooooooooooooooooooooos.                     
+     +ooooooooooooooooooooooooooooooooooooooooos.                     
+     +ooooooooooooooooooooooooooooooooooooooooos.                     
+     +ooooooooo+++ooooooo+++oooooo+++oooooooooos.                     
+     +oooooo/-.```./oo/-.```.-/oo/...+ooooooooos.                     
+     +ooooo/   .::./o-   .-.   :o/   /ooooooooos.                     
+     +ooooo/`  `.:/+/   -+o+.   +/   /ooooooooos.                     
+     +ooooo+/:.`   -/   -ooo.   +/   /ooooooooos.                     
+     +ooooo/.:/:   `+.   --.   -o/   -:::+ooooos.                     
+     +ooooo/``````-/o+:.````  `/+/```````+ooooos.                     
+     +oooooo++++++oooooo++++:...:++++++++ooo++/:`                     
+     +oooooooooooooooooooooooooooooooooo+:....----.``                 
+     +ooooooooooooooooooooooooooooooos/.`-/++oooooo+/:.`              
+     +ooooooooooooooooooooooooooooooo.`:+oooooooooooooo+-`            
+     +ooooooooooooooooooooooooo+//::``+oooooooooooooooooo+.           
+     +ooooooooooooooooooooo+-.`.--..-+ooooooooooooooooooooo-          
+     :ooooooooooooooooooso.`:/+ooooooooooooooooooooooooooooo`         
+      -+oooooooooooooooo+`.+ooooooooooooooooooooooooooooooos.         
+       `-++oooooooooooos``+oooooooooooooooooooooooooooooooos`         
+          `.:/+ooooooooo `oooooooooooooooooooooooooooooooooo:-.       
+                `.--://:  /oooooooooooooooooooooooooooooooooooo/.     
+                          `/+ooooooooooooooooooooooooooooooooooos     
+                            ./ooooooooooooooooooooooooooooooooos/     
+                              `-://///////////////////////////:. 
+
+SQL es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.​
+
+\033[1;36mSistema de tipos: \033[1;39mEstático, Fuerte
+\033[1;36mÚltima versión estable: \033[1;39mSQL:2014 (2016)
+\033[1;36mInfluido por:\033[1;39m Datalog
+\033[1;36mParadigma:\033[1;39m Multiparadigma
+\033[1;36mHa influido a: \033[1;39mAgena, CQL, LINQ, Windows PowerShell
+\033[1;36mDiseñador:\033[1;39m Donald D. Chamberlin, Raymond F. Boyce
+""")
+

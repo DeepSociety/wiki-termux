@@ -1,0 +1,63 @@
+import os
+os.system("figlet RED HAWK")
+print("""
+\033[1;33m
+SOBRE REDHAWK:
+\033[1;39m
+Herramienta todo en uno para recopilación de información y escaneo de vulnerabilidades.
+\033[1;32m
+SCANNER:
+\033[1;39m
+• Escaneo básico 
+- Título del sitio NUEVO 
+- Dirección IP 
+- Detección del servidor web MEJORADO 
+- Detección CMS 
+- Detección de Cloudflare 
+- Escáner robots.txt 
+• Búsqueda Whois MEJORADA 
+• Búsqueda de geo-IP 
+• Agarrar pancartas MEJORADO 
+• Búsqueda de DNS 
+• Calculadora de subred 
+• Escaneo de puertos Nmap 
+• Sub-Domain Scanner MEJORADO - Subdominio - Dirección IP 
+• Búsqueda inversa de IP y detección de CMS MEJORADO 
+- Nombre de host 
+- Dirección IP 
+- CMS 
+• Escáner SQLi basado en errores 
+• Bloggers Ver NUEVO 
+- Código de respuesta HTTP 
+- Título del sitio 
+- Ranking de Alexa 
+- Autoridad de dominio 
+- Autoridad de la página 
+- Extractor de enlaces sociales 
+- Link Grabber 
+• WordPress Scan NUEVO 
+- Archivos sensibles arrastrándose 
+- Detección de versión 
+- Versión Vulnerability Scanner 
+• Crawler 
+• Búsqueda de MX NUEVO 
+• Escanear para todo: el escáner Old Lame
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install php -y
+$ git clone https://github.com/Tuhinshubhra/RED_HAWK 
+\033[1;33m
+MÉTODO DE USO:
+\033[1;39m
+$ cd RED_HAWK 
+$ chmod +x *  
+$ php rhawk.php 
+
+• Use el comando "help" para ver la lista de comandos o escriba el nombre de dominio que desea escanear (sin Http: // O Https: //)
+
+\033[1;36mNota:\033[1;39m No uses $ solo es un ejemplo.
+""")
+

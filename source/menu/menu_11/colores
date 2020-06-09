@@ -1,0 +1,19 @@
+#!/bin/bash
+
+gris='\033[1;30m'
+rojo='\033[0;31m'
+rojoclaro='\033[1;31m'
+verde='\033[1;32m'
+amarillo='\033[1;33m'
+azul='\033[0;34m'
+lila='\033[0;35m'
+lilaclaro='\033[1;35m'
+cian='\033[0;36m'
+blanco='\033[1;37m'
+DEFAULT='\033[0m'
+
+colores=($gris $rojo $rojoclaro $verde $amarillo $azul $lila $lilaclaro $cian $blanco $DEFAULT )
+for c in "${colores[@]}";do
+    printf "\r $c WIKI-TERMUX $DEFAULT "
+    sleep 1
+done

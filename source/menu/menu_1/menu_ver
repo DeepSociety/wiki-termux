@@ -1,0 +1,14 @@
+print("""\033[1;33mcat file1: \033[1;39mver los contenidos de un fichero comenzando desde la primera hilera.
+		     
+\033[1;33mtac file1: \033[1;39mver los contenidos de un fichero comenzando desde la última línea.
+		      
+\033[1;33mmore file1: \033[1;39mver el contenido a lo largo de un fichero.
+
+\033[1;33mless file1: \033[1;39mparecido al commando ‘more’ pero permite salvar el movimiento en el fichero así como el movimiento hacia atrás.
+			 
+\033[1;33mhead -2 file1: \033[1;39mver las dos primeras líneas de un fichero.
+			 
+\033[1;33mtail -2 file1: \033[1;39mver las dos últimas líneas de un fichero.
+				     
+\033[1;33mtail -f /var/log/messages: \033[1;39mver en tiempo real qué ha sido añadido al fichero.
+""")

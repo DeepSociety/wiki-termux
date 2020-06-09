@@ -1,0 +1,58 @@
+print("""
+\033[1;32mCtrl+a:\033[1;39m lleva el cursor al inicio de la línea de comandos.
+
+\033[1;32mCtrl+e:\033[1;39m lleva el cursor al final de la línea de comandos.
+
+\033[1;32mCtrl+l:\033[1;39m limpia la terminal, similar a lo que hace el comando clear.
+
+\033[1;32mCtrl+u:\033[1;39m limpia desde la posición del cursor hasta el inicio de la línea. Si se está al final limpia la línea entera.
+
+\033[1;32mCtrl+k:\033[1;39m limpia desde la posición del cursor hasta el final de la línea. Si se está al inicio limpia la línea entera.
+
+\033[1;32mCtrl+h:\033[1;39m hace lo mismo que la tecla backspace, borra el caracter inmediatamente anterior a la posición del cursor.
+
+\033[1;32mCtrl+w: \033[1;39mborra la palabra inmediatamente antes del cursor.
+
+\033[1;32mAlt+d o Esc+d: \033[1;39mborra la palabra siguiente después del cursor.
+
+\033[1;32mCtrl+p:\033[1;39m establece la línea de comandos con el último comando introducido.
+
+\033[1;32mCtrl+r:\033[1;39m inicia la búsqueda de comandos usados anteriormente, tecleando parte de un comando usos anteriores que hayamos realizado incluyendo las opciones y parámetros. Hecha una búsqueda pulsando de nuevo la combinación de teclas encontraremos coincidencias anteriores.
+
+\033[1;32mCtrl+c:\033[1;39m termina el proceso que se esté ejecutando, útil para recuperar el control del sistema.
+
+\033[1;32mCtrl+d:\033[1;39m sale de la terminal, similar al comando exit.
+
+\033[1;32mCtrl+z:\033[1;39m suspende la ejecución del proceso que se está ejecutando y lo pone en segundo plano, con el comando fg podremos volver a continuar su ejecución.
+
+\033[1;32mCtrl+t:\033[1;39m intercambia la posición de los dos caracteres antes del cursor, útil para corregir malos tecleos.
+
+\033[1;32mEsc+t:\033[1;39m intercambia la posición de las dos palabras antes del cursor, útil para corregir malos tecleos.
+
+\033[1;32mAlt+f:\033[1;39m mueve el cursor al inicio de la palabra siguiente de la línea, lo mismo que Ctrl+right en la terminal de GNOME.
+
+\033[1;32mAlt+b:\033[1;39m mueve el cursor al inicio de la palabra anterior de la línea, lo mismo que Ctrl+left en la terminal de GNOME.
+
+\033[1;32mTab:\033[1;39m autocompleta comandos o rutas de directorios o archivos.
+
+\033[1;33mOtros:
+
+\033[1;32mCtrl+Shift+f:\033[1;39m abre un diálogo para hacer una búsqueda de texto en la salida de la terminal.
+
+\033[1;32mCtrl+Shift+g:\033[1;39m busca la siguiente ocurrencia de la búsqueda previa en la terminal.
+
+\033[1;32mCtrl+Shift+h:\033[1;39m busca la anterior ocurrencia de la búsqueda previa en la terminal.
+
+\033[1;32mCtrl+Shift+c:\033[1;39m copia el texto seleccionado de la terminal al portapapeles.
+
+\033[1;32mCtrl+Shift+v:\033[1;39m pega el texto del portapapeles en la línea de comandos.
+
+\033[1;32mUp:\033[1;39m establece en la línea de comandos el comando anterior del historial, igual que Ctrl+p.
+
+\033[1;32mDown:\033[1;39m establece en la línea de comandos el siguiente comando del historial.
+
+\033[1;32mLeft Mouse:\033[1;39m selecciona líneas de texto de la terminal.
+
+\033[1;32mCtrl+Left Mouse:\033[1;39m selecciona bloques de texto de la terminal.
+""")
+

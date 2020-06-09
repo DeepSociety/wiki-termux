@@ -1,0 +1,18 @@
+figlet nmap
+
+echo -e "
+\033[1;39mNmap es un programa de código abierto que sirve para efectuar rastreo de puertos escrito originalmente por Gordon Lyon y cuyo desarrollo se encuentra hoy a cargo de una comunidad. Fue creado originalmente para Linux aunque actualmente es multiplataforma.
+
+\033[1;32mInstalación:
+\033[1;39m
+$ pkg install nmap -y
+
+\033[1;33mUso:
+\033[1;39m
+$ nmap
+
+\033[1;36mProgramado en:\033[1;39m C++; Python; C; Lua; Java
+
+\033[1;36mPeso:\033[1;39m 27.3MB
+"
+

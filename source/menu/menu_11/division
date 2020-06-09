@@ -1,0 +1,6 @@
+#!/bin/bash
+echo Primer numero:
+read a
+echo Segundo numero:
+read b
+echo "$a / $b = $(expr $a / $b)"

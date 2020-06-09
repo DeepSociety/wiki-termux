@@ -1,0 +1,33 @@
+print ("""
+\033[1;31m¿Qué es PhoneInfoga?
+
+\033[1;39mPhoneInfoga es una de las herramientas más avanzadas para escanear números de teléfono utilizando solo recursos gratuitos. El objetivo es recopilar primero información estándar como país, área, operador y tipo de línea en cualquier número de teléfono internacional con muy buena precisión.
+
+\033[1;33mINSTALACIÓN DE PhoneInfoga EN TERMUX-KALI-LINUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y python
+
+pkg install -y python2
+
+pkg install python3
+
+pkg install -y git
+
+git clone https://github.com/sundowndev/PhoneInfoga
+
+cd PhoneInfoga
+
+python3 -m pip install -r requirements.txt
+
+cp config.example.py config.py
+
+python3 phoneinfoga.py -h
+
+\033[1;33mLISTO AQUI DEBES ESCRIBIR EL SIGUIENTE COMANDO CON EL NÚMERO DE LA VÍCTIMA SIN EL ( + ) EJEMPLO:
+
+\033[1;36mpython3 phoneinfoga.py -n 593981480757 --recon
+""")

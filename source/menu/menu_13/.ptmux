@@ -1,0 +1,60 @@
+import os
+
+print ('''
+
+Para personalizar termux con un banner especifico tendriamos que hacer lo siguiente:
+\033[1;33m
+PAQUETES QUE NECESITAMOS:
+\033[1;39m
+pkg install nano -y
+
+pkg install python -y
+\033[1;35mColores:
+\033[1;39m\n''')
+os.system("cat source/menu/menu_13/.colores")
+print('''
+\033[1;32mPROCEDIMIENTO:
+\033[1;39m
+Crearemos un archivo, preferible en HOME con cualquier nombre, al inicio del archivo tendremos que poner un print("""  y cerrar con un """)
+\033[1;34m
+Ejemplo:
+\033[1;39m
+cd
+
+nano banner
+\033[1;36m
+Una ves estando en la interfaz de nano colocaremos lo siguiente:
+\033[1;39m
+print("""
+
+PEGAS TU BANNER
+
+""")
+
+Muy \033[1;31mimportante\033[1;39m colocar print(""" y cerrarlo con """)
+
+Una ves hecho esto guardaremos con CTRL+c y posteriormente damos a y
+\033[1;36m
+Bien ya estando aqui nos dirigiremos al archivo bash.bashrc aqui personalizaremos el inicio entramos a la carpeta con lo siguiente:
+\033[1;39m
+cd /data/data/com.termux/files/usr/etc
+\033[1;36m
+Aqui eliminaremos el archivo motd:
+\033[1;39m
+rm motd
+\033[1;36m
+Abrimos el archivo bash.bashrc:
+\033[1;39m
+nano bash.bashrc
+\033[1;36m
+Aqui buscaremos una variable llamada PS1, una ves ubicada escribiremos abajo lo siguiente:
+\033[1;39m
+python /data/data/com.termux/files/home/nombredelarchivodelbanner
+\033[1;32m
+Si guardaste el banner en otro lugar debes poner esa ruta
+\033[1;39m
+Una ves hecho esto guardaremos el archivo con CTRL+c luego y
+
+Hecho esto abriremos una nueva venta y listo ya tendriamos nuestro banner :3
+
+''')

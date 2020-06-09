@@ -1,0 +1,11 @@
+Naranja=\033[38;5;214m
+Rosa=\033[38;5;213m
+Rojo=\033[1;31m
+Verde=\033[1;32m
+Amarillo=\033[33m
+Azul_claro=\033[38;5;39m
+Azul=\033[34m
+Morado=\033[35m
+Blanco=\033[1;37m
+Cyan=\033[1;36m
+ 

@@ -1,0 +1,12 @@
+if [[ -f curso-bash-1.pdf ]];then
+rm curso-bash-1.pdf
+fi
+read -p $'\e[1;32mInserta la ruta a guardar el curso(\e[1;39mEjemplo: /sdcard\e[1;32m)\e[1;39m > ' ruta
+echo -e "\e[1;32m[*]\e[1;39m Descargando curso bash basico 1..."
+wget http://www.informatica.us.es/~ramon/articulos/Programacion-BASH -O curso-bash-1.pdf -o log
+if [[ -f log ]];then
+rm log
+fi
+mv curso-bash-1.pdf $ruta
+clear
+echo -e "\e[1;33m[*]\e[1;39m Curso guardado $ruta/curso-bash-1.pdf

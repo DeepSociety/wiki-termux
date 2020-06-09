@@ -1,0 +1,45 @@
+import os
+os.system("figlet PureBlood")
+os.system("figlet Framework")
+print("""
+\033[1;39m
+Un marco de prueba de penetración creado para Hackers / Pentester / Bug HunterWeb Pentest
+\033[1;32m
+Recopilación de información:
+\033[1;39m
+-Banner Grab Quien es 
+-Traceroute Registro DNS 
+-Búsqueda inversa de DNS 
+-Búsqueda de transferencia de zona -Escaneo de puertos 
+-Escaneo del panel de administración  
+-Escaneo de subdominio CMS Identify 
+-Búsqueda inversa de IP 
+-Búsqueda de subred 
+-Extraer enlaces de página Fuzz de directorio 
+-File Fuzz Shodan Search  
+-Shodan Host Lookup 
+-Ataque a la aplicación web:Wordpress Inyección automática de SQL 
+
+\033[1;33m*Generador: Desfigurar página 
+
+\033[1;33m*Generador de contraseñas Text To Hash 
+\033[1;32m
+Instalación: 
+\033[1;39m
+$ apt update && apt upgrade  
+$ apt install git -y
+$ apt install python -y
+$ git clone https://github.com/cr4shcod3/pureblood  
+$ cd pureblood
+$ chmod +x *  
+$ pip install -r requirements.txt
+\033[1;33m
+Uso : 
+\033[1;39m
+$ python2 pureblood.py 
+
+Ahora seleccione su opción.
+
+\033[1;36mNota:\033[1;39m No uses $ solo es un ejemplo.
+""")
+

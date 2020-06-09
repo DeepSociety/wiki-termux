@@ -1,0 +1,13 @@
+figlet axel
+echo -e "\e[1;39m
+Axel te permite lo que no te permite wget, descargar un mismo archivo usando varios hilos(descarga mas rapida).
+
+\e[1;32mInstalación:
+\e[1;39m$ pkg install axel
+
+\e[1;33mUso:
+\e[1;39m$ axel --help
+
+\e[1;36mPeso:\e[1;39m 98.3KB
+"
+

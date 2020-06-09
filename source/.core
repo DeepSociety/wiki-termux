@@ -1,0 +1,286 @@
+r=`shuf -i 1-70 -n 1`  
+		
+a="\e[1;33m¿Sabias Qué?\e[1;39m"
+
+b1(){
+echo -e "$a La radio tardó 38 años en alcanzar los 50 millones de usuarios; la televisión tardó 13 años en alcanzar la misma cifra. Internet logró los 50 millones de usuarios en tan solo 4 años."
+}
+
+b2(){       
+echo -e "$a El primer dominio registrado en Internet fue Symbolics.com. También es importante conocer que cada mes se registran en torno al millón de dominios de Internet."
+}
+
+b3(){
+echo -e "$a la casa de Bill Gates fue diseñada con un ordenador Apple 😂"    
+}
+
+b4(){
+echo -e "$a Delante de una computadora una persona parpadea en torno a 7 veces por minuto."
+}
+
+b5(){
+echo -e "$a El primer monitor informático fue fabricado en el año 1956 y su tamaño correspondía al de un piano."
+}
+
+b6(){
+echo -e "$a Los nombres tecnológicos no suelen ser muy atractivos, pero en ocasiones algunos nombres elegidos para un dispositivo o producto informático es convierten en un éxito. En el año 2012 al menos 17 bebés fueron inscritos con el nombre de Siri."
+}
+
+b7(){
+echo -e "$a En Japón existe una fabrica que puede operar con total normalidad durante 30 días seguidos sin ningún tipo de supervisión. Esto es así porque dicha fábrica está totalmente robotizada."
+}
+
+b8(){
+echo -e "$a En China existieron tiendas Apple «pirata», es decir, falsas y que vendían producto pirateado. Pero lograban tal nivel de «realidad» que hasta los propios empleados pensaban que eran empleados de Apple."
+}
+
+b9(){
+echo -e "$a El hombre del año en 1982 en la famosa revista Times no fue otro que... «el computador». Y así fue como el computador fue el protagonista de la portada de Times."
+}
+
+b10(){
+echo -e "$a Cuando los ingenieros de Apple enseñaron el prototipo de iPod a Steve Jobs, lo dejó caer en el interior de un acuario. El objetivo de Jobs era demostrar que salían burbujas de aire del interior del dispositivo y que, por lo tanto, se podría diseñar más pequeño todavía."
+}
+
+b11(){
+echo -e "$a El primer software fue el sistema operativo CTSS («Compatible Time-Sharing System») desarrollado por el MIT y presentado en el año 1961."
+}
+
+b12(){
+echo -e "$a Se calcula que cada mes son liberados, aproximadamente, unos 6.000 virus informáticos nuevos."
+}
+
+b13(){
+echo -e "$a La contraseña de los ordenadores encargados de controlar los misiles nucleares del ejército de los Estados Unidos durante años fue 00000000"
+}
+
+b14(){
+echo -e "$a El primer ratón se construyó en 1964 y estaba hecho de madera"
+}
+
+b15(){
+echo -e "$a Se estima que Google consume cada año la energía equivalente a 200.000 hogares"
+}
+
+b16(){
+echo -e "$a El término “bug” se originó por una polilla"
+}
+
+b17(){
+echo -e "$a Cada mes se registran 1.000.000 de nuevos dominios"
+}
+
+b18(){
+echo -e "$a La misma persona que alquiló su garaje a Larry Page y Sergei Brin para que desarrollaran Google terminó convirtiéndose en CEO de Youtube"
+}
+
+b19(){
+echo -e "$a CAPTCHA significa “Completely Automated Public Turing Test to tell Computers and Humans Apart”, o lo que viene a ser “Prueba de Turing completamente automática y pública para distinguir máquinas de humanos”."
+}
+
+b20(){
+echo -e "$a El primer ordenador mecánico se llamaba ENIAC"
+}
+
+b21(){
+echo -e "$a Hay dos motivos por los que se incluyó la @ en las direcciones de correo electrónico, El primero, que era un ícono poco utilizado. El segundo, que en latín el símbolo significa “en”."
+}
+
+b22(){
+echo -e "$a Enviar la palabra “LOGIN” en 1969 por Internet era bastante difícil"
+}
+
+b23(){
+echo -e "$a No siempre hemos podido “cortar y pegar”, Esta acción, que ha supuesto el ahorro de millones de horas acumuladas para usuarios de todo el mundo, fue desarrollada en 1981 por el ingeniero Larry Tesler."
+}
+
+b24(){
+echo -e "$a  Las tres contraseñas más utilizadas del mundo son… 123456, password y 12345."
+}
+
+b25(){
+echo -e "$a Registrar dominios no siempre ha costado dinero, Hasta 1995, hacerlo era gratis."
+}
+
+b26(){
+echo -e "$a El primer virus informático se desarrolló en 1971, Su nombre era Creeper y circulaba en ARPANET."
+}
+
+b27(){
+echo -e "$a Los ordenadores de la NASA y del Pentágono fueron hackeados por la misma persona, Tan sólo tenía 15 años de edad…"
+}
+
+b28(){
+echo -e "$a El primer programador de la historia fue, en realidad, la hija del poeta romántico Lord Byron."
+}
+
+b29(){
+echo -e "$a En 1962, el programador y científico Steve Russel creó junto a otros estudiantes del Instituto de Tecnología de Massachusetts (MIT) Spacewar!, considerado el primer juego interactivo de ordenador."
+}
+
+b30(){
+echo -e "$a En la actualidad hay un total de 698 lenguajes de programación."
+}
+
+b31(){
+echo -e "$a Cada día se hackean mas 30.000 webs."
+}
+
+b32(){
+echo -e "$a Más del 80% de los e-mails que se envían cada día son spam."
+}
+
+b33(){
+echo -e "$a El 20% de los virus para dispositivos han sido desarrollados por ciberdelincuentes."
+}
+
+b34(){
+echo -e "$a Blaster es uno de los gusanos más famosos de la historia. Este malware se instalaba en el ordenador, se bajaba un parche para cerrar la vulnerabilidad por la que había accedido y luego buscaba y eliminaba (si estaba presente) a otro gusano llamado Blaster. Después, se desinstalaba."
+}
+
+b35(){
+echo -e "$a La brecha de seguridad más peligrosa localizada jamás en los ordenadores militares de EEUU pasó porque alguien encontró una memoria USB en el parking de la organización (infectada por un virus de una agencia extranjera) y lo conectó a su equipo."
+}
+
+b36(){
+echo -e "$a En 2012, el grupo de ciberdelincuentes conocidos como UGNazi inutilizó la página web de Papa John’s porque tardaron dos horas en llevarles su pedido."
+}
+
+b37(){
+echo -e "$a Dirty Dozen era el nombre del grupo de los 12 ingenieros que desarrollaron el primer ordenador de IBM."
+}
+
+b38(){
+echo -e "$a HP, Microsoft y Apple comenzaron en un garaje."
+}
+
+b39(){
+echo -e "$a El padre de todos los navegadores fue Mosaic, creado en 1993."
+}
+
+b40(){
+echo -e "$a IMDB es una de las webs más antiguas de Internet. Su primer artículo, Las actrices que tienen los ojos más bonitos, se lanzó en 1990."
+}
+
+b41(){
+echo -e "$a La marca Lenovo viene de New Legend (Nueva Leyenda, en español. “Le” por Legend, “Novo”, por nuevo."
+}
+
+b42(){
+echo -e "$a YouTube fue fundado por tres empleados de PayPal."
+}
+
+b43(){
+echo -e "$a El primer ordenador electromecánico se creó en 1939."
+}
+
+b44(){
+echo -e "$a El primer ordenador electrónico se llamó ENIAC. Pesaba 27 toneladas y ocupaba 167 metros cuadrados."
+}
+
+b45(){
+echo -e "$a El primer disco duro se creó en 1979 y estaba pensado para almacenar datos de usuarios. Su capacidad era de 5 MB."
+}
+
+b46(){
+echo -e "$a Actualmente todos conocemos al sistema operativo de la compañía de Redmond como Microsoft Windows, pero originalmente se llamó Interface manager."
+}
+
+b47(){
+echo -e "$a Sólo el 8% de la riqueza mundial es dinero físico. El resto sólo existe a nivel virtual."
+}
+
+b48(){
+echo -e "$a El primer disco duro de venta al público se creó en 1980 y estaba valorado en 140.000 dólares. Estaba preparado para almacenar 1 GB de datos y pesaba 250 kg."
+}
+
+b49(){
+echo -e "$a Según un estudio de 2012, más de 17.000 millones de dispositivos estaban conectados a Internet. Se prevé que en 2020 sean 50.000 millones."
+}
+
+b50(){
+echo -e "$a La tarjeta gráfica NVidia GeForce 6800 Ultra cuenta con 222 millones de transistores. :0"
+}
+
+b51(){
+echo -e "$a El Intel 4004, un CPU de 4 bits, fue el primer microprocesador en un simple chip, así como el primero disponible comercialmente."
+}
+
+b52(){
+echo -e "$a Un cerebro humano sería capaz de calcular más de 38.000 millones de operaciones en un segundo y puede llegar a almacenar un total de 3580TB de información."
+}
+
+b53(){
+echo -e "$a TYPEWRITER es la palabra más larga que se puede escribir utilizando sólo la primera fila de letras de tu teclado."
+}
+
+b54(){
+echo -e "$a Los rusos fueron los primeros en fabricar un ordenador que se pudiera usar bajo el agua (1936)."
+}
+
+b55(){
+echo -e "$a El 75% de los habitantes de Suecia usan Internet. Esto le convierte en el país con la mayor cantidad de internautas del mundo."
+}
+
+b56(){
+echo -e "$a Un total de 1.319.872.109 personas utilizan Internet a diario."
+}
+
+b57(){
+echo -e "$a Aproximadamente, existen 1.060 millones de ID’s de mensajería instantánea."
+}
+
+b58(){
+echo -e "$a El 80% de todas las fotos que existen en Internet son de mujeres desnudas. xD"
+}
+
+b59(){
+echo -e "$a Hay unos 1.800 millones de Internautas, pero sólo 450 millones de esos usuarios hablan inglés."
+}
+
+b60(){
+echo -e "$a Cada minuto se suben unas 10 horas de vídeos de YouTube."
+}
+
+b61(){
+echo -e "$a Amazon comenzó su andadura vendiendo libros. Actualmente, vende más e-books que libros físicos."
+}
+
+b62(){
+echo -e "$a Los correos electrónicos se crearon antes que la WWW."
+}
+
+b63(){
+echo -e "$a elgoog.com es una versión del motor de búsqueda de Google. La peculiaridad es que muestra invertido todo el texto de las webs guardadas en la caché de Google."
+}
+
+b64(){
+echo -e "$a Cuando internet comenzaba la letra G era muy dificil de enviar."
+}
+
+b65(){
+echo -e "$a HTTPS (HyperText Transfer Protocol Secure, Protocolo de transferencia de hipertexto) es un protocolo de comunicación de Internet que protege la integridad y la confidencialidad de los datos de los usuarios entre sus ordenadores y el sitio web."
+}
+
+b66(){
+echo -e "$a C es considerado el padre de la programación."
+}
+
+b67(){
+echo -e "$a Python, Java, C, C++, JavaScript son los 5 lenguajes mas usados."
+}
+
+b68(){
+echo -e "$a Tetris fue el primer juego instalado en un teléfono móvil en el año 1994."
+}
+
+b69(){
+echo -e "$a Bill Gates y Paul Allen fundarón Microsoft."
+}		      
+
+b70(){
+echo -e "$a Vinton Cerf y Robert Kahn son considerados los padres del internet creadores de los protocolos TCP/IP"
+}
+
+b$r
+

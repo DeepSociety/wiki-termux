@@ -1,0 +1,14 @@
+rnd=`shuf -i 1-13 -n 1`       
+clear
+python source/art/b$rnd
+echo
+bash source/.core
+echo -e "
+\e[1;31m[\e[1;39m 1 \e[1;31m]\e[1;39m Solución Ngrok no me deja link(Phishing)
+\e[1;31m[\e[1;39m 2\e[1;31m ]\e[1;39m Solución Ngrok no conecta
+\e[1;31m[\e[1;39m 3\e[1;31m ]\e[1;39m Solución Git al clonar repos
+		
+\e[1;31m[\e[1;39m 99\e[1;31m ]\e[1;39m Volver al menú
+"
+python source/lib/.readpy6
+

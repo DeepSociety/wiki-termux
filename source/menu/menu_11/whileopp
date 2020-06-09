@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cuenta=10
+while [ $cuenta != 0 ]; do
+	echo voy en: $cuenta
+	sleep 0.5
+	let cuenta=cuenta-1
+done

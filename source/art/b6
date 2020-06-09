@@ -1,0 +1,33 @@
+print("""\033[1;39m                                               
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                    `..-:://+++oooooooo+++//::-..`                    
+              `-:/+oooooooooooooooooooooooooooooooo+/:-`              
+          .:/oooooooooooooooooo:   :ooooooooooooooooooooo/:.          
+       ./oooooooooooooooooooooo`   +ooooooooooooooooooooooooo/.       
+     -+oooooooo----------:+ooo/    -----::+ooo:---------:/ooooo+-     
+   .+ooooooooo/           `+o.            :o+            `/ooooo+.   
+  -ooooooooooo.   /ooooo:   `+   `ooooo:   .o-   :ooooo/    ooooooo-  
+ `oooooooooooo   `oooooo/   `:   :ooooo.   /o`   +ooooo+    oooooooo` 
+ -ooooooooooo:   :oooooo.   :`   +oooo+   `o/   .oooooo.   -oooooooo- 
+ `ooooooooooo`            :/   .ooooo:   -o.             -ooooooooo` 
+  -ooooooooo+           .:+o-   /ooooo.   ++           .:+ooooooooo-  
+   .+ooooooo-   /oooooooooooooooooooooooooo:   :ooooooooooooooooo+.   
+     -+ooooo`  `ooooooooooooooooooooooooooo`   +ooooooooooooooo+-     
+       ./oo+...:oooooooooooooooooooooooooo+...-oooooooooooooo/.       
+          .:/oooooooooooooooooooooooooooooooooooooooooooo/:.          
+              `-:/+oooooooooooooooooooooooooooooooo+/:-`              
+                    `..-:://+++ooooooo++++//::-..`
+
+PHP es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group.
+
+\033[1;36mÚltima versión estable:\033[1;39m 7.4.6​
+\033[1;36mSistema de tipos: \033[1;39mDinámico, débil
+\033[1;36mSistema operativo:\033[1;39m Unix-like, Windows
+\033[1;36mDiseñador:\033[1;39m Rasmus Lerdorf
+\033[1;36mInfluido por:\033[1;39m Perl, C, C++, Java, Tcl
+\033[1;36mParadigma: Multiparadigma:\033[1;39m imperativo, funcional, orientado a objetos, procedural, reflexivo
+""")
+

@@ -1,0 +1,27 @@
+print("""
+\033[1;31m¿Qué es websploit?
+
+\033[1;39mWebsploit es un proyecto open source el cual es utilizado para escanear y analizar sistemas remotos para encontrar varios tipos de vulnerabilidades.
+
+\033[1;33mINSTALACIÓN DE websploit EN TERMUX
+
+\033[1;39mapt update && apt upgrade -y
+
+termux-setup-storage
+
+pkg install -y python
+
+pkg install -y python2
+
+pkg install -y git
+
+git clone https://github.com/websploit/websploit
+
+cd websploit
+
+pip install -r requirements.txt
+
+python setup.py install
+
+websploit
+""")

@@ -1,0 +1,18 @@
+print("""
+\033[1;33m¿Que es Termux:Widget?
+
+\033[1;39mEl complemento Termux: Widget proporciona un widget con accesos directos para ejecutar scripts ubicados en la carpeta $ HOME / .shortcuts /, lo que permite un acceso rápido a los comandos de uso frecuente sin necesidad de escribir.
+
+\033[1;33mDescargas:
+
+
+\033[1;32mPlay Store:\033[1;39m https://play.google.com/store/apps/details?id=com.termux.widget
+
+\033[1;36mPrecio:\033[1;39m $1.99
+
+\033[1;33mAptoide( gratis )
+
+\033[1;39mhttps://termux-widget.es.aptoide.com/app
+
+
+""")

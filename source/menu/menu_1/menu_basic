@@ -1,0 +1,103 @@
+print("""
+
+\033[1;33mls
+\033[1;32mLista las carpetas/archivos
+
+Ejem:
+\033[1;33mls
+\033[1;32mcarpeta carpeta2 carpeta3 carpeta4
+archivo archivo2 
+
+\033[1;33mcd (tucarpeta)
+\033[1;32mSelecciona carpetas\033[1;31m SOLO CARPETAS
+
+\033[1;32mEjem:
+\033[1;33mcd micarp
+
+ls
+
+\033[1;32marchivo1 archivo2
+
+\033[1;33mpwd
+\033[1;32mMuestra la ruta actual
+
+Ejem:
+\033[1;33mpwd
+\033[1;39m/data/data/com.termux/files/home/termux
+
+\033[1;33mcat
+\033[1;32mPermite leer(ver) el contenido de un archivo \033[1;31m SOLO ARCHIVOS
+
+\033[1;32mEjem:
+\033[1;33mcat miarchivo.txt
+\033[1;32mAqui se mostrara el contenido...
+\033[1;36mNota:
+\033[1;39mUsa el comando cat --help
+Para ver todas las opciones
+cat admite todos los formatos(.sh, .py, .txt) etc
+
+\033[1;33mapt update
+\033[1;39mActualiza lista de paquetes disponibles.
+
+\033[1;33mapt upgrade
+\033[1;39mActualiza paquetes obsoletos.
+
+\033[1;33mapt search
+\033[1;39mMuestra paquetes disponibles
+
+Ejem:  \033[1;33mapt search nano.
+\033[1;32m(nano es un paquete)
+
+\033[1;33mapt install
+\033[1;32mInstalar un paquete. 
+
+Ejem:  \033[1;33mapt install nano. 
+
+\033[1;32mPodemos instalar varios paquetes: Ejem: apt install nano nmap python2 -y.
+
+\033[1;33mapt show
+\033[1;32mInformación sobre un paquete.
+
+Ejem:  \033[1;33mapt show nano
+
+\033[1;33mapt list
+\033[1;32mMuestra todos los paquetes disponibles.
+
+\033[1;33mapt list –installed
+\033[1;32mMuestra todos los paquetes instalados.
+
+\033[1;33mapt remove
+\033[1;32mElimina un paquete.
+
+Ejem:  \033[1;33mapt remove nano.
+
+\033[1;33mcd ..
+\033[1;32mRetrocede de directorio.
+
+\033[1;33mmkdir
+\033[1;32mCrear directorio.
+
+Ejem: \033[1;33mmkdir carpeta
+
+\033[1;33mmv
+\033[1;32mMueve una carpeta/archivo
+
+Ejem: \033[1;33mmv archivo lugardedestino
+
+\033[1;36mNota:
+\033[1;32mUsa el comando: mv --help 
+Para ver mas opciones
+Para mover carpetas tienes que usar la opción \033[1;31m-r
+\033[1;32mmv -r carpeta lugardestino
+
+\033[1;33mcp
+\033[1;32mCopia archivos/carpetas
+
+Ejem: \033[1;33mcp archivo.txt lugardestino
+
+\033[1;36mNota:
+\033[1;32mPara mover carpetas
+Usa el comando: \033[1;33mcp -r carpeta lugardestino \033[1;37m
+
+""")
+

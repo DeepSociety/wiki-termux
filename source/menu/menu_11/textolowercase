@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Escribe un texto en mayusculas: " i
+o=$(echo "$i" | tr '[:upper:]' '[:lower:]')
+echo $o

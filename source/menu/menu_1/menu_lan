@@ -1,0 +1,48 @@
+print("""\033[1;32mifconfig: \033[1;39mmostrar estadisticas lan del dispositivo.
+
+\033[1;32mifconfig eth0: \033[1;39mmostrar la configuración de una tarjeta de red Ethernet.
+
+\033[1;32mifup eth0: \033[1;39mactivar una interface ‘eth0’.
+
+\033[1;32mifdown eth0: \033[1;39mdeshabilitar una interface ‘eth0’.
+
+\033[1;32mifconfig eth0 192.168.1.1 netmask 255.255.255.0: \033[1;39mconfigurar una dirección IP.
+
+\033[1;32mifconfig eth0 promisc: \033[1;39mconfigurar ‘eth0’en modo común para obtener los paquetes (sniffing).
+
+\033[1;32mdhclient eth0: \033[1;39mactivar la interface ‘eth0’ en modo dhcp.
+
+\033[1;32mroute -n: \033[1;39mmostrar mesa de recorrido.
+
+\033[1;32mroute add -net 0/0 gw IP_Gateway: \033[1;39mconfigurar entrada predeterminada.
+
+\033[1;32mroute add -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1: \033[1;39mconfigurar ruta estática para buscar la red ‘192.168.0.0/16’.
+
+\033[1;32mroute del 0/0 gw IP_gateway: \033[1;39meliminar la ruta estática.
+
+\033[1;32mecho “1” > /proc/sys/net/ipv4/ip_forward: \033[1;39mactivar el recorrido ip.
+
+\033[1;32mhostname: \033[1;39mmostrar el nombre del host del sistema.
+
+\033[1;32mhost www.example.com: \033[1;39mbuscar el nombre del host para resolver el nombre a una dirección ip(1).
+
+\033[1;32mnslookup www.example.com: \033[1;39mbuscar el nombre del host para resolver el nombre a una direccióm ip y viceversa(2).
+
+\033[1;32mip link show: \033[1;39mmostar el estado de enlace de todas las interfaces.
+
+\033[1;32mmii-tool eth0: \033[1;39mmostar el estado de enlace de ‘eth0’.
+
+\033[1;32methtool eth0: \033[1;39mmostrar las estadísticas de tarjeta de red ‘eth0’.
+
+\033[1;32mnetstat -tup: \033[1;39mmostrar todas las conexiones de red activas y sus PID.
+
+\033[1;32mnetstat -tupl: \033[1;39mmostrar todos los servicios de escucha de red en el sistema y sus PID.
+
+\033[1;32mtcpdump tcp port 80: \033[1;39mmostrar todo el tráfico HTTP.
+
+\033[1;32miwlist scan: \033[1;39mmostrar las redes inalámbricas.
+
+\033[1;32miwconfig eth1: \033[1;39mmostrar la configuración de una tarjeta de red inalámbrica.
+
+\033[1;32mwhois www.example.com: \033[1;39mbuscar en base de datos Whois.
+""")

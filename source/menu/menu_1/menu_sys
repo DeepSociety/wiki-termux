@@ -1,0 +1,31 @@
+print("""\033[1;36muname -m: \033[1;39mmostrar la arquitectura de la máquina.
+
+\033[1;36muname -r: \033[1;39mmostrar la versión del kernel usado.
+
+
+\033[1;36mcat /proc/cpuinfo: \033[1;39mmostrar información de la CPU.
+
+\033[1;36mcat /proc/interrupts: \033[1;39mmostrar las interrupciones.
+
+\033[1;36mcat /proc/meminfo: \033[1;39mverificar el uso de memoria.
+
+\033[1;36mcat /proc/swaps: \033[1;39mmostrar ficheros swap.
+
+\033[1;36mcat /proc/version: \033[1;39mmostrar la versión del kernel.
+
+\033[1;36mcat /proc/net/dev: \033[1;39mmostrar adaptadores de red y estadísticas.
+
+\033[1;36mcat /proc/mounts: \033[1;39mmostrar el sistema de ficheros montado.
+
+\033[1;36mlspci -tv: \033[1;39mmostrar los dispositivos PCI.
+
+\033[1;36mlsusb -tv: \033[1;39mmostrar los dispositivos USB.
+
+\033[1;36mdate: \033[1;39mmostrar la fecha del sistema.
+
+\033[1;36mcal 2020: \033[1;39mmostrar el almanaque de 2020.
+
+\033[1;36mcal 05 2020: \033[1;39mmostrar el almanaque para el mes mayo de 2020.
+
+\033[1;36mdate 041217002011.00: \033[1;39mcolocar (declarar, ajustar) fecha y hora.
+""")

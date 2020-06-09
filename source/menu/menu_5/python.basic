@@ -1,0 +1,13 @@
+if [[ -f curso-python-basico.pdf ]];then
+rm curso-python-basico.pdf
+fi
+read -p $'\e[1;32mInserta la ruta a guardar el curso(\e[1;39mEjemplo: /sdcard\e[1;32m)\e[1;39m > ' ruta
+echo -e "\e[1;32m[*]\e[1;39m Descargando curso python basico..."
+wget https://www.iaa.csic.es/python/curso-python-para-principiantes.pdf -O curso-python-basico.pdf -o log
+if [[ -f log ]];then
+rm log
+fi
+mv curso-python-basico.pdf $ruta
+clear
+echo -e "\e[1;33m[*]\e[1;39m Curso guardado $ruta/curso-python-basico.pdf"
+

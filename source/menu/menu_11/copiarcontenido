@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -n "Nombre del archivo :"
+read fileName
+
+if [ ! -f $fileName ]; then
+	echo "El archivo no existe"
+	exit 1
+fi
+
+tr '[A-Z]' '[a-z]' <$fileName >>copia.txt
+

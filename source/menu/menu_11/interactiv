@@ -1,0 +1,6 @@
+#! /bin/bash
+echo "Cual es tu primer nombre?"
+read a
+echo "Hola, $a Cual es tu apellido?"
+read b
+echo "Bienvenido, $a $b"

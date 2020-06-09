@@ -1,0 +1,14 @@
+figlet curl
+echo -e "\e[1;39m
+cURL es un proyecto de software consistente en una biblioteca y un intérprete de comandos orientado a la transferencia de archivos. Soporta los protocolos FTP, FTPS, HTTP, HTTPS, TFTP, SCP, SFTP, Telnet, DICT, FILE y LDAP, entre otros. Wikipedia
+
+\e[1;32mInstalación:
+\e[1;39m$ pkg install curl
+
+\e[1;33mUso:
+\e[1;39m$ curl --help
+
+\e[1;36mPeso:\e[1;39m 209KB
+\e[1;36mEscrito en: \e[1;39mC
+\e[1;36mDesarrollador: \e[1;39mDaniel Stenberg 
+"

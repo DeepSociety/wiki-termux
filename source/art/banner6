@@ -1,0 +1,9 @@
+print("""
+\033[1;31m[ \033[1;39m1 \033[1;31m] \033[1;39mSolución Ngrok no me deja link(Phishing)
+\033[1;31m[ \033[1;39m2 \033[1;31m] \033[1;39mSolución Ngrok no conecta
+\033[1;31m[ \033[1;39m3 \033[1;31m] \033[1;39mSolución Git al clonar repos
+
+\033[1;36mNota:\033[1;39m Pronto se añadiran mas soluciones.
+
+\033[1;31m[\033[1;39m 99 \033[1;31m]\033[1;39m Volver al menú
+""")               

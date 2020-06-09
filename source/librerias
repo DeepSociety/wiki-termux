@@ -1,0 +1,3 @@
+clear
+python source/art/banner2
+python source/lib/.readpy1

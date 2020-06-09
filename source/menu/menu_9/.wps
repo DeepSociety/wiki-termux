@@ -1,0 +1,25 @@
+import os
+os.system("figlet WPScan")
+print("""
+\033[1;39m
+WPScan es un escáner de vulnerabilidad de WordPress de caja negra gratuito, para uso no comercial, escrito para profesionales de seguridad y mantenedores de blogs para probar la seguridad de sus sitios.
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt install git -y
+$ apt install ruby -y
+$ git clone https://github.com/wpscanteam/wpscan 
+$ cd wpscan 
+$ chmod 777 wpscan.rb 
+\033[1;32m
+Instalamos las gemas:
+\033[1;39m
+$ gem install bundle 
+$ bundle install -j5
+\033[1;33m
+MÉTODO DE USO:
+\033[1;39m
+$ ruby wpscan.rb 
+$ ruby wpscan.rb –url [wordpress url]
+
+""")

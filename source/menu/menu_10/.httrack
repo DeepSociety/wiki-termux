@@ -1,0 +1,14 @@
+figlet Httrack
+echo -e "\e[1;39m
+HTTrack es una aplicación informática de software libre y de código abierto que utiliza la licencia licencia GPL, multilenguaje y multiplataforma cuyo propósito es la captura web, es decir la descarga de todo o parte de un sitio web, para posteriormente poder navegar por él fuera de línea.
+
+\e[1;32mInstalación:
+\e[1;39m$ pkg install httrack
+
+\e[1;33mUso:
+\e[1;39m$ httrack
+
+\e[1;36mPeso:\e[1;39m 3633KB
+\e[1;36mEscrito en: \e[1;39mC
+\e[1;36mDesarrollador: \e[1;39mXavier Roche
+"

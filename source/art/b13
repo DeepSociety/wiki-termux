@@ -1,0 +1,37 @@
+print("""
+\033[1;39m
+                 `-:/+ossyysso/:/:-.`oooooo 
+               `-/osyyyyyyyyyyyyyys-/+++++++:.   
+             .:osyyyyyyyyyyyyyyyyyyy.:yhhddddddy: 
+          `:oyyyyyyyyyyyyyyyyyyyyyy/+yyyddddddddd+
+        .+syyyyyyyyyyyyyyyyyyyyyyo/syyyyyhdddddddh
+      `/syyyyyyyyyyyyyyyyyyyyyyo:/yyyyyyyyhddddddy
+     `oyyyyyyyyyyyyyyyyyyyyys+-.oyyyyyyyyyyyhdddh:
+    .+yyyyyyyyyyyyyyyyyyss+//+oyhhhhhyyyyyyyyhdh/ 
+   ::/yyyyyyyyyyyyyysoo++ooyyyyhddddddddhhhhhhh+  
+  -+/`-+oosssooo+///+osyyyyyyyyhddddddddddddhho`  
+ .+os//://///:::+osyyyyyyyyyyyydddddddddddhhys`   
+`oyhh+++++++++shdhhyyyyyyyyyyyydddddddddhhyys.    
+/ddddo+++++++yddddddhhyyyyyyyyydddddddddyyyy:     
+ydddds+++++ohddddddddddhhyyyyyhddddddddhyyy/      
+hddddy++++yhddddddddddddddhhyyhddddddddhyyo`      
+:hdddh++ohdddddddddddddddddhysshdddddddyys`       
+ .+ydh+shddddddddddddhhyyso++++ohdddddhys.        
+   `.:/+syhddddddddyso++++++++++ohddddhy:         
+          ``.-:+osyhhhhysoo+++++++ydddy/          
+                    `.-:+osyysso+++shdo           
+                             `.-:///+s`      
+
+
+
+
+\033[1;39mRuby es un lenguaje de programación interpretado, reflexivo y orientado a objetos, creado por el programador japonés Yukihiro "Matz" Matsumoto, quien comenzó a trabajar en Ruby en 1993, y lo presentó públicamente en 1995.
+	               
+\033[1;36mSistema de tipos:\033[1;39m fuertemente tipado, dinámico
+\033[1;36mParadigma: multiparadigma:\033[1;39m orientado a objetos, reflexivo
+\033[1;36mÚltima versión estable:\033[1;39m 2.7.1​
+\033[1;36mDiseñador:\033[1;39m Yukihiro Matsumoto
+\033[1;36mExtensiones comunes:\033[1;39m rb,.rbw
+\033[1;36mInfluido por:\033[1;39m Perl, Smalltalk, Python, Lisp, Eiffel, Scheme, Ada, Dylan, CLU
+""")
+

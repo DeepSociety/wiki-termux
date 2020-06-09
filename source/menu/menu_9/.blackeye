@@ -1,0 +1,23 @@
+import os
+os.system("figlet BlackEye")
+print("""
+\033[1;39m
+Esta es una de las herramientas de phishing más completas en termux. 
+\033[1;32m
+Instalación: 
+\033[1;39m
+$ apt update && upgrade 
+$ apt install git -y
+$ apt install php -y
+$ apt install openssh -y
+$ apt install curl -y
+$ git clone https://github.com/thelinuxchoice/blackeye 
+$ cd blackeye 
+$ chmod +x *  
+\033[1;33m
+Uso:-  
+\033[1;39m
+$ bash blackeye.sh 
+
+Ahora, seleccione la opción deseada para phishing.
+""")

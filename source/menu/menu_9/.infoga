@@ -1,0 +1,31 @@
+import os
+os.system("figlet Infoga")
+
+print("""
+\033[1;39m
+Infoga es una herramienta que recopila información de cuentas de correo electrónico (ip, nombre de host, país, ...) de diferentes fuentes públicas (motores de búsqueda, servidores de clave pgp y shodan) y comprueba si los correos electrónicos se filtraron utilizando la API de correos electrónicos pirateados. 
+Es una herramienta realmente simple, pero muy efectiva para las primeras etapas de una prueba de penetración o simplemente para conocer la visibilidad de su empresa en Internet. 
+\033[1;32m
+Instalación: 
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install python -y
+$ git clone https://github.com/m4ll0k/Infoga.git infoga
+$ cd infoga
+$ python setup.py install
+$ python infoga.py
+
+\033[1;33m
+Uso: 
+\033[1;39m
+$ python infoga.py  
+\033[1;32m
+Ahora muestra todas las opciones para usar esta herramienta: 
+\033[1;39m
+$ python infoga.py -t gmail.com -s all 
+ 
+Ahora ha comenzado a recopilar información de correos electrónicos y correos electrónicos [nombre de host, ciudad, organización, puertos de longitud y latitud ...]
+
+\033[1;36mNota:\033[1;39m No uses $ solo es un ejemplo.
+""")

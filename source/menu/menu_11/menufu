@@ -1,0 +1,52 @@
+banner(){
+clear
+figlet WikiTermux
+}
+
+opc(){
+echo "
+[ 1 ] Listar
+[ 2 ] Ver la ruta
+[ 3 ] Crear archivo
+
+[ 00 ] Salir
+"
+read -p "Selecciona una opción > " op
+if [ $op == "1" ];then
+ls
+sleep 1
+# retomamos el banner y el menu
+banner 
+opc
+
+elif [ $op == "2" ];then
+pwd
+sleep 1
+# retomamos el banner y el menu
+banner
+opc
+
+elif [ $op == "3" ];then
+read -p "Nombre del archivo > " archivo
+echo "Creado > $archivo"
+>> $archivo
+sleep 1
+# retomamos el banner y el menu
+banner
+opc
+
+elif [ $op == "00" ];then
+exit
+
+else
+echo "Opción invalida"
+sleep 1
+# llamamos al banner y al menu
+banner
+opc
+fi
+}
+
+# iniciamos las funciones
+banner
+opc

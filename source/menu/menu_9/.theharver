@@ -1,0 +1,52 @@
+import os
+os.system("figlet TheHarvester")
+
+print("""
+\033[1;33m
+SOBRE THEHARVESTER:
+\033[1;39m
+theHarvester es una herramienta muy simple pero efectiva diseñada para usarse en las primeras etapas de una prueba de penetración. 
+Úselo para recopilar información de código abierto y ayudar a determinar el panorama de amenazas externas de una empresa en Internet. 
+La herramienta recopila correos electrónicos, nombres, subdominios, direcciones IP y URL utilizando múltiples fuentes de datos públicos.
+\033[1;32m
+INSTALACIÓN:
+\033[1;39m
+$ apt update && apt upgrade 
+$ apt install git -y
+$ apt install python2 -y
+$ apt install python -y
+$ git clone https://github.com/laramies/theHarvester
+\033[1;32m
+MÉTODO DE USO:
+\033[1;39m
+$ cd theHarvester 
+$ chmod +x * 
+$ python2 theHarvester.py 
+$ python2 theHarvester.py -d site.com -b google
+\033[1;33m
+DATOS PUBLICOS:
+\033[1;39m
+• www.baidu.com 
+• www.bing.com 
+• www.censys.io 
+• www.crt.sh 
+• www.cymon.io 
+• dnsdumpster.com 
+• www.dogpile.com 
+• www.duckduckgo.com 
+• www.google.com 
+• google-certificates
+• www.hunter.io 
+• www.intelx.io 
+• www.linkedin.com 
+• www.netcraft.com 
+• www.securitytrails.com 
+• www.shodanhq.com 
+• www.threatcrowd.org 
+• trello 
+• twitter 
+• vhost(Bing virtual hosts search) 
+• virustotal.com 
+• yahoo 
+
+""")

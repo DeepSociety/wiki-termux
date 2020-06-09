@@ -1,0 +1,21 @@
+{
+  "information_gathering" : "Herramientas de Información",
+  "vulnerability_scanner" : "Herramientas de Vulneveralidad",
+  "exploitation_tools" : "Herramientas de Explotación",
+  "forensics_tools" : "Herramientas Forences",
+  "web_hacking" : "Herramientas de Web",
+  "ip_tracking" : "Herramientas de seguimiento de IP",
+  "stress_testing" : "Pruebas de Fuerza Bruta",
+  "wireless_testing" : "Pruebas Inalámbricas",
+  "phishing": "Phishing",
+  "sniffing_spoofing" : "Sniffing y Spoofing",
+  "password_attack" : "Ataques de Contraseña",
+  "ddos" : "Ataque DDOS",
+  "maintaining_access" : "Mantener el Acceso",
+  "programming_language" : "Lenguajes de programación",
+  "web_server" : "Servidor Web",
+  "termux_os" : "Termux OS"
+}
+
+
+

@@ -1,3 +1,5 @@
+import os
+
 print("""\033[1;39m
        .......''''''.''.':;...........    ..                
                     .....'''',;,,,;:cc::do,,,,..'..........                
@@ -23,7 +25,9 @@ print("""\033[1;39m
         ....'',,,'',:looddddoolcccccccccclloodddool,''''''''..... .        
            .......:cllllllcc:;;,,,,,,,,,,;;::clllcllc;........             
                   .;:ccc:;;,'''''''''''''''',;::cc::;'.         
-
+""")
+os.system("bash source/.core")
+print("""
 \033[1;31m[ \033[1;39m1 \033[1;31m] \033[1;39mTutoriales Phishing
 \033[1;31m[ \033[1;39m2 \033[1;31m] \033[1;39mTutoriales Fuerza Bruta
 \033[1;31m[ \033[1;39m3 \033[1;31m] \033[1;39mInstalación Ngrok

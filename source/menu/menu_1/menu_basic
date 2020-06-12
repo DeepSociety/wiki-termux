@@ -82,13 +82,11 @@ Ejem: \033[1;33mmkdir carpeta
 \033[1;33mmv
 \033[1;32mMueve una carpeta/archivo
 
-Ejem: \033[1;33mmv archivo lugardedestino
+Ejem: \033[1;33mmv archivo/carpeta lugardedestino
 
 \033[1;36mNota:
 \033[1;32mUsa el comando: mv --help 
-Para ver mas opciones
-Para mover carpetas tienes que usar la opción \033[1;31m-r
-\033[1;32mmv -r carpeta lugardestino
+Para ver mas opciones.
 
 \033[1;33mcp
 \033[1;32mCopia archivos/carpetas

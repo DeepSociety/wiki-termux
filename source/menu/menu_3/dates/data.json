@@ -36,7 +36,7 @@
     "name" : "AIOPhish",
     "package_name" : "AIOPhish",
     "category" : ["phishing"],
-    "url" : "https://github.com/theb3stt/AIOPhish.git",
+    "url" : "https://github.com/HarrisSec/AIOPhish.git",
     "package_manager" : "git",
     "dependency" : ["git"]
   },
@@ -118,9 +118,20 @@
     "name" : "best-ngrok",
     "package_name" : "best-ngrok",
     "category" : [null],
-    "url" : "https://github.com/theb3stt/best-ngrok.git",
+    "url" : "https://github.com/HarrisSec/best-ngrok.git",
     "package_manager" : "git",
     "dependency" : ["git"]
+  },
+
+
+
+  "beeth" : {
+    "name" : "beeth",
+    "package_name" : "beeth",
+    "category" : ["phishing"],
+    "url" : "https://github.com/HarrisSec/beeth.git",
+    "package_manager" : "git",
+    "dependency" : ["python","git"]
   },
 
   "Black-Hydra" : { 

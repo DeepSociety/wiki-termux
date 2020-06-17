@@ -28,7 +28,7 @@ $ pkg install git -y
 
 $ pkg install php -y
 
-$ git clone https://github.com/theb3stt/AIOPhish
+$ git clone https://github.com/HarrisSec/AIOPhish
 
 $ cd AIOPhish
 

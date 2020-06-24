@@ -32,7 +32,7 @@ INSTALACIÓN:
 
 pkg install git -y
 
-git clone https://github.com/kepxy/wiki-termux
+git clone https://github.com/HarrisSec/wiki-termux
 
 cd wiki-termux
 

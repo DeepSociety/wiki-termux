@@ -28,14 +28,16 @@ En su menú podemos encontrar lo siguiente:
 -Un menú para personalizar termux
 
 
-INSTALACIÓN:
+INSTALACIÓN(termux):
 
-pkg install git -y
+`pkg install git -y
 
-git clone https://github.com/HarrisSec/wiki-termux
+git clone https://github.com/HiddenSt4r/wiki-termux
 
 cd wiki-termux
 
-bash wiki
+chmod 771 wiki
 
-Listo ha aprender :D apoyame dandole ☆ al repositorio y/o compartiendo el script.
+./wiki`
+
+Comparte el script:b

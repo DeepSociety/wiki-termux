@@ -30,14 +30,14 @@ En su menú podemos encontrar lo siguiente:
 
 INSTALACIÓN(termux):
 
-`pkg install git -y
+* `pkg install git -y`
 
-git clone https://github.com/HiddenSt4r/wiki-termux
+* `git clone https://github.com/HiddenSt4r/wiki-termux`
 
-cd wiki-termux
+* `cd wiki-termux`
 
-chmod 771 wiki
+* `chmod 771 wiki`
 
-./wiki`
+* `./wiki`
 
 Comparte el script:b

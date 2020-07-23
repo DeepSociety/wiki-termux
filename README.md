@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-2.5-green.svg?style=flat-square"></a>
+<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
 <a href="#"><img title="Language" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103"></a>
 <a href="https://github.com/HiddenSt4r/followers"><img title="Followers" src="https://img.shields.io/github/followers/HiddenSt4r?color=blue&style=flat-square"></a>
 <a href="https://github.com/HiddenSt4r/wiki-termux/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HiddenSt4r/wiki-termux?color=red&style=flat-square"></a>

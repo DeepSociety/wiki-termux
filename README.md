@@ -1,7 +1,7 @@
 # wiki-termux
 
 <p align="center">
-<a href="#"><img title="beautiful" src="https://emailspoofbyharris.000webhostapp.com/pro/wiki.png"></a>
+<a href="#"><img title="wiki" src="https://emailspoofbyharris.000webhostapp.com/pro/wiki.png"></a>
 </p>
 <p align="center">
 <a href="https://github.com/HiddenSt4r"><img title="Author" src="https://img.shields.io/badge/Author-HiddenSt4r-svg?style=for-the-badge&logo=github"></a>
